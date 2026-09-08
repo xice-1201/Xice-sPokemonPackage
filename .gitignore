@@ -1,0 +1,52 @@
+# Minecraft runtime and personal data
+/saves/
+/logs/
+/crash-reports/
+/cobblemon-battle-logs/
+/downloads/
+/PCL/
+/xaero/
+/XaeroWaypoints_BACKUP*/
+/schematics/
+/cobblenav/
+/data/
+/moddata/
+/showdown/
+/META-INF/
+/.cache/
+/.mixin.out/
+/build/
+/Xice的方块宝可梦-natives/
+
+# Mojang/launcher artifacts and personal caches
+Xice的方块宝可梦.jar
+Xice的方块宝可梦.json
+usercache.json
+usernamecache.json
+TrashSlotSaveState.json
+*.zip
+*.log
+*.bak*
+
+# Third-party binaries are represented by pack-info.json and MODLIST.md
+*.jar
+!mods/xices_cobblemon_fix-1.0.11.jar
+!mods/smartphoneprogression-1.0.1.jar
+
+# Build output and local Gradle state
+**/.gradle/
+**/build/
+**/disabled/
+**/__pycache__/
+*.class
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Per-world UI history and generated caches
+config/jei/world/
+config/wover/cached.json

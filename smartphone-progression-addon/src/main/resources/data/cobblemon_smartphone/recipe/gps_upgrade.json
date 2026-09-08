@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": { "item": "cobblemon:electirizer" },
+  "base": { "tag": "cobblemon_smartphone:smartphones" },
+  "addition": { "item": "naturescompass:naturescompass" },
+  "result": {
+    "id": "cobblemon_smartphone:red_smartphone",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {
+        "cobblemon_smartphone:upgrades": { "upgrade_gps": true }
+      }
+    }
+  }
+}

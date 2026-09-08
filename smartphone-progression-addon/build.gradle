@@ -1,0 +1,54 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.144'
+}
+
+version = mod_version
+group = mod_group_id
+
+base {
+    archivesName = mod_id
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    version = project.neo_version
+
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+dependencies {
+    compileOnly files('../mods/[方块宝可梦] Cobblemon-neoforge-1.8.0+1.21.1.jar')
+    compileOnly files('../mods/cobblemon_smartphone-neoforge-1.1.3-patch1.8.0.jar')
+    compileOnly files('../mods/cobblemonexpall-neoforge-0.0.2.jar')
+    compileOnly files('../mods/curios-neoforge-9.5.1+1.21.1.jar')
+    compileOnly files('../mods/mega_showdown-neoforge-1.0+1.8+1.21.1-release-hotfix.jar')
+    compileOnly files('../mods/kotlinforforge-5.12.0-all.jar')
+}
+
+def generateModMetadata = tasks.register('generateModMetadata', ProcessResources) {
+    def replaceProperties = [
+            minecraft_version_range: minecraft_version_range,
+            loader_version_range   : loader_version_range,
+            mod_id                 : mod_id,
+            mod_name               : mod_name,
+            mod_license            : mod_license,
+            mod_version            : mod_version
+    ]
+    inputs.properties(replaceProperties)
+    expand(replaceProperties)
+    from 'src/main/templates'
+    into 'build/generated/sources/modMetadata'
+}
+
+sourceSets.main.resources.srcDir(generateModMetadata)
+neoForge.ideSyncTask(generateModMetadata)
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}

@@ -1,0 +1,4300 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "xice-spiritomb-structures",
+      "pokemon": "spiritomb",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 100.0,
+      "condition": {
+        "structures": [
+          "minecraft:ancient_city",
+          "minecraft:desert_pyramid",
+          "minecraft:mineshaft",
+          "minecraft:mineshaft_mesa",
+          "minecraft:nether_fossil",
+          "minecraft:shipwreck_beached",
+          "minecraft:trail_ruins",
+          "twilightforest:dark_tower",
+          "twilightforest:final_castle",
+          "twilightforest:small_hollow_hill",
+          "twilightforest:medium_hollow_hill",
+          "twilightforest:large_hollow_hill",
+          "twilightforest:lich_tower",
+          "cobblemon:ruins/ancient_dais_ruins",
+          "cobblemon:ruins/crumbling_arch_ruins",
+          "cobblemon:ruins/decaying_crypt_ruins",
+          "cobblemon:ruins/deserted_gimmi_tower",
+          "cobblemon:ruins/deserted_house_ruins",
+          "cobblemon:ruins/deserted_monument_ruins",
+          "cobblemon:ruins/deserted_tower_ruins",
+          "cobblemon:ruins/deserted_town_center_ruins",
+          "cobblemon:ruins/fallen_statue_ruins",
+          "cobblemon:ruins/frozen_altar_ruins",
+          "cobblemon:ruins/frozen_gimmi_tower",
+          "cobblemon:ruins/hidden_bunker_ruins",
+          "cobblemon:ruins/luna_henge_ruins",
+          "cobblemon:ruins/lush_gimmi_tower",
+          "cobblemon:ruins/lush_monument_ruins",
+          "cobblemon:ruins/meteor_battleground_ruins",
+          "cobblemon:ruins/mossy_oubliette_ruins",
+          "cobblemon:ruins/old_garden_ruins",
+          "cobblemon:ruins/overgrown_trial_ruins",
+          "cobblemon:ruins/rooted_arch_ruins",
+          "cobblemon:ruins/rooted_gimmi_tower",
+          "cobblemon:ruins/sol_henge_ruins",
+          "cobblemon:ruins/stonjourner_henge_ruins",
+          "cobblemon:ruins/submerged_forge_ruins",
+          "cobblemon:ruins/sunscorched_gimmi_tower",
+          "cobblemon:ruins/sunscorched_shaded_ruins",
+          "cobblemon:ruins/temperate_gimmi_tower",
+          "cobblemon:ruins/toppled_pillars_ruins",
+          "cobblemon:ruins/unstable_cave_ruins",
+          "mega_showdown:archaeological_site",
+          "mega_showdown:mega_site",
+          "mega_showdown:megaroid",
+          "mega_showdown:observatory",
+          "mega_showdown:wishing_weald"
+        ]
+      }
+    },
+    {
+      "id": "xice-rotom-powered-structures",
+      "pokemon": "rotom",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-40",
+      "weight": 100.0,
+      "condition": {
+        "structures": [
+          "minecraft:ancient_city",
+          "minecraft:jungle_pyramid",
+          "twilightforest:dark_tower",
+          "twilightforest:final_castle",
+          "mega_showdown:observatory"
+        ],
+        "nearbyRedstoneRadius": 8
+      }
+    },
+    {
+      "id": "xice-ditto-quest-grove",
+      "pokemon": "ditto",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "4-29",
+      "weight": 100.0,
+      "condition": {
+        "structures": [
+          "twilightforest:quest_grove"
+        ]
+      }
+    },
+    {
+      "id": "xice-smeargle-quest-grove",
+      "pokemon": "smeargle",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "1-25",
+      "weight": 100.0,
+      "condition": {
+        "structures": [
+          "twilightforest:quest_grove"
+        ]
+      }
+    },
+    {
+      "id": "xice-relicanth-wrecks-and-underwater-ruins",
+      "pokemon": "relicanth",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "rare",
+      "level": "24-49",
+      "weight": 100.0,
+      "condition": {
+        "structures": [
+          "minecraft:shipwreck",
+          "minecraft:shipwreck_beached",
+          "minecraft:ocean_ruin_cold",
+          "minecraft:ocean_ruin_warm",
+          "cobblemon:shipwreck_coves/lush_shipwreck_cove",
+          "cobblemon:shipwreck_coves/magma_shipwreck_cove",
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove",
+          "cobblemon:ruins/submerged_forge_ruins"
+        ]
+      }
+    },
+    {
+      "id": "xice-dhelmise-wrecks-and-underwater-ruins",
+      "pokemon": "dhelmise",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "27-52",
+      "weight": 100.0,
+      "condition": {
+        "structures": [
+          "minecraft:shipwreck",
+          "minecraft:shipwreck_beached",
+          "minecraft:ocean_ruin_cold",
+          "minecraft:ocean_ruin_warm",
+          "cobblemon:shipwreck_coves/lush_shipwreck_cove",
+          "cobblemon:shipwreck_coves/magma_shipwreck_cove",
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove",
+          "cobblemon:ruins/submerged_forge_ruins"
+        ]
+      }
+    },
+    {
+      "id": "xice-sigilyph-desert-pyramid",
+      "pokemon": "sigilyph",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "24-49",
+      "weight": 100.0,
+      "condition": {
+        "structures": [
+          "minecraft:desert_pyramid"
+        ]
+      }
+    },
+    {
+      "id": "xice-volbeat-forests-plains",
+      "pokemon": "volbeat",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "18-43",
+      "weight": 60.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_plains"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "xice-illumise-forests-plains",
+      "pokemon": "illumise",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "18-43",
+      "weight": 60.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_plains"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "xice-zangoose-warm-open-land",
+      "pokemon": "zangoose",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "21-46",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna",
+          "#cobblemon:is_plains"
+        ]
+      }
+    },
+    {
+      "id": "xice-seviper-warm-wet-land",
+      "pokemon": "seviper",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "21-46",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_jungle"
+        ]
+      }
+    },
+    {
+      "id": "xice-lunatone-night-rocklands",
+      "pokemon": "lunatone",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "21-46",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_peak"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "xice-solrock-day-rocklands",
+      "pokemon": "solrock",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "21-46",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_peak"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "xice-throh-cold-highlands",
+      "pokemon": "throh",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "12-47",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold"
+        ],
+        "minY": 80
+      }
+    },
+    {
+      "id": "xice-sawk-warm-highlands",
+      "pokemon": "sawk",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "12-47",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna",
+          "#cobblemon:is_badlands"
+        ],
+        "minY": 80
+      }
+    },
+    {
+      "id": "xice-heatmor-ant-habitat",
+      "pokemon": "heatmor",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "23-48",
+      "weight": 70.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_hills",
+          "#cobblemon:nether/is_mountain"
+        ]
+      }
+    },
+    {
+      "id": "xice-durant-ant-habitat",
+      "pokemon": "durant",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "23-48",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_hills",
+          "#cobblemon:nether/is_mountain"
+        ]
+      }
+    },
+    {
+      "id": "xice-oranguru-dense-forest",
+      "pokemon": "oranguru",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-45",
+      "weight": 80.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_bamboo"
+        ]
+      }
+    },
+    {
+      "id": "xice-passimian-open-forest",
+      "pokemon": "passimian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-45",
+      "weight": 80.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_plains",
+          "#cobblemon:is_savanna"
+        ]
+      }
+    },
+    {
+      "id": "xice-stonjourner-warm-rocklands",
+      "pokemon": "stonjourner",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "22-47",
+      "weight": 80.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_peak"
+        ],
+        "minY": 64
+      }
+    },
+    {
+      "id": "xice-eiscue-freezing-coasts",
+      "pokemon": "eiscue",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "uncommon",
+      "level": "22-47",
+      "weight": 80.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_frozen_ocean",
+          "#cobblemon:is_cold_ocean",
+          "#cobblemon:is_glacial",
+          "#cobblemon:is_tundra"
+        ]
+      }
+    },
+    {
+      "id": "xice-castform-normal-clear",
+      "pokemon": "castform forecast_form=normal",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-35",
+      "weight": 80.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "isRaining": false,
+        "biomes": [
+          "#cobblemon:is_plains",
+          "#cobblemon:is_forest"
+        ]
+      }
+    },
+    {
+      "id": "xice-castform-sunny-hot",
+      "pokemon": "castform forecast_form=sunny",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "10-35",
+      "weight": 100.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "isRaining": false,
+        "biomes": [
+          "#cobblemon:is_desert",
+          "#cobblemon:is_savanna",
+          "#cobblemon:is_badlands"
+        ]
+      }
+    },
+    {
+      "id": "xice-castform-rainy-rain",
+      "pokemon": "castform forecast_form=rainy",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "10-35",
+      "weight": 100.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "isRaining": true,
+        "biomes": [
+          "#cobblemon:is_plains",
+          "#cobblemon:is_forest",
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_jungle"
+        ]
+      }
+    },
+    {
+      "id": "xice-castform-snowy-snow",
+      "pokemon": "castform forecast_form=snowy",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "10-35",
+      "weight": 100.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "isRaining": true,
+        "biomes": [
+          "#cobblemon:is_cold",
+          "#cobblemon:is_snowy",
+          "#cobblemon:is_tundra"
+        ]
+      }
+    },
+    {
+      "id": "xice-oricorio-baile-warm",
+      "pokemon": "oricorio dance_style=baile",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "12-37",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna",
+          "#cobblemon:is_badlands"
+        ]
+      }
+    },
+    {
+      "id": "xice-oricorio-pompom-plains",
+      "pokemon": "oricorio dance_style=pom_pom",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "12-37",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_plains"
+        ]
+      }
+    },
+    {
+      "id": "xice-oricorio-pau-tropical",
+      "pokemon": "oricorio dance_style=pa'u",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "12-37",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_beach"
+        ]
+      }
+    },
+    {
+      "id": "xice-oricorio-sensu-spooky",
+      "pokemon": "oricorio dance_style=sensu",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "12-37",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_swamp"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "xice-wishiwashi-ocean",
+      "pokemon": "wishiwashi school=false",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "1-45",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_coast"
+        ]
+      }
+    },
+    {
+      "id": "xice-wishiwashi-fishing",
+      "pokemon": "wishiwashi school=false",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "common",
+      "level": "1-45",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_coast"
+        ]
+      }
+    },
+    {
+      "id": "xice-morpeko-berry-habitat",
+      "pokemon": "morpeko",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "19-44",
+      "weight": 80.0,
+      "weightMultipliers": [
+        {
+          "multiplier": 5.0,
+          "condition": {
+            "isThundering": true
+          }
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "neededNearbyBlocks": [
+          "#cobblemon:berries"
+        ]
+      }
+    },
+    {
+      "id": "xice-indeedee-village",
+      "pokemon": "indeedee gender=male",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "23-48",
+      "weight": 100.0,
+      "condition": {
+        "structures": [
+          "#minecraft:village"
+        ]
+      }
+    },
+    {
+      "id": "xice-indeedee-mansion",
+      "pokemon": "indeedee gender=female",
+      "presets": [
+        "mansion"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "23-48",
+      "weight": 100.0,
+      "condition": {
+        "structures": [
+          "minecraft:mansion"
+        ]
+      }
+    },
+    {
+      "id": "xice-indeedee-male-lich-tower",
+      "pokemon": "indeedee gender=male",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "23-48",
+      "weight": 50.0,
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "id": "xice-indeedee-female-lich-tower",
+      "pokemon": "indeedee gender=female",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "23-48",
+      "weight": 50.0,
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "id": "xice-mimikyu-haunted-structures",
+      "pokemon": "mimikyu",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "23-48",
+      "weight": 100.0,
+      "condition": {
+        "structures": [
+          "minecraft:ancient_city",
+          "minecraft:mineshaft",
+          "minecraft:mineshaft_mesa",
+          "minecraft:mansion",
+          "minecraft:trail_ruins",
+          "cobblemon:ruins/decaying_crypt_ruins",
+          "cobblemon:ruins/deserted_house_ruins",
+          "cobblemon:ruins/deserted_tower_ruins",
+          "cobblemon:ruins/hidden_bunker_ruins",
+          "cobblemon:ruins/mossy_oubliette_ruins",
+          "twilightforest:dark_tower",
+          "twilightforest:lich_tower",
+          "twilightforest:final_castle"
+        ]
+      }
+    },
+    {
+      "id": "xice-sableye-deep-caves",
+      "pokemon": "sableye",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "15-40",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cave"
+        ],
+        "maxY": 32,
+        "canSeeSky": false
+      }
+    },
+    {
+      "id": "xice-sableye-amethyst-bonus",
+      "pokemon": "sableye",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "15-40",
+      "weight": 200.0,
+      "condition": {
+        "maxY": 48,
+        "canSeeSky": false,
+        "nearbyCrystalRadius": 8
+      }
+    },
+    {
+      "id": "xice-sableye-dark-ruins",
+      "pokemon": "sableye",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-45",
+      "weight": 100.0,
+      "condition": {
+        "structures": [
+          "minecraft:ancient_city",
+          "minecraft:mineshaft",
+          "minecraft:mineshaft_mesa",
+          "cobblemon:ruins/decaying_crypt_ruins",
+          "cobblemon:ruins/mossy_oubliette_ruins",
+          "twilightforest:dark_tower",
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "id": "xice-mawile-caves",
+      "pokemon": "mawile",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "15-40",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cave"
+        ],
+        "maxY": 48,
+        "canSeeSky": false
+      }
+    },
+    {
+      "id": "xice-mawile-mineshafts",
+      "pokemon": "mawile",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "18-43",
+      "weight": 150.0,
+      "condition": {
+        "structures": [
+          "minecraft:mineshaft",
+          "minecraft:mineshaft_mesa"
+        ]
+      }
+    },
+    {
+      "id": "xice-kecleon-jungles",
+      "pokemon": "kecleon",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "15-40",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "canSeeSky": true
+      }
+    },
+    {
+      "id": "xice-kecleon-jungle-pyramid",
+      "pokemon": "kecleon",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-45",
+      "weight": 200.0,
+      "condition": {
+        "structures": [
+          "minecraft:jungle_pyramid"
+        ]
+      }
+    },
+    {
+      "id": "xice-carbink-deep-rock",
+      "pokemon": "carbink",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-45",
+      "weight": 80.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cave"
+        ],
+        "maxY": 0,
+        "canSeeSky": false
+      }
+    },
+    {
+      "id": "xice-carbink-amethyst-geodes",
+      "pokemon": "carbink",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-45",
+      "weight": 200.0,
+      "condition": {
+        "maxY": 48,
+        "canSeeSky": false,
+        "nearbyCrystalRadius": 8
+      }
+    },
+    {
+      "id": "xice-klefki-artificial-structures",
+      "pokemon": "klefki",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-45",
+      "weight": 100.0,
+      "condition": {
+        "structures": [
+          "#minecraft:village",
+          "minecraft:mansion",
+          "minecraft:stronghold",
+          "minecraft:trial_chambers",
+          "twilightforest:knight_stronghold"
+        ]
+      }
+    },
+    {
+      "id": "xice-falinks-pillager-outpost",
+      "pokemon": "falinks",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-45",
+      "weight": 100.0,
+      "condition": {
+        "structures": [
+          "minecraft:pillager_outpost"
+        ]
+      }
+    },
+    {
+      "id": "xice-falinks-strongholds",
+      "pokemon": "falinks",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 100.0,
+      "condition": {
+        "structures": [
+          "minecraft:stronghold",
+          "twilightforest:knight_stronghold"
+        ]
+      }
+    },
+    {
+      "id": "xice-absol-mountains",
+      "pokemon": "absol",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 100.0,
+      "weightMultipliers": [
+        {
+          "multiplier": 3.0,
+          "condition": {
+            "isThundering": true
+          }
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_peak"
+        ],
+        "minY": 80
+      }
+    },
+    {
+      "id": "xice-absol-dangerous-structures",
+      "pokemon": "absol",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 150.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "twilightforest:twilight_forest"
+        ],
+        "nearbyStructureRadius": 48,
+        "nearbyStructures": [
+          "minecraft:ancient_city",
+          "minecraft:mansion",
+          "minecraft:pillager_outpost",
+          "minecraft:ruined_portal",
+          "minecraft:ruined_portal_desert",
+          "minecraft:ruined_portal_jungle",
+          "minecraft:ruined_portal_mountain",
+          "minecraft:ruined_portal_ocean",
+          "minecraft:ruined_portal_swamp",
+          "twilightforest:dark_tower",
+          "twilightforest:lich_tower",
+          "twilightforest:final_castle",
+          "twilightforest:knight_stronghold"
+        ]
+      }
+    },
+    {
+      "id": "xice-lapras-cold-ocean",
+      "pokemon": "lapras",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "rare",
+      "level": "29-54",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ]
+      }
+    },
+    {
+      "id": "xice-lapras-frozen-ocean",
+      "pokemon": "lapras",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "uncommon",
+      "level": "29-54",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_frozen_ocean"
+        ]
+      }
+    },
+    {
+      "id": "xice-luvdisc-warm-ocean-pairs",
+      "pokemon": "luvdisc",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "8-33",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ]
+      }
+    },
+    {
+      "id": "xice-alomomola-warm-ocean",
+      "pokemon": "alomomola",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "22-47",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ]
+      }
+    },
+    {
+      "id": "xice-pyukumuku-shallow-coasts",
+      "pokemon": "pyukumuku",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "common",
+      "level": "16-41",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_beach",
+          "#cobblemon:is_coast",
+          "#cobblemon:is_warm_ocean"
+        ],
+        "minY": 55,
+        "maxY": 68
+      }
+    },
+    {
+      "id": "xice-bruxish-warm-ocean",
+      "pokemon": "bruxish",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "23-48",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ]
+      }
+    },
+    {
+      "id": "xice-bruxish-coral-reef-bonus",
+      "pokemon": "bruxish",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "23-48",
+      "weight": 200.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ],
+        "nearbyCoralRadius": 8
+      }
+    },
+    {
+      "id": "xice-cramorant-rivers-coasts",
+      "pokemon": "cramorant",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "uncommon",
+      "level": "23-48",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river",
+          "#cobblemon:is_coast"
+        ]
+      }
+    },
+    {
+      "id": "xice-pincurchin-rocky-seafloor",
+      "pokemon": "pincurchin",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "common",
+      "level": "19-44",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_coast",
+          "#cobblemon:is_ocean"
+        ],
+        "neededBaseBlocks": [
+          "minecraft:stone",
+          "minecraft:gravel",
+          "minecraft:andesite",
+          "minecraft:tuff",
+          "minecraft:cobblestone"
+        ]
+      }
+    },
+    {
+      "id": "xice-veluza-deep-ocean-schools",
+      "pokemon": "veluza",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "23-48",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_ocean"
+        ]
+      }
+    },
+    {
+      "id": "xice-pinsir-forests",
+      "pokemon": "pinsir",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "18-43",
+      "weight": 100.0,
+      "weightMultipliers": [
+        {
+          "multiplier": 2.0,
+          "condition": {
+            "timeRange": "night"
+          }
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      }
+    },
+    {
+      "id": "xice-pinsir-old-growth-bonus",
+      "pokemon": "pinsir",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "18-43",
+      "weight": 150.0,
+      "weightMultipliers": [
+        {
+          "multiplier": 2.0,
+          "condition": {
+            "timeRange": "night"
+          }
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "minecraft:old_growth_birch_forest",
+          "minecraft:old_growth_pine_taiga",
+          "minecraft:old_growth_spruce_taiga"
+        ]
+      }
+    },
+    {
+      "id": "xice-heracross-forests",
+      "pokemon": "heracross",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "18-43",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      }
+    },
+    {
+      "id": "xice-heracross-honey-bonus",
+      "pokemon": "heracross",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "18-43",
+      "weight": 200.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "nearbyHoneyRadius": 8
+      }
+    },
+    {
+      "id": "xice-shuckle-rocky-forests",
+      "pokemon": "shuckle",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "12-37",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_hills",
+          "#cobblemon:is_mountain"
+        ]
+      }
+    },
+    {
+      "id": "xice-shuckle-berries-bonus",
+      "pokemon": "shuckle",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "12-37",
+      "weight": 200.0,
+      "condition": {
+        "nearbyBerryRadius": 8
+      }
+    },
+    {
+      "id": "xice-tropius-jungles",
+      "pokemon": "tropius",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "22-47",
+      "weight": 80.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "canSeeSky": true
+      }
+    },
+    {
+      "id": "xice-tropius-berries-bonus",
+      "pokemon": "tropius",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "22-47",
+      "weight": 160.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "nearbyBerryRadius": 8
+      }
+    },
+    {
+      "id": "xice-tropius-large-trees-bonus",
+      "pokemon": "tropius",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "22-47",
+      "weight": 80.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "nearbyTreeRadius": 6
+      }
+    },
+    {
+      "id": "xice-pachirisu-forest-groups",
+      "pokemon": "pachirisu",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-35",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      }
+    },
+    {
+      "id": "xice-chatot-day-flocks",
+      "pokemon": "chatot",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-40",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_savanna"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "xice-carnivine-wet-lush-habitats",
+      "pokemon": "carnivine",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "18-43",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_lush",
+          "minecraft:mangrove_swamp",
+          "minecraft:lush_caves"
+        ]
+      }
+    },
+    {
+      "id": "xice-emolga-forest-hill-groups",
+      "pokemon": "emolga",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-40",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_hills"
+        ]
+      }
+    },
+    {
+      "id": "xice-komala-tree-day",
+      "pokemon": "komala",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-40",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "timeRange": "day",
+        "nearbyTreeRadius": 4
+      }
+    },
+    {
+      "id": "xice-delibird-snowy-habitats",
+      "pokemon": "delibird",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-40",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy_forest",
+          "#cobblemon:is_tundra",
+          "#cobblemon:is_snowy"
+        ]
+      }
+    },
+    {
+      "id": "xice-delibird-snowy-village-bonus",
+      "pokemon": "delibird",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-40",
+      "weight": 200.0,
+      "condition": {
+        "structures": [
+          "minecraft:village_snowy"
+        ]
+      }
+    },
+    {
+      "id": "xice-skarmory-high-peaks",
+      "pokemon": "skarmory",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_peak"
+        ],
+        "minY": 100
+      }
+    },
+    {
+      "id": "xice-skarmory-iron-bonus",
+      "pokemon": "skarmory",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 200.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_peak"
+        ],
+        "minY": 64,
+        "nearbyIronRadius": 8
+      }
+    },
+    {
+      "id": "xice-torkoal-volcanic-lands",
+      "pokemon": "torkoal",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-45",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_volcanic",
+          "#cobblemon:nether/is_basalt",
+          "#cobblemon:nether/is_wasteland"
+        ]
+      }
+    },
+    {
+      "id": "xice-torkoal-magma-bonus",
+      "pokemon": "torkoal",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-45",
+      "weight": 200.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_volcanic",
+          "#cobblemon:nether/is_basalt",
+          "#cobblemon:nether/is_wasteland"
+        ],
+        "nearbyMagmaRadius": 8
+      }
+    },
+    {
+      "id": "xice-maractus-arid-lands",
+      "pokemon": "maractus",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "12-37",
+      "weight": 100.0,
+      "weightMultipliers": [
+        {
+          "multiplier": 0.5,
+          "condition": {
+            "isRaining": true
+          }
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert",
+          "#cobblemon:is_badlands"
+        ]
+      }
+    },
+    {
+      "id": "xice-maractus-cactus-bonus",
+      "pokemon": "maractus",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "12-37",
+      "weight": 200.0,
+      "weightMultipliers": [
+        {
+          "multiplier": 0.5,
+          "condition": {
+            "isRaining": true
+          }
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert",
+          "#cobblemon:is_badlands"
+        ],
+        "nearbyCactusRadius": 6
+      }
+    },
+    {
+      "id": "xice-cryogonal-snowy-night",
+      "pokemon": "cryogonal",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 100.0,
+      "weightMultipliers": [
+        {
+          "multiplier": 3.0,
+          "condition": {
+            "isRaining": true
+          }
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy",
+          "#cobblemon:is_peak",
+          "#cobblemon:is_tundra"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "xice-druddigon-high-caves",
+      "pokemon": "druddigon",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cave"
+        ],
+        "minY": 64,
+        "canSeeSky": false
+      }
+    },
+    {
+      "id": "xice-druddigon-strongholds",
+      "pokemon": "druddigon",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-55",
+      "weight": 150.0,
+      "condition": {
+        "structures": [
+          "minecraft:stronghold",
+          "twilightforest:knight_stronghold"
+        ]
+      }
+    },
+    {
+      "id": "xice-hawlucha-highlands",
+      "pokemon": "hawlucha",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-45",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_peak",
+          "#cobblemon:is_hills",
+          "#cobblemon:is_jungle"
+        ],
+        "minY": 90
+      }
+    },
+    {
+      "id": "xice-klawf-rocky-cliff-groups",
+      "pokemon": "klawf",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "18-43",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_peak",
+          "#cobblemon:is_badlands"
+        ],
+        "minY": 80
+      }
+    },
+    {
+      "id": "xice-kangaskhan-nursery-groups",
+      "pokemon": "kangaskhan",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-45",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_plains",
+          "#cobblemon:is_savanna"
+        ]
+      }
+    },
+    {
+      "id": "xice-spinda-dryland-groups",
+      "pokemon": "spinda",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "12-37",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna",
+          "#cobblemon:is_badlands"
+        ]
+      }
+    },
+    {
+      "id": "xice-audino-villages",
+      "pokemon": "audino",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "15-40",
+      "weight": 100.0,
+      "condition": {
+        "structures": [
+          "#minecraft:village"
+        ]
+      }
+    },
+    {
+      "id": "xice-audino-healing-centers",
+      "pokemon": "audino",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "15-40",
+      "weight": 200.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "nearbyHealingRadius": 12
+      }
+    },
+    {
+      "id": "xice-bouffalant-grassland-herds",
+      "pokemon": "bouffalant",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-45",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_plains",
+          "#cobblemon:is_savanna"
+        ]
+      }
+    },
+    {
+      "id": "xice-furfrou-natural-settlements",
+      "pokemon": "furfrou poodle_trim=natural",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-40",
+      "weight": 100.0,
+      "condition": {
+        "structures": [
+          "#minecraft:village"
+        ]
+      }
+    },
+    {
+      "id": "xice-furfrou-natural-plains",
+      "pokemon": "furfrou poodle_trim=natural",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-40",
+      "weight": 60.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_plains"
+        ]
+      }
+    },
+    {
+      "id": "xice-dedenne-forest-edges",
+      "pokemon": "dedenne",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-35",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_plains"
+        ]
+      }
+    },
+    {
+      "id": "xice-dedenne-villages",
+      "pokemon": "dedenne",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-35",
+      "weight": 100.0,
+      "condition": {
+        "structures": [
+          "#minecraft:village"
+        ]
+      }
+    },
+    {
+      "id": "xice-dedenne-redstone-bonus",
+      "pokemon": "dedenne",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-35",
+      "weight": 200.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "nearbyRedstoneRadius": 8
+      }
+    },
+    {
+      "id": "xice-togedemaru-foothills-plains",
+      "pokemon": "togedemaru",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-40",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_hills",
+          "#cobblemon:is_plains"
+        ]
+      }
+    },
+    {
+      "id": "xice-togedemaru-iron-bonus",
+      "pokemon": "togedemaru",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-40",
+      "weight": 150.0,
+      "condition": {
+        "nearbyIronRadius": 8
+      }
+    },
+    {
+      "id": "xice-togedemaru-redstone-bonus",
+      "pokemon": "togedemaru",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-40",
+      "weight": 150.0,
+      "condition": {
+        "nearbyRedstoneRadius": 8
+      }
+    },
+    {
+      "id": "xice-squawkabilly-green-plains-village",
+      "pokemon": "squawkabilly squawkabilly_color=green",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "12-37",
+      "weight": 100.0,
+      "condition": {
+        "structures": [
+          "minecraft:village_plains"
+        ]
+      }
+    },
+    {
+      "id": "xice-squawkabilly-blue-cold-villages",
+      "pokemon": "squawkabilly squawkabilly_color=blue",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "12-37",
+      "weight": 100.0,
+      "condition": {
+        "structures": [
+          "minecraft:village_snowy",
+          "minecraft:village_taiga"
+        ]
+      }
+    },
+    {
+      "id": "xice-squawkabilly-yellow-savanna",
+      "pokemon": "squawkabilly squawkabilly_color=yellow",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "12-37",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ]
+      }
+    },
+    {
+      "id": "xice-squawkabilly-gray-desert-village",
+      "pokemon": "squawkabilly squawkabilly_color=gray",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "12-37",
+      "weight": 100.0,
+      "condition": {
+        "structures": [
+          "minecraft:village_desert"
+        ]
+      }
+    },
+    {
+      "id": "xice-cyclizar-open-land-groups",
+      "pokemon": "cyclizar",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-45",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_plains",
+          "#cobblemon:is_savanna"
+        ]
+      }
+    },
+    {
+      "id": "xice-flamigo-wetland-flocks",
+      "pokemon": "flamigo",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp",
+          "minecraft:mangrove_swamp"
+        ]
+      }
+    },
+    {
+      "id": "xice-flamigo-shallow-lakes",
+      "pokemon": "flamigo",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 80.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river",
+          "#cobblemon:is_swamp"
+        ],
+        "minY": 55
+      }
+    },
+    {
+      "id": "xice-stunfisk-muddy-shallows",
+      "pokemon": "stunfisk",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "common",
+      "level": "22-47",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_river"
+        ],
+        "minY": 50,
+        "maxY": 68
+      }
+    },
+    {
+      "id": "xice-stunfisk-galarian-caves",
+      "pokemon": "stunfisk galarian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "22-47",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cave"
+        ],
+        "canSeeSky": false
+      }
+    },
+    {
+      "id": "xice-stunfisk-galarian-iron-bonus",
+      "pokemon": "stunfisk galarian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "22-47",
+      "weight": 200.0,
+      "condition": {
+        "canSeeSky": false,
+        "nearbyIronRadius": 8
+      }
+    },
+    {
+      "id": "xice-comfey-flower-habitats",
+      "pokemon": "comfey",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-45",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "minecraft:flower_forest",
+          "#cobblemon:is_lush",
+          "minecraft:lush_caves"
+        ]
+      }
+    },
+    {
+      "id": "xice-turtonator-volcanic",
+      "pokemon": "turtonator",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "24-49",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_volcanic",
+          "#cobblemon:nether/is_basalt",
+          "#cobblemon:nether/is_wasteland"
+        ]
+      }
+    },
+    {
+      "id": "xice-turtonator-magma-bonus",
+      "pokemon": "turtonator",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "24-49",
+      "weight": 200.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_volcanic",
+          "#cobblemon:nether/is_basalt",
+          "#cobblemon:nether/is_wasteland"
+        ],
+        "nearbyMagmaRadius": 8
+      }
+    },
+    {
+      "id": "xice-drampa-high-mountain-forest",
+      "pokemon": "drampa",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "24-49",
+      "weight": 100.0,
+      "weightMultipliers": [
+        {
+          "multiplier": 2.0,
+          "condition": {
+            "isRaining": true
+          }
+        },
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "isThundering": true
+          }
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_hills",
+          "#cobblemon:is_forest"
+        ],
+        "minY": 100
+      }
+    },
+    {
+      "id": "xice-bombirdier-high-cliffs",
+      "pokemon": "bombirdier",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-45",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_peak",
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_badlands"
+        ],
+        "minY": 90
+      }
+    },
+    {
+      "id": "xice-bombirdier-settlements-ruins-bonus",
+      "pokemon": "bombirdier",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-45",
+      "weight": 150.0,
+      "condition": {
+        "nearbyStructureRadius": 48,
+        "nearbyStructures": [
+          "minecraft:village_desert",
+          "minecraft:village_plains",
+          "minecraft:village_savanna",
+          "minecraft:village_snowy",
+          "minecraft:village_taiga",
+          "minecraft:trail_ruins",
+          "minecraft:desert_pyramid",
+          "minecraft:jungle_pyramid",
+          "cobblemon:ruins/ancient_dais_ruins",
+          "cobblemon:ruins/crumbling_arch_ruins",
+          "cobblemon:ruins/decaying_crypt_ruins",
+          "cobblemon:ruins/deserted_gimmi_tower",
+          "cobblemon:ruins/deserted_house_ruins",
+          "cobblemon:ruins/deserted_monument_ruins",
+          "cobblemon:ruins/deserted_tower_ruins",
+          "cobblemon:ruins/deserted_town_center_ruins",
+          "cobblemon:ruins/fallen_statue_ruins",
+          "cobblemon:ruins/frozen_altar_ruins",
+          "cobblemon:ruins/frozen_gimmi_tower",
+          "cobblemon:ruins/hidden_bunker_ruins",
+          "cobblemon:ruins/luna_henge_ruins",
+          "cobblemon:ruins/lush_gimmi_tower",
+          "cobblemon:ruins/lush_monument_ruins",
+          "cobblemon:ruins/meteor_battleground_ruins",
+          "cobblemon:ruins/mossy_oubliette_ruins",
+          "cobblemon:ruins/old_garden_ruins",
+          "cobblemon:ruins/overgrown_trial_ruins",
+          "cobblemon:ruins/rooted_arch_ruins",
+          "cobblemon:ruins/rooted_gimmi_tower",
+          "cobblemon:ruins/sol_henge_ruins",
+          "cobblemon:ruins/stonjourner_henge_ruins",
+          "cobblemon:ruins/submerged_forge_ruins",
+          "cobblemon:ruins/sunscorched_gimmi_tower",
+          "cobblemon:ruins/sunscorched_shaded_ruins",
+          "cobblemon:ruins/temperate_gimmi_tower",
+          "cobblemon:ruins/toppled_pillars_ruins",
+          "cobblemon:ruins/unstable_cave_ruins"
+        ]
+      }
+    },
+    {
+      "id": "xice-orthworm-arid-underground",
+      "pokemon": "orthworm",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-45",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert",
+          "#cobblemon:is_badlands"
+        ],
+        "maxY": 48,
+        "canSeeSky": false
+      }
+    },
+    {
+      "id": "xice-orthworm-iron-bonus",
+      "pokemon": "orthworm",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-45",
+      "weight": 150.0,
+      "condition": {
+        "maxY": 64,
+        "canSeeSky": false,
+        "nearbyIronRadius": 8
+      }
+    },
+    {
+      "id": "xice-orthworm-create-infrastructure-bonus",
+      "pokemon": "orthworm",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-45",
+      "weight": 150.0,
+      "condition": {
+        "maxY": 64,
+        "nearbyInfrastructureRadius": 8
+      }
+    },
+    {
+      "pokemon": "minior meteor_shield=meteor core_color=red",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-50",
+      "weight": 100.0,
+      "id": "xice-minior-red-overworld-sky",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minY": 200,
+        "canSeeSky": true,
+        "noStructureRadius": 32
+      }
+    },
+    {
+      "pokemon": "minior meteor_shield=meteor core_color=red",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-50",
+      "weight": 100.0,
+      "id": "xice-minior-red-end",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "noStructureRadius": 32
+      }
+    },
+    {
+      "pokemon": "minior meteor_shield=meteor core_color=orange",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-50",
+      "weight": 100.0,
+      "id": "xice-minior-orange-overworld-sky",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minY": 200,
+        "canSeeSky": true,
+        "noStructureRadius": 32
+      }
+    },
+    {
+      "pokemon": "minior meteor_shield=meteor core_color=orange",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-50",
+      "weight": 100.0,
+      "id": "xice-minior-orange-end",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "noStructureRadius": 32
+      }
+    },
+    {
+      "pokemon": "minior meteor_shield=meteor core_color=yellow",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-50",
+      "weight": 100.0,
+      "id": "xice-minior-yellow-overworld-sky",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minY": 200,
+        "canSeeSky": true,
+        "noStructureRadius": 32
+      }
+    },
+    {
+      "pokemon": "minior meteor_shield=meteor core_color=yellow",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-50",
+      "weight": 100.0,
+      "id": "xice-minior-yellow-end",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "noStructureRadius": 32
+      }
+    },
+    {
+      "pokemon": "minior meteor_shield=meteor core_color=green",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-50",
+      "weight": 100.0,
+      "id": "xice-minior-green-overworld-sky",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minY": 200,
+        "canSeeSky": true,
+        "noStructureRadius": 32
+      }
+    },
+    {
+      "pokemon": "minior meteor_shield=meteor core_color=green",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-50",
+      "weight": 100.0,
+      "id": "xice-minior-green-end",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "noStructureRadius": 32
+      }
+    },
+    {
+      "pokemon": "minior meteor_shield=meteor core_color=blue",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-50",
+      "weight": 100.0,
+      "id": "xice-minior-blue-overworld-sky",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minY": 200,
+        "canSeeSky": true,
+        "noStructureRadius": 32
+      }
+    },
+    {
+      "pokemon": "minior meteor_shield=meteor core_color=blue",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-50",
+      "weight": 100.0,
+      "id": "xice-minior-blue-end",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "noStructureRadius": 32
+      }
+    },
+    {
+      "pokemon": "minior meteor_shield=meteor core_color=indigo",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-50",
+      "weight": 100.0,
+      "id": "xice-minior-indigo-overworld-sky",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minY": 200,
+        "canSeeSky": true,
+        "noStructureRadius": 32
+      }
+    },
+    {
+      "pokemon": "minior meteor_shield=meteor core_color=indigo",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-50",
+      "weight": 100.0,
+      "id": "xice-minior-indigo-end",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "noStructureRadius": 32
+      }
+    },
+    {
+      "pokemon": "minior meteor_shield=meteor core_color=violet",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-50",
+      "weight": 100.0,
+      "id": "xice-minior-violet-overworld-sky",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "minY": 200,
+        "canSeeSky": true,
+        "noStructureRadius": 32
+      }
+    },
+    {
+      "pokemon": "minior meteor_shield=meteor core_color=violet",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-50",
+      "weight": 100.0,
+      "id": "xice-minior-violet-end",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "noStructureRadius": 32
+      }
+    },
+    {
+      "pokemon": "unown character=a",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-97-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=a",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-97-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=a",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-97-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=b",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-98-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=b",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-98-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=b",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-98-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=c",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-99-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=c",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-99-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=c",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-99-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=d",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-100-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=d",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-100-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=d",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-100-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=e",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-101-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=e",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-101-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=e",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-101-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=f",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-102-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=f",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-102-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=f",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-102-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=g",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-103-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=g",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-103-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=g",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-103-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=h",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-104-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=h",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-104-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=h",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-104-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=i",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-105-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=i",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-105-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=i",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-105-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=j",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-106-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=j",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-106-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=j",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-106-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=k",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-107-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=k",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-107-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=k",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-107-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=l",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-108-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=l",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-108-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=l",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-108-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=m",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-109-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=m",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-109-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=m",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-109-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=n",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-110-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=n",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-110-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=n",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-110-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=o",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-111-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=o",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-111-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=o",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-111-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=p",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-112-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=p",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-112-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=p",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-112-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=q",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-113-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=q",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-113-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=q",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-113-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=r",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-114-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=r",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-114-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=r",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-114-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=s",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-115-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=s",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-115-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=s",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-115-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=t",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-116-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=t",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-116-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=t",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-116-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=u",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-117-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=u",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-117-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=u",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-117-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=v",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-118-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=v",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-118-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=v",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-118-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=w",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-119-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=w",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-119-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=w",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-119-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=x",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-120-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=x",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-120-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=x",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-120-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=y",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-121-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=y",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-121-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=y",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-121-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=z",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-122-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=z",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-122-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=z",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 37.692,
+      "id": "xice-unown-122-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=!",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 10.0,
+      "id": "xice-unown-33-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=!",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 10.0,
+      "id": "xice-unown-33-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=!",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 10.0,
+      "id": "xice-unown-33-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    },
+    {
+      "pokemon": "unown character=?",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 10.0,
+      "id": "xice-unown-63-structured-realms",
+      "bucket": "ultra-rare",
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "twilightforest:twilight_forest"
+        ],
+        "requiresAnyStructure": true,
+        "excludedStructures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=?",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 10.0,
+      "id": "xice-unown-63-lich-tower",
+      "bucket": "rare",
+      "condition": {
+        "structures": [
+          "twilightforest:lich_tower"
+        ]
+      }
+    },
+    {
+      "pokemon": "unown character=?",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "level": "1-100",
+      "weight": 10.0,
+      "id": "xice-unown-63-end-wilderness",
+      "bucket": "common",
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "requiresNoStructure": true
+      }
+    }
+  ]
+}

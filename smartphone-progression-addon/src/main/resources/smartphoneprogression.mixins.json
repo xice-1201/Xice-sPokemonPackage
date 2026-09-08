@@ -1,0 +1,29 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.cnxice.smartphoneprogression.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AccessoriesUtilsMixin",
+    "ExpAllEquipResolverMixin",
+    "MegaShowdownWearableUseMixin",
+    "HealPokemonHandlerMixin",
+    "LivingEntityMixin",
+    "FinishScanningHandlerMixin",
+    "OpenEnderChestHandlerMixin",
+    "OpenPCHandlerMixin",
+    "OpenPokedexHandlerMixin",
+    "StartScanningHandlerMixin"
+  ],
+  "client": [
+    "EnderActionMixin",
+    "HealActionMixin",
+    "NeoForgeSmartphoneKeybindHandlerMixin",
+    "OpenPcActionMixin",
+    "PokedexActionMixin",
+    "SmartphoneScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

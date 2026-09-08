@@ -1,0 +1,1782 @@
+{
+  "definition": "no incoming or outgoing evolution",
+  "count": 204,
+  "species": [
+    {
+      "nationalPokedexNumber": 115,
+      "id": "kangaskhan",
+      "name": "袋兽",
+      "labels": [
+        "gen1"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 127,
+      "id": "pinsir",
+      "name": "凯罗斯",
+      "labels": [
+        "gen1"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 128,
+      "id": "tauros",
+      "name": "肯泰罗",
+      "labels": [
+        "gen1",
+        "kantonian_form"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 131,
+      "id": "lapras",
+      "name": "拉普拉斯",
+      "labels": [
+        "gen1"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 132,
+      "id": "ditto",
+      "name": "百变怪",
+      "labels": [
+        "gen1"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 142,
+      "id": "aerodactyl",
+      "name": "化石翼龙",
+      "labels": [
+        "fossil",
+        "gen1"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 144,
+      "id": "articuno",
+      "name": "急冻鸟",
+      "labels": [
+        "gen1",
+        "kantonian_form",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 145,
+      "id": "zapdos",
+      "name": "闪电鸟",
+      "labels": [
+        "gen1",
+        "kantonian_form",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 146,
+      "id": "moltres",
+      "name": "火焰鸟",
+      "labels": [
+        "gen1",
+        "kantonian_form",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 150,
+      "id": "mewtwo",
+      "name": "超梦",
+      "labels": [
+        "gen1",
+        "legendary",
+        "restricted"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 151,
+      "id": "mew",
+      "name": "梦幻",
+      "labels": [
+        "gen1",
+        "mythical"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 201,
+      "id": "unown",
+      "name": "未知图腾",
+      "labels": [
+        "gen2"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 213,
+      "id": "shuckle",
+      "name": "壶壶",
+      "labels": [
+        "gen2"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 214,
+      "id": "heracross",
+      "name": "赫拉克罗斯",
+      "labels": [
+        "gen2"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 225,
+      "id": "delibird",
+      "name": "信使鸟",
+      "labels": [
+        "gen2"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 227,
+      "id": "skarmory",
+      "name": "盔甲鸟",
+      "labels": [
+        "gen2"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 235,
+      "id": "smeargle",
+      "name": "图图犬",
+      "labels": [
+        "gen2"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 241,
+      "id": "miltank",
+      "name": "大奶罐",
+      "labels": [
+        "gen2"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 243,
+      "id": "raikou",
+      "name": "雷公",
+      "labels": [
+        "gen2",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 244,
+      "id": "entei",
+      "name": "炎帝",
+      "labels": [
+        "gen2",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 245,
+      "id": "suicune",
+      "name": "水君",
+      "labels": [
+        "gen2",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 249,
+      "id": "lugia",
+      "name": "洛奇亚",
+      "labels": [
+        "gen2",
+        "legendary",
+        "restricted"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 250,
+      "id": "hooh",
+      "name": "凤王",
+      "labels": [
+        "gen2",
+        "legendary",
+        "restricted"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 251,
+      "id": "celebi",
+      "name": "时拉比",
+      "labels": [
+        "gen2",
+        "mythical"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 292,
+      "id": "shedinja",
+      "name": "脱壳忍者",
+      "labels": [
+        "gen3"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 302,
+      "id": "sableye",
+      "name": "勾魂眼",
+      "labels": [
+        "gen3"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 303,
+      "id": "mawile",
+      "name": "大嘴娃",
+      "labels": [
+        "gen3"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 311,
+      "id": "plusle",
+      "name": "正电拍拍",
+      "labels": [
+        "gen3"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 312,
+      "id": "minun",
+      "name": "负电拍拍",
+      "labels": [
+        "gen3"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 313,
+      "id": "volbeat",
+      "name": "电萤虫",
+      "labels": [
+        "gen3"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 314,
+      "id": "illumise",
+      "name": "甜甜萤",
+      "labels": [
+        "gen3"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 324,
+      "id": "torkoal",
+      "name": "煤炭龟",
+      "labels": [
+        "gen3"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 327,
+      "id": "spinda",
+      "name": "晃晃斑",
+      "labels": [
+        "gen3"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 335,
+      "id": "zangoose",
+      "name": "猫鼬斩",
+      "labels": [
+        "gen3"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 336,
+      "id": "seviper",
+      "name": "饭匙蛇",
+      "labels": [
+        "gen3"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 337,
+      "id": "lunatone",
+      "name": "月石",
+      "labels": [
+        "gen3"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 338,
+      "id": "solrock",
+      "name": "太阳岩",
+      "labels": [
+        "gen3"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 351,
+      "id": "castform",
+      "name": "飘浮泡泡",
+      "labels": [
+        "gen3"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 352,
+      "id": "kecleon",
+      "name": "变隐龙",
+      "labels": [
+        "gen3"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 357,
+      "id": "tropius",
+      "name": "热带龙",
+      "labels": [
+        "gen3"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 359,
+      "id": "absol",
+      "name": "阿勃梭鲁",
+      "labels": [
+        "gen3"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 369,
+      "id": "relicanth",
+      "name": "古空棘鱼",
+      "labels": [
+        "gen3"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 370,
+      "id": "luvdisc",
+      "name": "爱心鱼",
+      "labels": [
+        "gen3"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 377,
+      "id": "regirock",
+      "name": "雷吉洛克",
+      "labels": [
+        "gen3",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 378,
+      "id": "regice",
+      "name": "雷吉艾斯",
+      "labels": [
+        "gen3",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 379,
+      "id": "registeel",
+      "name": "雷吉斯奇鲁",
+      "labels": [
+        "gen3",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 380,
+      "id": "latias",
+      "name": "拉帝亚斯",
+      "labels": [
+        "gen3",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 381,
+      "id": "latios",
+      "name": "拉帝欧斯",
+      "labels": [
+        "gen3",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 382,
+      "id": "kyogre",
+      "name": "盖欧卡",
+      "labels": [
+        "gen3",
+        "legendary",
+        "restricted"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 383,
+      "id": "groudon",
+      "name": "固拉多",
+      "labels": [
+        "gen3",
+        "legendary",
+        "restricted"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 384,
+      "id": "rayquaza",
+      "name": "烈空坐",
+      "labels": [
+        "gen3",
+        "legendary",
+        "restricted"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 385,
+      "id": "jirachi",
+      "name": "基拉祈",
+      "labels": [
+        "gen3",
+        "mythical"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 386,
+      "id": "deoxys",
+      "name": "代欧奇希斯",
+      "labels": [
+        "gen3",
+        "mythical"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 417,
+      "id": "pachirisu",
+      "name": "帕奇利兹",
+      "labels": [
+        "gen4"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 441,
+      "id": "chatot",
+      "name": "聒噪鸟",
+      "labels": [
+        "gen4"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 442,
+      "id": "spiritomb",
+      "name": "花岩怪",
+      "labels": [
+        "gen4"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 455,
+      "id": "carnivine",
+      "name": "尖牙笼",
+      "labels": [
+        "gen4"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 479,
+      "id": "rotom",
+      "name": "洛托姆",
+      "labels": [
+        "gen4"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 480,
+      "id": "uxie",
+      "name": "由克希",
+      "labels": [
+        "gen4",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 481,
+      "id": "mesprit",
+      "name": "艾姆利多",
+      "labels": [
+        "gen4",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 482,
+      "id": "azelf",
+      "name": "亚克诺姆",
+      "labels": [
+        "gen4",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 483,
+      "id": "dialga",
+      "name": "帝牙卢卡",
+      "labels": [
+        "gen4",
+        "legendary",
+        "restricted"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 484,
+      "id": "palkia",
+      "name": "帕路奇亚",
+      "labels": [
+        "gen4",
+        "legendary",
+        "restricted"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 485,
+      "id": "heatran",
+      "name": "席多蓝恩",
+      "labels": [
+        "gen4",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 486,
+      "id": "regigigas",
+      "name": "雷吉奇卡斯",
+      "labels": [
+        "gen4",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 487,
+      "id": "giratina",
+      "name": "骑拉帝纳",
+      "labels": [
+        "gen4",
+        "legendary",
+        "restricted"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 488,
+      "id": "cresselia",
+      "name": "克雷色利亚",
+      "labels": [
+        "gen4",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 489,
+      "id": "phione",
+      "name": "霏欧纳",
+      "labels": [
+        "gen4",
+        "mythical"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 490,
+      "id": "manaphy",
+      "name": "玛纳霏",
+      "labels": [
+        "gen4",
+        "mythical"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 491,
+      "id": "darkrai",
+      "name": "达克莱伊",
+      "labels": [
+        "gen4",
+        "mythical"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 492,
+      "id": "shaymin",
+      "name": "谢米",
+      "labels": [
+        "gen4",
+        "mythical"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 493,
+      "id": "arceus",
+      "name": "阿尔宙斯",
+      "labels": [
+        "gen4",
+        "mythical"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 494,
+      "id": "victini",
+      "name": "比克提尼",
+      "labels": [
+        "gen5",
+        "mythical"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 531,
+      "id": "audino",
+      "name": "差不多娃娃",
+      "labels": [
+        "gen5"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 538,
+      "id": "throh",
+      "name": "投摔鬼",
+      "labels": [
+        "gen5"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 539,
+      "id": "sawk",
+      "name": "打击鬼",
+      "labels": [
+        "gen5"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 556,
+      "id": "maractus",
+      "name": "沙铃仙人掌",
+      "labels": [
+        "gen5"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 561,
+      "id": "sigilyph",
+      "name": "象征鸟",
+      "labels": [
+        "gen5"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 587,
+      "id": "emolga",
+      "name": "电飞鼠",
+      "labels": [
+        "gen5"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 594,
+      "id": "alomomola",
+      "name": "保姆曼波",
+      "labels": [
+        "gen5"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 615,
+      "id": "cryogonal",
+      "name": "几何雪花",
+      "labels": [
+        "gen5"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 618,
+      "id": "stunfisk",
+      "name": "泥巴鱼",
+      "labels": [
+        "gen5",
+        "unovan_form"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 621,
+      "id": "druddigon",
+      "name": "赤面龙",
+      "labels": [
+        "gen5"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 626,
+      "id": "bouffalant",
+      "name": "爆炸头水牛",
+      "labels": [
+        "gen5"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 631,
+      "id": "heatmor",
+      "name": "熔蚁兽",
+      "labels": [
+        "gen5"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 632,
+      "id": "durant",
+      "name": "铁蚁",
+      "labels": [
+        "gen5"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 638,
+      "id": "cobalion",
+      "name": "勾帕路翁",
+      "labels": [
+        "gen5",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 639,
+      "id": "terrakion",
+      "name": "代拉基翁",
+      "labels": [
+        "gen5",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 640,
+      "id": "virizion",
+      "name": "毕力吉翁",
+      "labels": [
+        "gen5",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 641,
+      "id": "tornadus",
+      "name": "龙卷云",
+      "labels": [
+        "gen5",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 642,
+      "id": "thundurus",
+      "name": "雷电云",
+      "labels": [
+        "gen5",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 643,
+      "id": "reshiram",
+      "name": "莱希拉姆",
+      "labels": [
+        "gen5",
+        "legendary",
+        "restricted"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 644,
+      "id": "zekrom",
+      "name": "捷克罗姆",
+      "labels": [
+        "gen5",
+        "legendary",
+        "restricted"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 645,
+      "id": "landorus",
+      "name": "土地云",
+      "labels": [
+        "gen5",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 646,
+      "id": "kyurem",
+      "name": "酋雷姆",
+      "labels": [
+        "gen5",
+        "legendary",
+        "restricted"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 647,
+      "id": "keldeo",
+      "name": "凯路迪欧",
+      "labels": [
+        "gen5",
+        "mythical"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 648,
+      "id": "meloetta",
+      "name": "美洛耶塔",
+      "labels": [
+        "gen5",
+        "mythical"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 649,
+      "id": "genesect",
+      "name": "盖诺赛克特",
+      "labels": [
+        "gen5",
+        "mythical"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 676,
+      "id": "furfrou",
+      "name": "多丽米亚",
+      "labels": [
+        "gen6"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 701,
+      "id": "hawlucha",
+      "name": "摔角鹰人",
+      "labels": [
+        "gen6"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 702,
+      "id": "dedenne",
+      "name": "咚咚鼠",
+      "labels": [
+        "gen6"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 703,
+      "id": "carbink",
+      "name": "小碎钻",
+      "labels": [
+        "gen6"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 707,
+      "id": "klefki",
+      "name": "钥圈儿",
+      "labels": [
+        "gen6"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 716,
+      "id": "xerneas",
+      "name": "哲尔尼亚斯",
+      "labels": [
+        "gen6",
+        "legendary",
+        "restricted"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 717,
+      "id": "yveltal",
+      "name": "伊裴尔塔尔",
+      "labels": [
+        "gen6",
+        "legendary",
+        "restricted"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 718,
+      "id": "zygarde",
+      "name": "基格尔德",
+      "labels": [
+        "gen6",
+        "legendary",
+        "restricted"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 719,
+      "id": "diancie",
+      "name": "蒂安希",
+      "labels": [
+        "gen6",
+        "mythical"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 720,
+      "id": "hoopa",
+      "name": "胡帕",
+      "labels": [
+        "gen6",
+        "mythical"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 721,
+      "id": "volcanion",
+      "name": "波尔凯尼恩",
+      "labels": [
+        "gen6",
+        "mythical"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 741,
+      "id": "oricorio",
+      "name": "花舞鸟",
+      "labels": [
+        "gen7"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 746,
+      "id": "wishiwashi",
+      "name": "弱丁鱼",
+      "labels": [
+        "gen7"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 764,
+      "id": "comfey",
+      "name": "花疗环环",
+      "labels": [
+        "gen7"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 765,
+      "id": "oranguru",
+      "name": "智挥猩",
+      "labels": [
+        "gen7"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 766,
+      "id": "passimian",
+      "name": "投掷猴",
+      "labels": [
+        "gen7"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 771,
+      "id": "pyukumuku",
+      "name": "拳海参",
+      "labels": [
+        "gen7"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 774,
+      "id": "minior",
+      "name": "小陨星",
+      "labels": [
+        "gen7"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 775,
+      "id": "komala",
+      "name": "树枕尾熊",
+      "labels": [
+        "gen7"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 776,
+      "id": "turtonator",
+      "name": "爆焰龟兽",
+      "labels": [
+        "gen7"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 777,
+      "id": "togedemaru",
+      "name": "托戈德玛尔",
+      "labels": [
+        "gen7"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 778,
+      "id": "mimikyu",
+      "name": "谜拟丘",
+      "labels": [
+        "gen7"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 779,
+      "id": "bruxish",
+      "name": "磨牙彩皮鱼",
+      "labels": [
+        "gen7"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 780,
+      "id": "drampa",
+      "name": "老翁龙",
+      "labels": [
+        "gen7"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 781,
+      "id": "dhelmise",
+      "name": "破破舵轮",
+      "labels": [
+        "gen7"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 785,
+      "id": "tapukoko",
+      "name": "卡璞・鸣鸣",
+      "labels": [
+        "gen7",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 786,
+      "id": "tapulele",
+      "name": "卡璞・蝶蝶",
+      "labels": [
+        "gen7",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 787,
+      "id": "tapubulu",
+      "name": "卡璞・哞哞",
+      "labels": [
+        "gen7",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 788,
+      "id": "tapufini",
+      "name": "卡璞・鳍鳍",
+      "labels": [
+        "gen7",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 793,
+      "id": "nihilego",
+      "name": "虚吾伊德",
+      "labels": [
+        "gen7",
+        "ultra_beast"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 794,
+      "id": "buzzwole",
+      "name": "爆肌蚊",
+      "labels": [
+        "gen7",
+        "ultra_beast"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 795,
+      "id": "pheromosa",
+      "name": "费洛美螂",
+      "labels": [
+        "gen7",
+        "ultra_beast"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 796,
+      "id": "xurkitree",
+      "name": "电束木",
+      "labels": [
+        "gen7",
+        "ultra_beast"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 797,
+      "id": "celesteela",
+      "name": "铁火辉夜",
+      "labels": [
+        "gen7",
+        "ultra_beast"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 798,
+      "id": "kartana",
+      "name": "纸御剑",
+      "labels": [
+        "gen7",
+        "ultra_beast"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 799,
+      "id": "guzzlord",
+      "name": "恶食大王",
+      "labels": [
+        "gen7",
+        "ultra_beast"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 800,
+      "id": "necrozma",
+      "name": "奈克洛兹玛",
+      "labels": [
+        "gen7",
+        "legendary",
+        "restricted"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 801,
+      "id": "magearna",
+      "name": "玛机雅娜",
+      "labels": [
+        "gen7",
+        "mythical"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 802,
+      "id": "marshadow",
+      "name": "玛夏多",
+      "labels": [
+        "gen7",
+        "mythical"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 805,
+      "id": "stakataka",
+      "name": "垒磊石",
+      "labels": [
+        "gen7",
+        "ultra_beast"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 806,
+      "id": "blacephalon",
+      "name": "砰头小丑",
+      "labels": [
+        "gen7",
+        "ultra_beast"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 807,
+      "id": "zeraora",
+      "name": "捷拉奥拉",
+      "labels": [
+        "gen7",
+        "mythical"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 808,
+      "id": "meltan",
+      "name": "美录坦",
+      "labels": [
+        "gen7b",
+        "mythical"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 809,
+      "id": "melmetal",
+      "name": "美录梅塔",
+      "labels": [
+        "gen7b",
+        "mythical"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 845,
+      "id": "cramorant",
+      "name": "古月鸟",
+      "labels": [
+        "gen8"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 870,
+      "id": "falinks",
+      "name": "列阵兵",
+      "labels": [
+        "gen8"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 871,
+      "id": "pincurchin",
+      "name": "啪嚓海胆",
+      "labels": [
+        "gen8"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 874,
+      "id": "stonjourner",
+      "name": "巨石丁",
+      "labels": [
+        "gen8"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 875,
+      "id": "eiscue",
+      "name": "冰砌鹅",
+      "labels": [
+        "gen8"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 876,
+      "id": "indeedee",
+      "name": "爱管侍",
+      "labels": [
+        "gen8"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 877,
+      "id": "morpeko",
+      "name": "莫鲁贝可",
+      "labels": [
+        "gen8"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 880,
+      "id": "dracozolt",
+      "name": "雷鸟龙",
+      "labels": [
+        "gen8"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 881,
+      "id": "arctozolt",
+      "name": "雷鸟海兽",
+      "labels": [
+        "gen8"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 882,
+      "id": "dracovish",
+      "name": "鳃鱼龙",
+      "labels": [
+        "gen8"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 883,
+      "id": "arctovish",
+      "name": "鳃鱼海兽",
+      "labels": [
+        "gen8"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 888,
+      "id": "zacian",
+      "name": "苍响",
+      "labels": [
+        "gen8",
+        "legendary",
+        "restricted"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 889,
+      "id": "zamazenta",
+      "name": "藏玛然特",
+      "labels": [
+        "gen8",
+        "legendary",
+        "restricted"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 890,
+      "id": "eternatus",
+      "name": "无极汰那",
+      "labels": [
+        "gen8",
+        "legendary",
+        "restricted"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 893,
+      "id": "zarude",
+      "name": "萨戮德",
+      "labels": [
+        "gen8",
+        "mythical"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 894,
+      "id": "regieleki",
+      "name": "雷吉艾勒奇",
+      "labels": [
+        "gen8",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 895,
+      "id": "regidrago",
+      "name": "雷吉铎拉戈",
+      "labels": [
+        "gen8",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 896,
+      "id": "glastrier",
+      "name": "雪暴马",
+      "labels": [
+        "gen8",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 897,
+      "id": "spectrier",
+      "name": "灵幽马",
+      "labels": [
+        "gen8",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 898,
+      "id": "calyrex",
+      "name": "蕾冠王",
+      "labels": [
+        "gen8",
+        "legendary",
+        "restricted"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 905,
+      "id": "enamorus",
+      "name": "眷恋云",
+      "labels": [
+        "gen8a",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 931,
+      "id": "squawkabilly",
+      "name": "怒鹦哥",
+      "labels": [
+        "gen9"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 950,
+      "id": "klawf",
+      "name": "毛崖蟹",
+      "labels": [
+        "gen9"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 962,
+      "id": "bombirdier",
+      "name": "下石鸟",
+      "labels": [
+        "gen9"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 967,
+      "id": "cyclizar",
+      "name": "摩托蜥",
+      "labels": [
+        "gen9"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 968,
+      "id": "orthworm",
+      "name": "拖拖蚓",
+      "labels": [
+        "gen9"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 973,
+      "id": "flamigo",
+      "name": "缠红鹤",
+      "labels": [
+        "gen9"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 976,
+      "id": "veluza",
+      "name": "轻身鳕",
+      "labels": [
+        "gen9"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 977,
+      "id": "dondozo",
+      "name": "吃吼霸",
+      "labels": [
+        "gen9"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 978,
+      "id": "tatsugiri",
+      "name": "米立龙",
+      "labels": [
+        "gen9"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 984,
+      "id": "greattusk",
+      "name": "雄伟牙",
+      "labels": [
+        "gen9",
+        "paradox"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 985,
+      "id": "screamtail",
+      "name": "吼叫尾",
+      "labels": [
+        "gen9",
+        "paradox"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 986,
+      "id": "brutebonnet",
+      "name": "猛恶菇",
+      "labels": [
+        "gen9",
+        "paradox"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 987,
+      "id": "fluttermane",
+      "name": "振翼发",
+      "labels": [
+        "gen9",
+        "paradox"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 988,
+      "id": "slitherwing",
+      "name": "爬地翅",
+      "labels": [
+        "gen9",
+        "paradox"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 989,
+      "id": "sandyshocks",
+      "name": "沙铁皮",
+      "labels": [
+        "gen9",
+        "paradox"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 990,
+      "id": "irontreads",
+      "name": "铁辙迹",
+      "labels": [
+        "gen9",
+        "paradox"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 991,
+      "id": "ironbundle",
+      "name": "铁包袱",
+      "labels": [
+        "gen9",
+        "paradox"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 992,
+      "id": "ironhands",
+      "name": "铁臂膀",
+      "labels": [
+        "gen9",
+        "paradox"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 993,
+      "id": "ironjugulis",
+      "name": "铁脖颈",
+      "labels": [
+        "gen9",
+        "paradox"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 994,
+      "id": "ironmoth",
+      "name": "铁毒蛾",
+      "labels": [
+        "gen9",
+        "paradox"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 995,
+      "id": "ironthorns",
+      "name": "铁荆棘",
+      "labels": [
+        "gen9",
+        "paradox"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 1001,
+      "id": "wochien",
+      "name": "古简蜗",
+      "labels": [
+        "gen9",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 1002,
+      "id": "chienpao",
+      "name": "古剑豹",
+      "labels": [
+        "gen9",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 1003,
+      "id": "tinglu",
+      "name": "古鼎鹿",
+      "labels": [
+        "gen9",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 1004,
+      "id": "chiyu",
+      "name": "古玉鱼",
+      "labels": [
+        "gen9",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 1005,
+      "id": "roaringmoon",
+      "name": "轰鸣月",
+      "labels": [
+        "gen9",
+        "paradox"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 1006,
+      "id": "ironvaliant",
+      "name": "铁武者",
+      "labels": [
+        "gen9",
+        "paradox"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 1007,
+      "id": "koraidon",
+      "name": "故勒顿",
+      "labels": [
+        "gen9",
+        "legendary",
+        "restricted"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 1008,
+      "id": "miraidon",
+      "name": "密勒顿",
+      "labels": [
+        "gen9",
+        "legendary",
+        "restricted"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 1009,
+      "id": "walkingwake",
+      "name": "波荡水",
+      "labels": [
+        "gen9",
+        "paradox"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 1010,
+      "id": "ironleaves",
+      "name": "铁斑叶",
+      "labels": [
+        "gen9",
+        "paradox"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 1014,
+      "id": "okidogi",
+      "name": "够赞狗",
+      "labels": [
+        "gen9",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 1015,
+      "id": "munkidori",
+      "name": "愿增猿",
+      "labels": [
+        "gen9",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 1016,
+      "id": "fezandipiti",
+      "name": "吉雉鸡",
+      "labels": [
+        "gen9",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 1017,
+      "id": "ogerpon",
+      "name": "厄鬼椪",
+      "labels": [
+        "gen9",
+        "legendary"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 1020,
+      "id": "gougingfire",
+      "name": "破空焰",
+      "labels": [
+        "gen9",
+        "paradox"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 1021,
+      "id": "ragingbolt",
+      "name": "猛雷鼓",
+      "labels": [
+        "gen9",
+        "paradox"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 1022,
+      "id": "ironboulder",
+      "name": "铁磐岩",
+      "labels": [
+        "gen9",
+        "paradox"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 1023,
+      "id": "ironcrown",
+      "name": "铁头壳",
+      "labels": [
+        "gen9",
+        "paradox"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 1024,
+      "id": "terapagos",
+      "name": "太乐巴戈斯",
+      "labels": [
+        "gen9",
+        "legendary",
+        "restricted"
+      ]
+    },
+    {
+      "nationalPokedexNumber": 1025,
+      "id": "pecharunt",
+      "name": "桃歹郎",
+      "labels": [
+        "gen9",
+        "mythical"
+      ]
+    }
+  ]
+}

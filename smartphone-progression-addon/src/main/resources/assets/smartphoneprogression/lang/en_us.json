@@ -1,0 +1,11 @@
+{
+  "upgrade.smartphoneprogression.heal": "Healing Module",
+  "upgrade.smartphoneprogression.pc": "PC Module",
+  "upgrade.smartphoneprogression.pokedex": "Pokedex Module",
+  "upgrade.smartphoneprogression.ender": "Ender Chest Module",
+  "upgrade.smartphoneprogression.scanner": "Scanner Upgrade",
+  "message.smartphoneprogression.scanner_upgrade_required": "The smartphone does not have the scanner upgrade installed",
+  "screen.smartphoneprogression.empty": "No function modules installed",
+  "screen.smartphoneprogression.upgrade_hint": "Install upgrades in a Smithing Table",
+  "screen.smartphoneprogression.smithing_hint": "Electirizer template; phone in base slot"
+}

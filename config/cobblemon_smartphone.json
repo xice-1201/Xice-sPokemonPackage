@@ -1,0 +1,65 @@
+{
+  "ignoreUpgrades": [],
+  "cooldowns": {
+    "healButton": 5,
+    "pcButton": 1,
+    "cloudButton": 5,
+    "waystoneButton": 5,
+    "tomsStorageButton": 3,
+    "refinedStorageButton": 3,
+    "ae2Button": 3,
+    "pokedexButton": 1,
+    "socialPost": 30,
+    "socialMessage": 1
+  },
+  "features": {
+    "enableHeal": true,
+    "enablePC": true,
+    "enableCloud": true,
+    "enablePokenav": true,
+    "enableFishingnav": true,
+    "enableCobbleDollars": false,
+    "enableWaystone": false,
+    "enableTomsStorage": false,
+    "enableRefinedStorage": false,
+    "enableAE2": false,
+    "enableRctTrainerCard": false,
+    "enablePokedex": true,
+    "enablePokeInfo": false,
+    "enableGps": true,
+    "enableStructureCompass": true,
+    "enableScanner": true,
+    "enableCrafting": true,
+    "enableQuickActions": true,
+    "enableSocial": false,
+    "enableCalls": false
+  },
+  "pokeInfo": {
+    "showBaseStats": true,
+    "showAbilities": true,
+    "showEvolution": true,
+    "showTraining": true,
+    "showSpawning": true,
+    "showBreeding": true,
+    "showTypeDefenses": true,
+    "showLevelMoves": true,
+    "showLearnableMoves": true
+  },
+  "gps": {
+    "maxSearchRadius": 10000
+  },
+  "structureCompass": {
+    "searchRadiusChunks": 100,
+    "skipKnownStructures": false
+  },
+  "social": {
+    "maxPosts": 1000,
+    "maxPostLength": 280,
+    "feedPageSize": 20,
+    "maxMessagesPerThread": 500,
+    "maxMessageLength": 280,
+    "messagePageSize": 30,
+    "threadPageSize": 30,
+    "callRingTimeoutSeconds": 30
+  }
+}

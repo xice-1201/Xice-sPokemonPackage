@@ -1,0 +1,18 @@
+{
+  "accessories.slot.exp_all": "强化学习装置栏",
+  "item.cobblemonexpall.exp_all": "强化学习装置",
+  "item.cobblemonexpall.exp_all.desc": "训练家佩戴后，使队伍中符合条件的宝可梦共享战斗经验值与努力值。",
+  "curios.identifier.exp_all": "强化学习装置栏",
+  "curios.identifier.hat": "帽子",
+  "itemGroup.cobblemonexpall": "方块宝可梦：强化学习装置",
+  "key.categories.cobblemonexpall": "强化学习装置",
+  "key.cobblemonexpall.toggle_exp_share": "切换经验共享",
+  "key.cobblemonexpall.toggle_ev_share": "切换努力值共享",
+  "message.cobblemonexpall.exp_sharing.enabled": "已启用经验共享",
+  "message.cobblemonexpall.exp_sharing.disabled": "已禁用经验共享",
+  "message.cobblemonexpall.ev_sharing.enabled": "已启用努力值共享",
+  "message.cobblemonexpall.ev_sharing.disabled": "已禁用努力值共享",
+  "tag.item.accessories.exp_all": "强化学习装置栏物品",
+  "tag.item.curios.exp_all": "强化学习装置栏物品",
+  "tag.item.curios.hat": "帽子栏物品"
+}

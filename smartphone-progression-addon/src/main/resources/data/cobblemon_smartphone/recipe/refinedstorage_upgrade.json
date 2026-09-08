@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "neoforge:conditions": [{ "type": "neoforge:mod_loaded", "modid": "refinedstorage" }],
+  "template": { "item": "cobblemon:electirizer" },
+  "base": { "tag": "cobblemon_smartphone:smartphones" },
+  "addition": { "item": "refinedstorage:wireless_grid" },
+  "result": {
+    "id": "cobblemon_smartphone:red_smartphone",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {
+        "cobblemon_smartphone:upgrades": { "upgrade_refinedstorage": true }
+      }
+    }
+  }
+}

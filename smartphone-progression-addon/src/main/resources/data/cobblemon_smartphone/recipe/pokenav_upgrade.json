@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "neoforge:conditions": [{ "type": "neoforge:mod_loaded", "modid": "cobblenav" }],
+  "template": { "item": "cobblemon:electirizer" },
+  "base": { "tag": "cobblemon_smartphone:smartphones" },
+  "addition": { "tag": "cobblenav:pokenav" },
+  "result": {
+    "id": "cobblemon_smartphone:red_smartphone",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {
+        "cobblemon_smartphone:upgrades": { "upgrade_pokenav": true }
+      }
+    }
+  }
+}

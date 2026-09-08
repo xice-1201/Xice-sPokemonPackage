@@ -1,0 +1,7 @@
+{
+  "size": 4,
+  "operation": "SET",
+  "order": 180,
+  "icon": "cobblemon_smartphone:slot/slot_smartphone",
+  "validators": ["curios:tag"]
+}

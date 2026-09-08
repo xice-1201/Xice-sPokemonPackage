@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "mega_showdown:dynamax_band",
+    "mega_showdown:mega_bracelet",
+    "mega_showdown:mega_bracelet_red",
+    "mega_showdown:mega_bracelet_yellow",
+    "mega_showdown:mega_bracelet_pink",
+    "mega_showdown:mega_bracelet_green",
+    "mega_showdown:mega_bracelet_blue",
+    "mega_showdown:mega_bracelet_black",
+    "mega_showdown:may_bracelet",
+    "mega_showdown:brendan_mega_cuff",
+    "mega_showdown:z_ring",
+    "mega_showdown:z_ring_black",
+    "mega_showdown:z_ring_yellow",
+    "mega_showdown:z_ring_green",
+    "mega_showdown:z_ring_blue",
+    "mega_showdown:z_ring_pink",
+    "mega_showdown:z_ring_red",
+    "mega_showdown:olivias_z_ring",
+    "mega_showdown:hapus_z_ring",
+    "mega_showdown:z_power_ring",
+    "mega_showdown:olivia_z_power_ring",
+    "mega_showdown:hapu_z_power_ring",
+    "mega_showdown:rocket_z_power_ring",
+    "mega_showdown:gladion_z_power_ring",
+    "mega_showdown:nanu_z_power_ring"
+  ]
+}

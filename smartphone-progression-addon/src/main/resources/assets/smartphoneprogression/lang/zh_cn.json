@@ -1,0 +1,11 @@
+{
+  "upgrade.smartphoneprogression.heal": "治疗模块",
+  "upgrade.smartphoneprogression.pc": "仓库模块",
+  "upgrade.smartphoneprogression.pokedex": "图鉴模块",
+  "upgrade.smartphoneprogression.ender": "末影箱模块",
+  "upgrade.smartphoneprogression.scanner": "扫描升级",
+  "message.smartphoneprogression.scanner_upgrade_required": "智能手机尚未安装扫描升级",
+  "screen.smartphoneprogression.empty": "尚未安装功能模块",
+  "screen.smartphoneprogression.upgrade_hint": "使用锻造台安装升级",
+  "screen.smartphoneprogression.smithing_hint": "模板放电力增幅器，装备放手机"
+}

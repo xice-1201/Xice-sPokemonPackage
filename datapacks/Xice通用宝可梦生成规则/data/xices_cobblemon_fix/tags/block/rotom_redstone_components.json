@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:redstone_wire",
+    "minecraft:redstone_block",
+    "minecraft:redstone_ore",
+    "minecraft:deepslate_redstone_ore",
+    "minecraft:redstone_torch",
+    "minecraft:redstone_wall_torch",
+    "minecraft:redstone_lamp",
+    "minecraft:repeater",
+    "minecraft:comparator",
+    "minecraft:observer",
+    "minecraft:piston",
+    "minecraft:sticky_piston",
+    "minecraft:dispenser",
+    "minecraft:dropper",
+    "minecraft:hopper",
+    "minecraft:lever",
+    "minecraft:target",
+    "minecraft:daylight_detector",
+    "minecraft:tripwire_hook",
+    "minecraft:trapped_chest",
+    "minecraft:lightning_rod",
+    "minecraft:sculk_sensor",
+    "minecraft:calibrated_sculk_sensor",
+    "minecraft:crafter",
+    "minecraft:note_block",
+    "#minecraft:buttons",
+    "#minecraft:pressure_plates"
+  ]
+}
