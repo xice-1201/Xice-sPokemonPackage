@@ -1,0 +1,47 @@
+{
+  "type": "botanypots:block_derived_crop",
+  "block": "betterend:lucernia_sapling",
+  "input": {
+    "item": "betterend:lucernia_sapling"
+  },
+  "soil": {
+    "tag": "xices_cobblemon_fix:betterend_tree_soils"
+  },
+  "grow_time": 2400,
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "xices_cobblemon_fix:botanypots/tree_sticks"
+    },
+    {
+      "type": "botanypots:items",
+      "items": [
+        {
+          "result": {
+            "id": "betterend:lucernia_log",
+            "count": 4
+          },
+          "chance": 1
+        },
+        {
+          "result": {
+            "id": "betterend:lucernia_sapling"
+          },
+          "chance": 0.1
+        },
+        {
+          "result": {
+            "id": "betterend:lucernia_leaves"
+          },
+          "chance": 0.1
+        },
+        {
+          "result": {
+            "id": "betterend:lucernia_outer_leaves"
+          },
+          "chance": 0.05
+        }
+      ]
+    }
+  ]
+}

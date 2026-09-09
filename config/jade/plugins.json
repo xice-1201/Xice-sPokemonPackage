@@ -52,12 +52,18 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "create_mobile_packages": {
+    "bee_port": true
+  },
   "jade_access": {
     "held_item": true,
     "sign": true,
     "block": true,
     "entity": true,
     "entity_variant": true
+  },
+  "ftbquests": {
+    "barrier": true
   },
   "cobblemonintegrations": {
     "healer": true,

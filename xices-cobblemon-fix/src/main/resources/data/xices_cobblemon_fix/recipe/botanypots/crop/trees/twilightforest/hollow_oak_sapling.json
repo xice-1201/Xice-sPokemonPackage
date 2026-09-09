@@ -1,0 +1,41 @@
+{
+  "type": "botanypots:block_derived_crop",
+  "block": "twilightforest:hollow_oak_sapling",
+  "input": {
+    "item": "twilightforest:hollow_oak_sapling"
+  },
+  "soil": {
+    "tag": "botanypots:soil/dirt"
+  },
+  "grow_time": 2400,
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "xices_cobblemon_fix:botanypots/tree_sticks"
+    },
+    {
+      "type": "botanypots:items",
+      "items": [
+        {
+          "result": {
+            "id": "twilightforest:twilight_oak_log",
+            "count": 4
+          },
+          "chance": 1
+        },
+        {
+          "result": {
+            "id": "twilightforest:hollow_oak_sapling"
+          },
+          "chance": 0.05
+        },
+        {
+          "result": {
+            "id": "twilightforest:twilight_oak_leaves"
+          },
+          "chance": 0.1
+        }
+      ]
+    }
+  ]
+}

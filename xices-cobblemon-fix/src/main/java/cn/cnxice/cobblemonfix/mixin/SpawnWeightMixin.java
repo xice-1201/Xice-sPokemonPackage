@@ -23,7 +23,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
-@Mixin(value = SpawnDetail.class, remap = false)
+@Mixin(value = SpawnablePosition.class, remap = false)
 public abstract class SpawnWeightMixin {
     private static final float WEATHER_BOOST = 1.5F;
     private static final float WEATHER_PENALTY = 0.5F;
@@ -35,9 +35,13 @@ public abstract class SpawnWeightMixin {
     );
     private static final Map<String, Set<String>> TYPE_CACHE = new ConcurrentHashMap<>();
 
-    @Inject(method = "getWeight", at = @At("RETURN"), cancellable = true)
-    private void xicesFix$applyContextualWeight(SpawnablePosition position, CallbackInfoReturnable<Float> cir) {
-        SpawnDetail detail = (SpawnDetail) (Object) this;
+    @Inject(
+            method = "getWeight(Lcom/cobblemon/mod/common/api/spawning/detail/SpawnDetail;)F",
+            at = @At("RETURN"),
+            cancellable = true
+    )
+    private void xicesFix$applyContextualWeight(SpawnDetail detail, CallbackInfoReturnable<Float> cir) {
+        SpawnablePosition position = (SpawnablePosition) (Object) this;
         float multiplier = 1.0F;
 
         if (detail instanceof PokemonSpawnDetail pokemonDetail) {

@@ -1,0 +1,25 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "minecraft:cobblestone" },
+    { "item": "minecraft:cobblestone" },
+    { "item": "minecraft:cobblestone" },
+    { "item": "minecraft:cobblestone" },
+    { "item": "minecraft:cobblestone" },
+    { "item": "minecraft:cobblestone" },
+    { "item": "minecraft:cobblestone" },
+    { "item": "minecraft:cobblestone" },
+    { "item": "create:crushed_raw_iron" },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "minecraft:lava"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:crimsite",
+      "count": 8
+    }
+  ]
+}

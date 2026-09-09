@@ -18,7 +18,7 @@
 - `xice-spawn-rules/`：生成规则源码、物种分析数据及说明。
 - `smartphone-progression-addon/`：智能手机升级、饰品槽、汉化与扫描限制附属模组源码。
 - `xices-cobblemon-fix/`：Cobblemon 1.8.0 兼容修复及生成事件附属模组源码。
-- `mods/xices_cobblemon_fix-1.0.11.jar`、`mods/smartphoneprogression-1.0.1.jar`：本仓库自制附属模组的当前构建产物。
+- `mods/xices_cobblemon_fix-1.0.42.jar`、`mods/smartphoneprogression-1.0.1.jar`：本仓库自制附属模组的当前构建产物。
 - `biome_registry.md`、`structure_registry.md`：当前实例的群系与结构注册名清单。
 - `options.txt`：整合包客户端选项与按键配置。
 
@@ -35,4 +35,3 @@ powershell -ExecutionPolicy Bypass -File .\tools\export_pack_metadata.ps1
 ```
 
 生成数据规则后，应把世界中的数据包重新复制到仓库 `datapacks/` 目录，再提交变更。
-

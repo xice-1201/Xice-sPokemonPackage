@@ -1,0 +1,37 @@
+{
+  "type": "botanypots:block_derived_crop",
+  "block": "betterend:mossy_glowshroom_sapling",
+  "input": {
+    "item": "betterend:mossy_glowshroom_sapling"
+  },
+  "soil": {
+    "tag": "xices_cobblemon_fix:betterend_fungal_soils"
+  },
+  "grow_time": 2400,
+  "drops": [
+    {
+      "type": "botanypots:items",
+      "items": [
+        {
+          "result": {
+            "id": "betterend:mossy_glowshroom_log",
+            "count": 4
+          },
+          "chance": 1
+        },
+        {
+          "result": {
+            "id": "betterend:mossy_glowshroom_sapling"
+          },
+          "chance": 0.1
+        },
+        {
+          "result": {
+            "id": "betterend:mossy_glowshroom_cap"
+          },
+          "chance": 0.1
+        }
+      ]
+    }
+  ]
+}

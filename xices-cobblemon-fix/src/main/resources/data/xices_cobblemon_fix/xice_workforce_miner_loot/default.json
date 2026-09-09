@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "entries": [
+    { "item": "minecraft:coal", "minimum_level": 1, "base_weight": 45.0, "minimum_count": 1, "maximum_count": 1, "bonus_count_stat_step": 600, "maximum_bonus_count": 1 },
+    { "item": "minecraft:raw_copper", "minimum_level": 10, "base_weight": 35.0, "minimum_count": 1, "maximum_count": 1, "bonus_count_stat_step": 600, "maximum_bonus_count": 1 },
+    { "item": "minecraft:raw_iron", "minimum_level": 20, "base_weight": 30.0, "minimum_count": 1, "maximum_count": 1, "bonus_count_stat_step": 600, "maximum_bonus_count": 1 },
+    { "item": "minecraft:redstone", "minimum_level": 25, "base_weight": 22.0, "minimum_count": 1, "maximum_count": 1, "bonus_count_stat_step": 600, "maximum_bonus_count": 1 },
+    { "item": "minecraft:lapis_lazuli", "minimum_level": 30, "base_weight": 18.0, "minimum_count": 1, "maximum_count": 1, "bonus_count_stat_step": 800, "maximum_bonus_count": 1 },
+    { "item": "minecraft:raw_gold", "minimum_level": 40, "base_weight": 8.0, "minimum_count": 1, "maximum_count": 1, "bonus_count_stat_step": 1000, "maximum_bonus_count": 1 },
+
+    { "item": "cobblemon:fire_stone", "minimum_level": 60, "base_weight": 0.5, "minimum_count": 1, "maximum_count": 1 },
+    { "item": "cobblemon:water_stone", "minimum_level": 60, "base_weight": 0.5, "minimum_count": 1, "maximum_count": 1 },
+    { "item": "cobblemon:thunder_stone", "minimum_level": 60, "base_weight": 0.5, "minimum_count": 1, "maximum_count": 1 },
+    { "item": "cobblemon:leaf_stone", "minimum_level": 60, "base_weight": 0.5, "minimum_count": 1, "maximum_count": 1 },
+    { "item": "cobblemon:moon_stone", "minimum_level": 60, "base_weight": 0.5, "minimum_count": 1, "maximum_count": 1 },
+    { "item": "cobblemon:sun_stone", "minimum_level": 60, "base_weight": 0.5, "minimum_count": 1, "maximum_count": 1 },
+    { "item": "cobblemon:dawn_stone", "minimum_level": 60, "base_weight": 0.5, "minimum_count": 1, "maximum_count": 1 },
+    { "item": "cobblemon:dusk_stone", "minimum_level": 60, "base_weight": 0.5, "minimum_count": 1, "maximum_count": 1 },
+    { "item": "cobblemon:shiny_stone", "minimum_level": 60, "base_weight": 0.5, "minimum_count": 1, "maximum_count": 1 },
+    { "item": "cobblemon:ice_stone", "minimum_level": 60, "base_weight": 0.5, "minimum_count": 1, "maximum_count": 1 },
+
+    { "item": "minecraft:emerald", "minimum_level": 65, "base_weight": 0.25, "minimum_count": 1, "maximum_count": 1 },
+    { "item": "minecraft:diamond", "minimum_level": 70, "base_weight": 0.5, "minimum_count": 1, "maximum_count": 1 }
+  ]
+}

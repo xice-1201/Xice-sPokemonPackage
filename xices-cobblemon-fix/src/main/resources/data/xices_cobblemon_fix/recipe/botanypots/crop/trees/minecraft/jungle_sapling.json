@@ -1,0 +1,47 @@
+{
+  "type": "botanypots:block_derived_crop",
+  "block": "minecraft:jungle_sapling",
+  "input": {
+    "item": "minecraft:jungle_sapling"
+  },
+  "soil": {
+    "tag": "botanypots:soil/dirt"
+  },
+  "grow_time": 2400,
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "xices_cobblemon_fix:botanypots/tree_sticks"
+    },
+    {
+      "type": "botanypots:items",
+      "items": [
+        {
+          "result": {
+            "id": "minecraft:jungle_log",
+            "count": 4
+          },
+          "chance": 1
+        },
+        {
+          "result": {
+            "id": "minecraft:jungle_sapling"
+          },
+          "chance": 0.1
+        },
+        {
+          "result": {
+            "id": "minecraft:cocoa_beans"
+          },
+          "chance": 0.005
+        },
+        {
+          "result": {
+            "id": "minecraft:vine"
+          },
+          "chance": 0.02
+        }
+      ]
+    }
+  ]
+}

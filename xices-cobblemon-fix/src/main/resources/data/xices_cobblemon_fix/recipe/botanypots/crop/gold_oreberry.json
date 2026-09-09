@@ -1,0 +1,24 @@
+{
+  "type": "botanypots:block_derived_crop",
+  "block": "twilightforest:gold_oreberry",
+  "input": {
+    "type": "bookshelf:either",
+    "fabric:type": "bookshelf:either",
+    "ingredients": [
+      { "item": "twilightforest:gold_oreberry" },
+      { "item": "twilightforest:gold_berry" }
+    ]
+  },
+  "soil": {
+    "type": "bookshelf:block_tag",
+    "fabric:type": "bookshelf:block_tag",
+    "tag": "xices_cobblemon_fix:oreberry_soils"
+  },
+  "grow_time": 1200,
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "twilightforest:blocks/gold_oreberry_bush_berries"
+    }
+  ]
+}

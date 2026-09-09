@@ -1,0 +1,9 @@
+{
+  "xices_cobblemon_fix.jei.sequenced_assembly.all_results": "全部可能产出：",
+  "xices_cobblemon_fix.jei.sequenced_assembly.byproducts": "副产物（发生副产物时）：",
+  "tooltip.xices_cobblemon_fix.disabled_item": "该物品已被禁用",
+  "container.xices_cobblemon_fix.poke_miner": "宝可梦挖掘机缓存",
+  "item.xices_cobblemon_fix.quest_botany_logs": "任意盆栽原木",
+  "item.xices_cobblemon_fix.quest_botany_saplings": "任意盆栽树苗",
+  "item.xices_cobblemon_fix.quest_brushes": "任意刷子"
+}

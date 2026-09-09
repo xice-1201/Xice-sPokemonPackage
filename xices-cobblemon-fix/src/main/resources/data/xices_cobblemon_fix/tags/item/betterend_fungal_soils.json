@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#botanypots:soil/mushroom",
+    "betterend:end_mycelium",
+    "betterend:cave_moss",
+    "betterend:end_moss"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "morebrushes:item/netherite_brush_brushing_2",
+  "textures": {
+    "layer1": "kubejs:item/reinforced_brush_overlay"
+  }
+}

@@ -1,0 +1,165 @@
+{
+	chapter_group.757C57BE3C0B9157.title: "Main Story"
+	chapter_group.5B436C31B9C8044B.title: "Industrial Age"
+	chapter_group.77E4B5DC69AEE112.title: "Pokémon Master"
+	chapter.12C065EAF5D85233.title: "Andesite Machine"
+	chapter.12C065EAF5D85233.chapter_subtitle: ["Unit 1: Automate Andesite Machines"]
+
+	quest.1B181AEE17D258BA.title: "Unit Goal"
+	quest.1B181AEE17D258BA.quest_desc: [
+		"Establish renewable supplies of &6andesite&r and &6iron nuggets&r, then automate &aandesite alloy production&r."
+	]
+	quest.3494B1B562755294.title: "Source: Cobblestone"
+	quest.3494B1B562755294.quest_desc: ["&6Cobblestone&r supplies the gravel, diorite and andesite branches of this production line."]
+	quest.23E04D5B5A258DE9.title: "Crush Cobblestone"
+	quest.23E04D5B5A258DE9.quest_desc: [
+		"Process cobblestone with a &6Millstone&r or &6Crushing Wheels&r to obtain &agravel&r."
+	]
+	quest.111219B9C652E950.title: "Crush Again"
+	quest.111219B9C652E950.quest_desc: ["Continue processing gravel to obtain &asand&r."]
+	quest.4085E0B8D493EEC7.title: "Haunting"
+	quest.4085E0B8D493EEC7.quest_subtitle: "Sand to Soul Sand"
+	quest.4085E0B8D493EEC7.quest_desc: ["Blow air through &dsoul fire&r to haunt sand into &asoul sand&r."]
+	quest.3071AD99DE7FEFD4.title: "Wash for Quartz"
+	quest.3071AD99DE7FEFD4.quest_desc: [
+		"Wash soul sand. Each piece has a &e12.5%&r chance to produce &a4 quartz&r, averaging &e0.5 quartz&r per soul sand."
+	]
+	quest.7BCE4DBF1B23F135.title: "Mix Diorite"
+	quest.7BCE4DBF1B23F135.quest_desc: [
+		"Mix &eone cobblestone&r and &eone quartz&r in a basin to produce &aone diorite&r."
+	]
+	quest.33E0D70E769113AF.title: "Andesite"
+	quest.33E0D70E769113AF.quest_desc: [
+		"Combine &6cobblestone&r with &6diorite&r to produce &aandesite&r. Use an &bautomatic crafting method&r for continuous production."
+	]
+	quest.5E80EE8275138878.title: "Iron Source: Oreberries"
+	quest.5E80EE8275138878.quest_desc: [
+		"Grow &6iron oreberries&r in &6Botany Pots&r and smelt the berries into &airon nuggets&r."
+	]
+	quest.68DC91A15C50BE88.title: "Iron Source: Pokémon Miner"
+	quest.68DC91A15C50BE88.quest_desc: [
+		"A Pokémon that knows &6Dig&r can operate the miner. Smelt its &araw iron&r output and convert the ingots into nuggets."
+	]
+	quest.5C24C4BBB40A10C0.title: "Iron Source: Crimsite"
+	quest.5C24C4BBB40A10C0.quest_desc: [
+		"Mix &6crimsite&r, crush it, wash the &6crushed raw iron&r and recycle enough crushed raw iron to keep the &bloop running&r."
+	]
+	quest.7CFAB4285B014A3B.title: "Iron Nugget Junction"
+	quest.7CFAB4285B014A3B.quest_desc: ["Complete any one of the &bthree iron-production branches&r and process its output into &airon nuggets&r."]
+	quest.357D6820E30E354A.title: "Andesite Alloy"
+	quest.357D6820E30E354A.quest_desc: ["Mix &eone andesite&r with &eone iron nugget&r in a basin to produce &aandesite alloy&r."]
+	quest.229549D68945DB4B.title: "Core of the Andesite Age"
+	quest.229549D68945DB4B.quest_subtitle: "Mass Production"
+	quest.229549D68945DB4B.quest_desc: [
+		"Normally, every Create component would need its own production line."
+		"In this pack, &6Andesite Machines&r can be cut into most components associated with Andesite Alloy."
+		"Submit a &efull stack of Andesite Machines&r to prove that your automated production line can run reliably."
+	]
+	quest.2B90DCA68E7DB545.title: "Water and Lava"
+	quest.2B90DCA68E7DB545.quest_subtitle: "The basis of cobblestone generation"
+	quest.2B90DCA68E7DB545.quest_desc: [
+		"Obtain &bone water bucket&r and &cone lava bucket&r. This detection task &adoes not consume&r either item."
+	]
+	quest.7820E76D7A0A937D.title: "Mechanical Generator"
+	quest.7820E76D7A0A937D.quest_desc: ["Connect the generator to &brotational power&r, then right-click it with &6cobblestone&r to select cobblestone as its output."]
+	quest.2485E6A0D0B5981A.title: "A Less Peaceful Source of Iron"
+	quest.2485E6A0D0B5981A.quest_subtitle: "...the iron golem was not spared after all"
+	quest.2485E6A0D0B5981A.quest_desc: ["&cKill an iron golem yourself&r to complete this hidden quest. Kills caused by the environment or another entity &cdo not count&r."]
+	quest.007E1262811EE807.title: "Tree Farming"
+	quest.007E1262811EE807.quest_subtitle: "To get rich, first..."
+	quest.007E1262811EE807.quest_desc: [
+		"Most trees in this modpack are compatible with &6Botany Pots&r. Nearly every supported sapling can be grown in a pot to &aautomate tree resources&r."
+		"Botany Pots take &bfar less space&r than contraptions and are easier to arrange."
+		"&eDifferent trees have different yields&r."
+	]
+	quest.2A31A8A43BA8099A.title: "Log"
+	quest.2A31A8A43BA8099A.quest_subtitle: "Are you not going to strip it?"
+	quest.2A31A8A43BA8099A.quest_desc: [
+		"&6Logs&r are one of the foundations of Minecraft."
+		"Planks, slabs, fences, trapdoors... you will need all of them."
+		"In Create, &estripped logs&r are often more useful than untreated logs."
+	]
+	quest.541C70325884EC83.title: "Cogwheel"
+	quest.541C70325884EC83.quest_subtitle: "What do you mean you built a wall of cogwheels?"
+	quest.541C70325884EC83.quest_desc: [
+		"&6Cogwheels&r are among Create's core kinetic blocks."
+		"They can transfer rotational force over short distances, &bchange speed and reverse rotation&r."
+		"Use dedicated transmission blocks for long distances instead of &ccovering everything in cogwheels&r."
+	]
+	quest.5A87E4D193C6B20F.title: "Pulp"
+	quest.5A87E4D193C6B20F.quest_subtitle: "It starts with a basin of soggy fibres"
+	quest.5A87E4D193C6B20F.quest_desc: [
+		"Mix &6pulpifiable plant material&r with water in a Basin to produce &apulp&r."
+		"Pulp can then be &bpressed&r into &acardboard&r."
+	]
+	quest.419593F97FA56316.title: "Cardboard"
+	quest.419593F97FA56316.quest_subtitle: "Papermaking"
+	quest.419593F97FA56316.quest_desc: [
+		"Press &6pulp&r to obtain &acardboard&r."
+		"Cardboard can be made into a full set of armour and a weapon. Their effectiveness is... &edistinctive&r."
+	]
+	quest.6D5EC89E987553B7.title: "Andesite Mechanism"
+	quest.6D5EC89E987553B7.quest_subtitle: "Which genius invented sequenced assembly?"
+	quest.6D5EC89E987553B7.quest_desc: [
+		"The &6Andesite Mechanism&r may be the first &bsequenced assembly recipe&r you encounter—and probably the simplest one."
+		"Its main purpose is the production of &6Andesite Machines&r."
+	]
+	quest.02B39137162D47D2.title: "Mechanical Mixer"
+	quest.02B39137162D47D2.quest_subtitle: "How did two rocks become one?"
+	quest.02B39137162D47D2.quest_desc: [
+		"A &6Mechanical Mixer&r normally operates above a &6Basin&r."
+		"Place ingredients in the Basin and the Mixer will automatically perform matching mixing recipes. The Basin can expose an output side automatically, often &bsaving you an extra funnel&r."
+		"Mechanical Mixers can also automate &bshapeless crafting recipes&r."
+	]
+	quest.0A8066D8AFF0F0D9.title: "Crushing Wheel"
+	quest.0A8066D8AFF0F0D9.quest_subtitle: "Mind the machinery"
+	quest.0A8066D8AFF0F0D9.quest_desc: [
+		"&6Crushing Wheels&r are heavy machinery used for &bbulk crushing recipes&r."
+		"Besides processing valid recipes, they will &cdestroy unsupported items—and living creatures caught between them&r."
+	]
+	quest.672F343D14763185.title: "Encased Fan"
+	quest.672F343D14763185.quest_subtitle: "How much can bulk processing do again?"
+	quest.672F343D14763185.quest_desc: [
+		"An &6Encased Fan&r can push or pull an air current, moving items and entities along its path."
+		"Passing the airflow through catalysts such as &bwater&r, &cfire&r, &dsoul fire&r, &esand&r or &5dragon breath&r changes how it processes items."
+		"One airflow can process multiple item entities at once, and each item stack is processed as a whole. Practical throughput mainly depends on &binput, transport and output collection speed&r."
+	]
+	quest.78E720EF3A66BB33.title: "Fan Catalyst"
+	quest.78E720EF3A66BB33.quest_subtitle: "Water in the Nether? No problem."
+	quest.78E720EF3A66BB33.quest_desc: [
+		"&6Fan Catalysts&r safely preserve the medium used to modify an Encased Fan's airflow."
+		"Right-click an &6Empty Fan Catalyst&r with the corresponding material to create the desired catalyst. It will not react with the surrounding environment—for example, &bcontained lava will not turn into obsidian&r."
+	]
+	task.0D73296A0D1C8C37.title: "Iron Golem"
+	quest.2D5407EE6844379F.quest_desc: [
+		"Pokémon in the &6Slugma and Numel families&r can produce lava. Interact with them while holding an &6empty bucket&r to obtain a &alava bucket&r."
+		"Interacting with Slugma has a &e7-second&r cooldown, while Numel has a &e3-second&r cooldown. Magcargo and Camerupt, by comparison, can be interacted with repeatedly and have &ano cooldown&r."
+	]
+	quest.2D5407EE6844379F.quest_subtitle: "Let Pokémon help you build the production line!"
+	quest.2D5407EE6844379F.title: "Obtaining Lava"
+	task.4C57A0A43EB16D92.title: "Own any Pokémon from the Slugma or Numel family"
+	quest.76ADE155346B278D.quest_desc: [
+		"A &6Hose Pulley&r can be used to obtain an &aunlimited supply of lava&r."
+		"Lower its hose into a sufficiently large lava pool, ensuring that at least &e10,000 connected lava source blocks&r lie above the hose end. It can then pump &awithout consuming&r the lava pool."
+		"That pool &creally takes up a lot of space&r..."
+	]
+	quest.76ADE155346B278D.quest_subtitle: "A thundering great pool"
+	quest.76ADE155346B278D.title: "Obtaining Lava"
+	quest.369585D85B9AFDBE.quest_desc: [
+		"Pokémon in the &6Klink family&r can provide you with &acogwheels&r directly—provided you keep them &ewell fed&r."
+		"&6Mechanical Nutrient Blocks&r are quality food made for them. Feed one to receive &aplenty of cogwheels&r, with &ano cooldown&r."
+		"Klink produces &a2 Cogwheels&r each time, Klang produces &a2 Cogwheels + 1 Large Cogwheel&r, and Klinklang produces &a3 Cogwheels + 2 Large Cogwheels&r."
+	]
+	quest.369585D85B9AFDBE.quest_subtitle: "Let Pokémon help you build the production line!"
+	quest.369585D85B9AFDBE.title: "Obtaining Cogwheels"
+	quest.3ED018DA4D2436EA.quest_desc: [
+		"Pokémon from the &6Hippopotas and Silicobra families&r can provide &asand&r. Interact with them using &bany brush&r."
+		"The &6Hippopotas family&r provides large batches: Hippopotas produces &a16 sand&r and Hippowdon produces &a48 sand&r per interaction. They then need to rest for &eone minute&r."
+		"The &6Silicobra family&r provides smaller batches: Silicobra produces &a1 sand&r and Sandaconda produces &a3 sand&r per interaction. In return, their sand production has &ano cooldown&r."
+	]
+	quest.3ED018DA4D2436EA.quest_subtitle: "Let Pokémon help you build the production line!"
+	quest.3ED018DA4D2436EA.title: "Obtaining Sand"
+	task.3D6EA7C67687341F.title: "Own any Pokémon from the Hippopotas or Silicobra family"
+	task.58D4057071DC0A7B.title: "Own any brush"
+	task.1BAE4C318D7BD863.title: "Own any Pokémon from the Klink family"
+}

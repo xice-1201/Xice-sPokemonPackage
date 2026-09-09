@@ -1,0 +1,20 @@
+{
+  "parent": "morebrushes:item/netherite_brush",
+  "textures": {
+    "layer1": "kubejs:item/reinforced_brush_overlay"
+  },
+  "overrides": [
+    {
+      "predicate": { "brushing": 0.25 },
+      "model": "kubejs:item/reinforced_brush_brushing_0"
+    },
+    {
+      "predicate": { "brushing": 0.5 },
+      "model": "kubejs:item/reinforced_brush_brushing_1"
+    },
+    {
+      "predicate": { "brushing": 0.75 },
+      "model": "kubejs:item/reinforced_brush_brushing_2"
+    }
+  ]
+}

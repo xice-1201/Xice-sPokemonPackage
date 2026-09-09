@@ -5,8 +5,8 @@
   "modLoaderVersion": "21.1.250",
   "javaMajorVersion": 21,
   "cobblemonVersion": "1.8.0",
-  "generatedAtUtc": "2026-09-08T13:42:05Z",
-  "modCount": 50,
+  "generatedAtUtc": "2026-09-09T16:22:13Z",
+  "modCount": 73,
   "mods": [
     {
       "file": "[传送石碑／指路石] waystones-neoforge-1.21.1-21.1.42.jar",
@@ -22,6 +22,46 @@
       "file": "[方块宝可梦] Cobblemon-neoforge-1.8.0+1.21.1.jar",
       "sizeBytes": 163957653,
       "sha256": "49994513e740408afc6fe1d03e879c1ed7f42f8245020406d8872a1ee7961fda"
+    },
+    {
+      "file": "[更多刷子] morebrushes-1.7-neoforge-mc1.21.1.jar",
+      "sizeBytes": 73191,
+      "sha256": "0370a7bc6dc63c581df1002fc041ce445ecac3a82526741d9678d720c32fe570"
+    },
+    {
+      "file": "[更好的植物盆栽] botanypotstiers-neoforge-1.21.1-7.0.11.jar",
+      "sizeBytes": 1550980,
+      "sha256": "2b7e569b7f095d9c72653e9f37b06558afe136fd6ef4afe2c524a2927147af35"
+    },
+    {
+      "file": "[机械动力：柴油动力] createdieselgenerators-1.21.1-1.3.15.jar",
+      "sizeBytes": 3154746,
+      "sha256": "56ef1d574278fc311f1ffa223dbd613077b899354a18d01ae8dca2578a4e2990"
+    },
+    {
+      "file": "[机械动力：创意传动] create_connected-1.3.3-mc1.21.1.jar",
+      "sizeBytes": 6786783,
+      "sha256": "0c5eb9ffb5c8d71e6e2a39023feb85c51adfb10d38949bc47c4abbd53b351a4f"
+    },
+    {
+      "file": "[机械动力：动力加载器] create_power_loader-2.0.5-mc1.21.1.jar",
+      "sizeBytes": 442369,
+      "sha256": "69fb0433dcba1597e7fbc06b2731ebd441f8ed99e20d8ec798d852d6865d1bd7"
+    },
+    {
+      "file": "[机械动力：附魔工业] create-enchantment-industry-2.5.3b.jar",
+      "sizeBytes": 1606407,
+      "sha256": "02b6bae86ca2f33dc11c8af34324c6c484f1febc6649ec6b04936451590785c1"
+    },
+    {
+      "file": "[机械动力：龙+] CreateDragonsPlus-1.11.8b.jar",
+      "sizeBytes": 1048120,
+      "sha256": "f2b5c106241d5d9b0b33ab41ff1f6d145b92038e7ffde3d9b07b37639f065445"
+    },
+    {
+      "file": "[机械动力：无人机物流] create_mobile_packages-1.21.1-0.7.7.jar",
+      "sizeBytes": 605614,
+      "sha256": "353bd6cd1e75f9e85241fb4e7147153d83a983569cb67ca9a6cc4d3fe2da7a80"
     },
     {
       "file": "[机械动力] create-1.21.1-6.0.10.jar",
@@ -69,6 +109,11 @@
       "sha256": "d87ea28262715ebff45b8a82d493e6b468e7a4521bc021df5d88302196d030a8"
     },
     {
+      "file": "[犀牛] rhino-2101.2.8-build.91.jar",
+      "sizeBytes": 980936,
+      "sha256": "1d53d962aa4dac54bcbb4f998c1845980cf194318f1d6b1580ea6ac15cce5ef3"
+    },
+    {
       "file": "[现代化修复] modernfix-neoforge-5.27.24+mc1.21.1.jar",
       "sizeBytes": 604333,
       "sha256": "e6e9446890f0feb3aab3f6e73ae18cb17575c370f232179fef7baa30e61538fe"
@@ -82,6 +127,11 @@
       "file": "[玉 🔍] Jade-1.21.1-NeoForge-15.10.6.jar",
       "sizeBytes": 726853,
       "sha256": "276f1f65a20d04f536989c4f311949d770b52c440c23c2b904a08860f3c93810"
+    },
+    {
+      "file": "[植物盆栽] botanypots-neoforge-1.21.1-21.1.44.jar",
+      "sizeBytes": 1068816,
+      "sha256": "45b23ac195511f724f62ab5f0c2d7a1c2c2403ff324a7403a1142e28a7d65edd"
     },
     {
       "file": "[自然罗盘／生物群系指南针] NaturesCompass-1.21.1-3.4.0-neoforge.jar",
@@ -144,9 +194,19 @@
       "sha256": "73ba7957d61588189eb35415f2ce9b063e7d4a102c6a4757582ba8fad310f2e0"
     },
     {
+      "file": "better-advanced-tooltips-2101.1.0-build.5.jar",
+      "sizeBytes": 37653,
+      "sha256": "0f76d46f2f18eb67e67c7974170d7b27deb66473396461c8dc50d6949de1449b"
+    },
+    {
       "file": "BetterEnd-21.0.34.jar",
       "sizeBytes": 97673585,
       "sha256": "45befc75466153f2f62d8c17a790b58ce794a4216ea152fc21190aa9dc40a440"
+    },
+    {
+      "file": "bookshelf-neoforge-1.21.1-21.1.81.jar",
+      "sizeBytes": 328813,
+      "sha256": "19e88d40da2b6a114c2b808f7fb469d96e66a5379df0a8a43fcb7834498b3e76"
     },
     {
       "file": "cloth-config-15.0.140-neoforge.jar",
@@ -154,9 +214,24 @@
       "sha256": "65e722e0d98431a07c45f8bdd8d529a217cc8c175fde1740248bd5c1b4f3c0d4"
     },
     {
+      "file": "cobbledex-rei-emi-jei-neoforge-2.23.0.jar",
+      "sizeBytes": 5276872,
+      "sha256": "8834c7c23eb7af2aca6f2d99203e10cee18dde35dd529752d35eee4122180961"
+    },
+    {
+      "file": "cobblemon_quests-[1.21.1]-neoforge-1.2.0.jar",
+      "sizeBytes": 65748,
+      "sha256": "2335926e42be71d0019979d51760f8eb2b010faa28a0aea538948525d99d2bf2"
+    },
+    {
       "file": "cobblemon_smartphone-neoforge-1.1.3-patch1.8.0.jar",
       "sizeBytes": 1521199,
       "sha256": "49218b486d5919418585b90a212832c0bcaccf42124b789de6d15bab946e2660"
+    },
+    {
+      "file": "cobblemon_workforce-neoforge-1.0.1.jar",
+      "sizeBytes": 586892,
+      "sha256": "49ece248f8d95e9828f8f1c6d785459ab318d086793af36a0d968f6fabb49f5a"
     },
     {
       "file": "cobblemon-battle-extras-neoforge-1.13.45.jar",
@@ -179,9 +254,34 @@
       "sha256": "2bbe515e7821a76ab010722e12cddb4073d1fd8bd129843a1c7ac415f8b772ec"
     },
     {
+      "file": "cobbleworkers-neoforge-2.0.5+1.8.0.jar",
+      "sizeBytes": 272723,
+      "sha256": "ef6e70c86d2a5e1e1fba284109620dd4a01ffe47ef0b2fec0c5e2418af1cfb23"
+    },
+    {
+      "file": "ContingameIME-Neo-1.3.0-1.21.1-neoforge.jar",
+      "sizeBytes": 273227,
+      "sha256": "f7b90d172a4bc67dcf89ceef7ec8861fcf6b7d07419624766d4a66c4f6575cc9"
+    },
+    {
       "file": "continuity-3.0.0+1.21.neoforge.jar",
       "sizeBytes": 1014626,
       "sha256": "4cc0a4a09ae09c64bb567e42381652b700f9cade5067a75e83115662cc475f0a"
+    },
+    {
+      "file": "create_compressed-2.2.0-neoforge-1.21.1.jar",
+      "sizeBytes": 158961,
+      "sha256": "8c0c86a75aa082fd603eb61dfdc72d028b01b1a7bdad377ed2de64ace95b5622"
+    },
+    {
+      "file": "createages-0.6.1.jar",
+      "sizeBytes": 366806,
+      "sha256": "6230640a7afce87d4b027ec7dd941f9308ac5597e7091eb99c928323a850016b"
+    },
+    {
+      "file": "createcobblestone-1.5.0+neoforge-1.21.1-153.jar",
+      "sizeBytes": 573391,
+      "sha256": "a2c8bffb1ebd3fcc0f381a6be498bc16c6990bd31bff1f5c0852ffe5ed35eaf4"
     },
     {
       "file": "curios-neoforge-9.5.1+1.21.1.jar",
@@ -199,6 +299,11 @@
       "sha256": "be7b2bd0b5370a9951624a1d84fd802efecae88d5a0cd24552731f887430599d"
     },
     {
+      "file": "ftb-xmod-compat-neoforge-21.1.8.jar",
+      "sizeBytes": 141328,
+      "sha256": "7e04b6d10e8eb6bac55f023d3d88ac3e8e146e57c3bb912462155ad1e49b3ca1"
+    },
+    {
       "file": "ImmediatelyFast-NeoForge-1.6.13+1.21.1.jar",
       "sizeBytes": 362740,
       "sha256": "fa3aec87e9880d0a8ab9663c96ad0206fd59de5e71acfccbebc264f7ad0ae153"
@@ -212,6 +317,11 @@
       "file": "kotlinforforge-5.12.0-all.jar",
       "sizeBytes": 7279264,
       "sha256": "2785a4dd6de5c6c56065fd8eb789c82771bd2ee773c30794c23160a3b2c39139"
+    },
+    {
+      "file": "kubejs-neoforge-2101.7.2-build.377.jar",
+      "sizeBytes": 2294111,
+      "sha256": "43b656bc2d4ce867141abb828c9481f080a38585b99bcfa07e54732a4976a601"
     },
     {
       "file": "mega_showdown-neoforge-1.0+1.8+1.21.1-release-hotfix.jar",
@@ -234,6 +344,11 @@
       "sha256": "de6ed336bd80154b7241a7b3276694befc1c94550add8bcdfe7f82e5172fd13d"
     },
     {
+      "file": "prickle-neoforge-1.21.1-21.1.11.jar",
+      "sizeBytes": 84812,
+      "sha256": "ccf46c442ed3c7fe41ad056f0940560829ec4dd88360985dfacd78f4614eb167"
+    },
+    {
       "file": "smartphoneprogression-1.0.1.jar",
       "sizeBytes": 50959,
       "sha256": "cd51af9f9c96f7dae559ab1fe3e47bf04133ec9992ce3f8342790ec127083f2e"
@@ -249,9 +364,9 @@
       "sha256": "b49c7a040f87ade1e3f73bd7335e8d68ff7a328919c192a6d2c022bae6786a2f"
     },
     {
-      "file": "xices_cobblemon_fix-1.0.11.jar",
-      "sizeBytes": 27344,
-      "sha256": "fffe9ebe75450be0e9a70b51015d3efa262bf8cc4acad25988b5514bef8b20db"
+      "file": "xices_cobblemon_fix-1.0.42.jar",
+      "sizeBytes": 145248,
+      "sha256": "e46ec3714f5940981f96a20b4ca9fafcc9cd9dcd7197cfd3cba46ca0085c757b"
     },
     {
       "file": "YungsApi-1.21.1-NeoForge-5.1.8.jar",

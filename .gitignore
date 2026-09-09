@@ -30,13 +30,14 @@ TrashSlotSaveState.json
 
 # Third-party binaries are represented by pack-info.json and MODLIST.md
 *.jar
-!mods/xices_cobblemon_fix-1.0.11.jar
+!mods/xices_cobblemon_fix-1.0.42.jar
 !mods/smartphoneprogression-1.0.1.jar
 
 # Build output and local Gradle state
 **/.gradle/
 **/build/
 **/disabled/
+**/.tmp/
 **/__pycache__/
 *.class
 
@@ -50,3 +51,8 @@ Thumbs.db
 # Per-world UI history and generated caches
 config/jei/world/
 config/wover/cached.json
+/local/
+/cobbledex-export/
+/cobbledex-sprites/
+/command_history.txt
+/kubejs/config/web_server.json

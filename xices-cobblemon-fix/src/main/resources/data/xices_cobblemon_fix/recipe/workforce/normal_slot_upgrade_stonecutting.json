@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": { "item": "cobblemon_workforce:slot_upgrade" },
+  "result": { "id": "cobblemon_workforce:normal_slot_upgrade", "count": 1 }
+}

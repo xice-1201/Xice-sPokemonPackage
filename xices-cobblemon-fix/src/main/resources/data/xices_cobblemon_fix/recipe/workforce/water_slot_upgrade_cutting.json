@@ -1,0 +1,6 @@
+{
+  "type": "create:cutting",
+  "ingredients": [{ "item": "cobblemon_workforce:slot_upgrade" }],
+  "processing_time": 50,
+  "results": [{ "id": "cobblemon_workforce:water_slot_upgrade", "count": 1 }]
+}

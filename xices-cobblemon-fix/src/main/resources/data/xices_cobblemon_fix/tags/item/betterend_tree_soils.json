@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "#botanypots:soil/end",
+    "betterend:shadow_grass",
+    "betterend:amber_moss",
+    "betterend:end_moss",
+    "betterend:rutiscus",
+    "betterend:pink_moss",
+    "betterend:jungle_moss",
+    "betterend:chorus_nylium",
+    "betterend:end_mycelium",
+    "betterend:cave_moss",
+    "betterend:endstone_dust"
+  ]
+}

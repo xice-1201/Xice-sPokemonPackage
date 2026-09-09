@@ -1,0 +1,22 @@
+{
+  "disableIMEInCommandMode": true,
+  "autoReplaceSlashChar": true,
+  "slashChars": [
+    "、",
+    "・"
+  ],
+  "candidateHighlightColor": "AA8799DD",
+  "candidateSelectedTextColor": "FF0FF796",
+  "candidatePanelBackgroundColor": "FF0E1819",
+  "candidateTextColor": "FFC5C5C5",
+  "candidatePanelBorderColor": "FFB8B8B8",
+  "candidatePanelBorderEnabled": false,
+  "candidateRoundedEnabled": false,
+  "candidateCornerRadius": 3,
+  "candidateSelectionHighlightEnabled": true,
+  "candidateLayout": "HORIZONTAL",
+  "candidateSelectionStyle": "TEXT_COLOR",
+  "candidatePanelPreset": "CUSTOM",
+  "candidatePreset": "CUSTOM",
+  "forceFullscreenCandidateInWindowed": true
+}

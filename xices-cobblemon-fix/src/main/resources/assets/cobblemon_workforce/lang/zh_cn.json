@@ -1,0 +1,18 @@
+{
+  "block.cobblemon_workforce.poke_generator": "宝可梦能源发生器",
+  "block.cobblemon_workforce.poke_farm": "宝可梦农场",
+  "block.cobblemon_workforce.poke_vacuum": "宝可梦物品收集器",
+  "block.cobblemon_workforce.poke_miner": "宝可梦挖掘机",
+  "block.cobblemon_workforce.poke_crusher": "宝可梦粉碎机",
+  "block.cobblemon_workforce.poke_breeder": "宝可梦培育设备",
+  "block.cobblemon_workforce.poke_furnace": "宝可梦熔炉",
+  "block.cobblemon_workforce.poke_lumber": "宝可梦伐木机",
+  "item.cobblemon_workforce.iron_dust": "铁粉",
+  "item.cobblemon_workforce.copper_dust": "铜粉",
+  "item.cobblemon_workforce.gold_dust": "金粉",
+  "item.cobblemon_workforce.slot_upgrade": "槽位升级",
+  "item.cobblemon_workforce.water_slot_upgrade": "水属性槽位升级",
+  "item.cobblemon_workforce.normal_slot_upgrade": "物流槽位升级",
+  "item.cobblemon_workforce.plant_slot_upgrade": "草属性槽位升级",
+  "itemGroup.cobblemon_workforce.workforce_tab": "宝可梦劳动力"
+}

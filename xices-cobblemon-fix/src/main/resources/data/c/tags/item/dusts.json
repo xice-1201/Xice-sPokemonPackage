@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [],
+  "remove": [
+    "cobblemon_workforce:iron_dust",
+    "cobblemon_workforce:copper_dust",
+    "cobblemon_workforce:gold_dust"
+  ]
+}

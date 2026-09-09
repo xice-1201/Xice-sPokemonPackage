@@ -1,0 +1,43 @@
+{
+  "type": "botanypots:block_derived_crop",
+  "block": "betterend:umbrella_tree_sapling",
+  "input": {
+    "item": "betterend:umbrella_tree_sapling"
+  },
+  "soil": {
+    "tag": "xices_cobblemon_fix:betterend_tree_soils"
+  },
+  "grow_time": 2400,
+  "drops": [
+    {
+      "type": "botanypots:items",
+      "items": [
+        {
+          "result": {
+            "id": "betterend:umbrella_tree_log",
+            "count": 4
+          },
+          "chance": 1
+        },
+        {
+          "result": {
+            "id": "betterend:umbrella_tree_sapling"
+          },
+          "chance": 0.1
+        },
+        {
+          "result": {
+            "id": "betterend:umbrella_tree_membrane"
+          },
+          "chance": 0.1
+        },
+        {
+          "result": {
+            "id": "betterend:umbrella_tree_cluster"
+          },
+          "chance": 0.05
+        }
+      ]
+    }
+  ]
+}

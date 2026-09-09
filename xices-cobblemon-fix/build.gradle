@@ -25,6 +25,17 @@ neoForge {
 dependencies {
     compileOnly files('../mods/[方块宝可梦] Cobblemon-neoforge-1.8.0+1.21.1.jar')
     compileOnly files('../mods/cobblemonintegrations-neoforge-1.21.1-1.1.6.jar')
+    compileOnly files('../mods/[JEI物品管理器] jei-1.21.1-neoforge-19.53.0.426.jar')
+    compileOnly files('../mods/[机械动力] create-1.21.1-6.0.10.jar')
+    compileOnly files('../mods/[植物盆栽] botanypots-neoforge-1.21.1-21.1.44.jar')
+    compileOnly files('../mods/bookshelf-neoforge-1.21.1-21.1.81.jar')
+    compileOnly files('../mods/createages-0.6.1.jar')
+    compileOnly files('../mods/cobblemon_workforce-neoforge-1.0.1.jar')
+    compileOnly files('../mods/architectury-13.0.11-neoforge.jar')
+    compileOnly files('../mods/[FTB 任务] ftb-quests-neoforge-2101.1.34.jar')
+    compileOnly files('../mods/ftb-library-neoforge-2101.1.35.jar')
+    compileOnly files('../mods/ftb-xmod-compat-neoforge-21.1.8.jar')
+    compileOnly files('../mods/cobblemon_quests-[1.21.1]-neoforge-1.2.0.jar')
     compileOnly files(zipTree('../mods/kotlinforforge-5.12.0-all.jar').matching {
         include 'META-INF/jarjar/kotlin-stdlib-2.4.0.jar'
     })

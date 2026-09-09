@@ -1,0 +1,47 @@
+{
+  "type": "botanypots:block_derived_crop",
+  "block": "betterend:tenanea_sapling",
+  "input": {
+    "item": "betterend:tenanea_sapling"
+  },
+  "soil": {
+    "tag": "xices_cobblemon_fix:betterend_tree_soils"
+  },
+  "grow_time": 2400,
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "xices_cobblemon_fix:botanypots/tree_sticks"
+    },
+    {
+      "type": "botanypots:items",
+      "items": [
+        {
+          "result": {
+            "id": "betterend:tenanea_log",
+            "count": 4
+          },
+          "chance": 1
+        },
+        {
+          "result": {
+            "id": "betterend:tenanea_sapling"
+          },
+          "chance": 0.1
+        },
+        {
+          "result": {
+            "id": "betterend:tenanea_leaves"
+          },
+          "chance": 0.1
+        },
+        {
+          "result": {
+            "id": "betterend:tenanea_flowers"
+          },
+          "chance": 0.05
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,678 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "andesite_machine"
+	group: "5B436C31B9C8044B"
+	icon: {
+		id: "createages:andesite_machine"
+	}
+	id: "12C065EAF5D85233"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependent_lines: true
+			icon: {
+				id: "create:goggles"
+			}
+			id: "1B181AEE17D258BA"
+			rewards: [
+				{
+					id: "698237E5D862200B"
+					item: {
+						count: 1
+						id: "create:goggles"
+					}
+					type: "item"
+				}
+				{
+					id: "2359C6ECFF6F2FDF"
+					item: {
+						count: 1
+						id: "create:wrench"
+					}
+					type: "item"
+				}
+				{
+					count: 20
+					id: "5EFC0085A53BB7E7"
+					item: {
+						count: 1
+						id: "createages:andesite_machine"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "54BCF22B3FAB45CE"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D5EC89E987553B7"]
+			id: "229549D68945DB4B"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				id: "33ACEA5603B25D7E"
+				item: { count: 1, id: "createages:andesite_machine" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2B90DCA68E7DB545"
+				"7820E76D7A0A937D"
+			]
+			dependency_requirement: "one_completed"
+			id: "3494B1B562755294"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "00EB0056AED3EAF2"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3494B1B562755294"
+				"0A8066D8AFF0F0D9"
+			]
+			id: "23E04D5B5A258DE9"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "5E0AC95DCF79B8B1"
+				item: { count: 1, id: "minecraft:gravel" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"23E04D5B5A258DE9"
+				"0A8066D8AFF0F0D9"
+				"3ED018DA4D2436EA"
+			]
+			dependency_requirement: "one_completed"
+			id: "111219B9C652E950"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "1CD5349E738C94E3"
+				item: { count: 1, id: "minecraft:sand" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"111219B9C652E950"
+				"672F343D14763185"
+			]
+			id: "4085E0B8D493EEC7"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "3A6ABC3C06EA1BA8"
+				item: { count: 1, id: "minecraft:soul_sand" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4085E0B8D493EEC7"]
+			id: "3071AD99DE7FEFD4"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "440ECEDF227EB088"
+				item: { count: 1, id: "minecraft:quartz" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3494B1B562755294"
+				"3071AD99DE7FEFD4"
+				"02B39137162D47D2"
+			]
+			id: "7BCE4DBF1B23F135"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "20D06913E58411DE"
+				item: { count: 1, id: "minecraft:diorite" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3494B1B562755294"
+				"7BCE4DBF1B23F135"
+				"02B39137162D47D2"
+			]
+			id: "33E0D70E769113AF"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "25AF0A143130B334"
+				item: { count: 1, id: "minecraft:andesite" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"33E0D70E769113AF"
+				"7CFAB4285B014A3B"
+			]
+			id: "357D6820E30E354A"
+			rewards: [{
+				count: 64
+				id: "582702C786646A87"
+				item: {
+					count: 1
+					id: "create:andesite_alloy"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "52CEBB309CD24BC4"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5E80EE8275138878"
+				"68DC91A15C50BE88"
+				"5C24C4BBB40A10C0"
+				"2485E6A0D0B5981A"
+			]
+			dependency_requirement: "one_completed"
+			id: "7CFAB4285B014A3B"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "0016D4DCCC267934"
+				item: { count: 1, id: "minecraft:iron_nugget" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B181AEE17D258BA"]
+			icon: {
+				id: "twilightforest:iron_berry"
+			}
+			id: "5E80EE8275138878"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: false
+					id: "1B91CB6C17CBFAA2"
+					item: { count: 1, id: "twilightforest:iron_berry" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "079844F489E25401"
+					item: { count: 1, id: "botanypots:terracotta_botany_pot" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B181AEE17D258BA"]
+			icon: {
+				id: "cobblemon_workforce:poke_miner"
+			}
+			id: "68DC91A15C50BE88"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: false
+					id: "2A7D0E8AB38DA429"
+					item: { count: 1, id: "cobblemon_workforce:poke_miner" }
+					type: "item"
+				}
+				{
+					id: "79C7AB2E20B19F24"
+					item: { count: 1, id: "cobblemon_workforce:normal_slot_upgrade" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2D5407EE6844379F"
+				"76ADE155346B278D"
+			]
+			dependency_requirement: "one_completed"
+			id: "5C24C4BBB40A10C0"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "48CBA217B86DCCB9"
+				item: { count: 1, id: "create:crimsite" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B181AEE17D258BA"]
+			id: "7820E76D7A0A937D"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "0B0DD5BF974D44E2"
+				item: { count: 1, id: "createcobblestone:mechanical_generator" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["1B181AEE17D258BA"]
+			id: "2B90DCA68E7DB545"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: false
+					id: "0E2B05D50CE00C4B"
+					item: { count: 1, id: "minecraft:lava_bucket" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1DA23CA9AD6472CD"
+					item: { count: 1, id: "minecraft:water_bucket" }
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["1B181AEE17D258BA"]
+			id: "2485E6A0D0B5981A"
+			invisible: true
+			shape: "gear"
+			tasks: [{
+				entity: "minecraft:iron_golem"
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:iron_golem"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "0D73296A0D1C8C37"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2A31A8A43BA8099A"
+				"357D6820E30E354A"
+				"369585D85B9AFDBE"
+			]
+			dependency_requirement: "one_completed"
+			id: "541C70325884EC83"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: false
+					id: "07DDE2CE92473E10"
+					item: { count: 1, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "04CB91983B198F02"
+					item: { count: 1, id: "create:large_cogwheel" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["007E1262811EE807"]
+			icon: {
+				id: "minecraft:oak_log"
+			}
+			id: "2A31A8A43BA8099A"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "5CCD0A96897A3B33"
+				item: { count: 1, id: "xices_cobblemon_fix:quest_botany_logs" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B181AEE17D258BA"]
+			icon: {
+				id: "minecraft:oak_sapling"
+			}
+			id: "007E1262811EE807"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: false
+					id: "57FF6436D620E186"
+					item: { count: 1, id: "xices_cobblemon_fix:quest_botany_saplings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1C12CBFBE66FD933"
+					item: { count: 1, id: "botanypots:terracotta_botany_pot" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A87E4D193C6B20F"]
+			id: "419593F97FA56316"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "0D633F69BF683804"
+				item: { count: 1, id: "create:cardboard" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"541C70325884EC83"
+				"419593F97FA56316"
+			]
+			id: "6D5EC89E987553B7"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "1C13CC7C6176FF49"
+				item: { count: 1, id: "createages:andesite_mechanism" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B181AEE17D258BA"]
+			id: "5A87E4D193C6B20F"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "6B9027A4CE5D318F"
+				item: { count: 1, id: "create:pulp" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1B181AEE17D258BA"]
+			id: "0A8066D8AFF0F0D9"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "29D53D54FF1BC098"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1B181AEE17D258BA"]
+			id: "672F343D14763185"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "55DDDB4CE51743ED"
+				item: { count: 1, id: "create:encased_fan" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["672F343D14763185"]
+			id: "78E720EF3A66BB33"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "6CD03AE07A801E19"
+				item: { count: 1, id: "create_connected:empty_fan_catalyst" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1B181AEE17D258BA"]
+			icon: {
+				id: "create:mechanical_mixer"
+			}
+			id: "02B39137162D47D2"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: false
+					id: "17BC71D81D616630"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1A057A0C898C64CF"
+					item: { count: 1, id: "create:basin" }
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B181AEE17D258BA"]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:slugma"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "2D5407EE6844379F"
+			shape: "circle"
+			tasks: [{
+				action: "have_registered"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "4C57A0A43EB16D92"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: "cobblemon:slugma,cobblemon:magcargo,cobblemon:numel,cobblemon:camerupt"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1B181AEE17D258BA"]
+			id: "76ADE155346B278D"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "3BD2C36ED07D1409"
+				item: { count: 1, id: "create:hose_pulley" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1B181AEE17D258BA"]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:klink"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "369585D85B9AFDBE"
+			shape: "circle"
+			tasks: [
+				{
+					action: "have_registered"
+					amount: 1L
+					biome: ""
+					dex_progress: "caught"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "1BAE4C318D7BD863"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:klink,cobblemon:klang,cobblemon:klinklang"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					consume_items: false
+					id: "4CE4774CAC81B30B"
+					item: { count: 1, id: "kubejs:mechanical_nutrient_block" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B181AEE17D258BA"]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:hippopotas"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "3ED018DA4D2436EA"
+			shape: "circle"
+			tasks: [
+				{
+					action: "have_registered"
+					amount: 1L
+					biome: ""
+					dex_progress: "caught"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "3D6EA7C67687341F"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:hippopotas,cobblemon:hippowdon,cobblemon:silicobra,cobblemon:sandaconda"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					consume_items: false
+					id: "58D4057071DC0A7B"
+					item: { count: 1, id: "xices_cobblemon_fix:quest_brushes" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -3.0d
+		}
+	]
+}

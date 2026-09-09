@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["BPB", "FCF", "SDS"],
+  "key": {
+    "B": { "item": "minecraft:blue_dye" },
+    "P": { "item": "cobblemon:pc" },
+    "F": { "tag": "minecraft:wooden_fences" },
+    "C": { "item": "minecraft:chest" },
+    "S": { "tag": "minecraft:wooden_slabs" },
+    "D": { "item": "create:mechanical_drill" }
+  },
+  "result": { "id": "cobblemon_workforce:poke_miner", "count": 1 }
+}

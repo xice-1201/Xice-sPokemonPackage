@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "betterend:dragon_tree_log",
+    "betterend:helix_tree_log",
+    "betterend:lacugrove_log",
+    "betterend:lucernia_log",
+    "betterend:mossy_glowshroom_log",
+    "betterend:pythadendron_log",
+    "betterend:tenanea_log",
+    "betterend:umbrella_tree_log",
+    "minecraft:acacia_log",
+    "minecraft:birch_log",
+    "minecraft:cherry_log",
+    "minecraft:dark_oak_log",
+    "minecraft:jungle_log",
+    "minecraft:mangrove_log",
+    "minecraft:oak_log",
+    "minecraft:spruce_log",
+    "twilightforest:canopy_log",
+    "twilightforest:dark_log",
+    "twilightforest:mangrove_log",
+    "twilightforest:mining_log",
+    "twilightforest:sorting_log",
+    "twilightforest:time_log",
+    "twilightforest:transformation_log",
+    "twilightforest:twilight_oak_log"
+  ]
+}

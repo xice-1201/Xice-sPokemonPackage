@@ -5,14 +5,33 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "CobblemonIntegrationsConfigMixin",
-    "SpawnWeightMixin"
+    "CobblemonQuestsPokedexMixin",
+    "CobblemonQuestsTaskMixin",
+    "CreateAgesEconomyManagerMixin$Bundles",
+    "CreateAgesEconomyManagerMixin$Professions",
+    "CreateAgesEconomyManagerMixin$ShipmentExports",
+    "CreateAgesEconomyManagerMixin$ShopOffers",
+    "CreateAgesEconomyMachineMixin",
+    "CreateAgesRecipeMixin",
+    "OwnedPokemonLavaBucketMixin",
+    "PokeMinerBlockEntityMixin",
+    "PokeMinerBlockMixin",
+    "PCInteractionCooldownMixin",
+    "ReinforcedBrushDurabilityMixin",
+    "SpawnWeightMixin",
+    "WorkForceLiteralMixin"
   ],
   "client": [
     "CaughtTooltipConditionMixin",
+    "BotanyPotRendererMixin",
+    "CreateAgesJeiPluginMixin",
     "DexStatusMappingsMixin",
     "DropsJeiCategoryMixin",
     "EncounteredTooltipConditionMixin",
-    "UnknownTooltipConditionMixin"
+    "FTBXModCompatJEIRecipeHelperMixin",
+    "SequencedAssemblyCategoryMixin",
+    "UnknownTooltipConditionMixin",
+    "WoverExperimentalWarningMixin"
   ],
   "injectors": {
     "defaultRequire": 1

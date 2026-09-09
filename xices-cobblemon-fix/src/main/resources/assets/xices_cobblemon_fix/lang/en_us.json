@@ -1,0 +1,9 @@
+{
+  "xices_cobblemon_fix.jei.sequenced_assembly.all_results": "All possible results:",
+  "xices_cobblemon_fix.jei.sequenced_assembly.byproducts": "Byproducts (when a byproduct occurs):",
+  "tooltip.xices_cobblemon_fix.disabled_item": "This item has been disabled",
+  "container.xices_cobblemon_fix.poke_miner": "Poke Miner Buffer",
+  "item.xices_cobblemon_fix.quest_botany_logs": "Any Potted Log",
+  "item.xices_cobblemon_fix.quest_botany_saplings": "Any Pottable Sapling",
+  "item.xices_cobblemon_fix.quest_brushes": "Any Brush"
+}

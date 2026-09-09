@@ -1,0 +1,42 @@
+{
+  "type": "botanypots:block_derived_crop",
+  "block": "minecraft:mangrove_propagule",
+  "input": {
+    "item": "minecraft:mangrove_propagule"
+  },
+  "soil": {
+    "tag": "botanypots:soil/dirt"
+  },
+  "grow_time": 2400,
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "xices_cobblemon_fix:botanypots/tree_sticks"
+    },
+    {
+      "type": "botanypots:items",
+      "items": [
+        {
+          "result": {
+            "id": "minecraft:mangrove_log",
+            "count": 3
+          },
+          "chance": 1
+        },
+        {
+          "result": {
+            "id": "minecraft:mangrove_propagule"
+          },
+          "chance": 0.1
+        },
+        {
+          "result": {
+            "id": "minecraft:mangrove_roots",
+            "count": 4
+          },
+          "chance": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "botanypots:block_derived_crop",
+  "block": "betterend:hydralux_sapling",
+  "input": {
+    "item": "betterend:hydralux_sapling"
+  },
+  "soil": {
+    "tag": "botanypots:soil/water"
+  },
+  "grow_time": 2400,
+  "drops": [
+    {
+      "type": "botanypots:items",
+      "items": [
+        {
+          "result": {
+            "id": "betterend:hydralux_petal",
+            "count": 4
+          },
+          "chance": 1
+        },
+        {
+          "result": {
+            "id": "betterend:hydralux_sapling"
+          },
+          "chance": 0.1
+        }
+      ]
+    }
+  ]
+}

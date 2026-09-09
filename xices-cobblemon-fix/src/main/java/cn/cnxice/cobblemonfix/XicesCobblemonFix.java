@@ -11,7 +11,9 @@ import com.cobblemon.mod.common.api.spawning.condition.SeafloorSpawningCondition
 import com.cobblemon.mod.common.api.spawning.condition.SubmergedSpawningCondition;
 import com.cobblemon.mod.common.api.spawning.condition.SurfaceSpawningCondition;
 import com.mojang.logging.LogUtils;
+import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
+import net.neoforged.neoforge.common.NeoForge;
 import org.slf4j.Logger;
 
 @Mod(XicesCobblemonFix.MOD_ID)
@@ -19,7 +21,13 @@ public final class XicesCobblemonFix {
     public static final String MOD_ID = "xices_cobblemon_fix";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public XicesCobblemonFix() {
+    public XicesCobblemonFix(IEventBus modEventBus) {
+        QuestFilterItems.ITEMS.register(modEventBus);
+        modEventBus.addListener(CreateAgesEconomyDisabledHandler::onCreativeTabContents);
+        modEventBus.addListener(BotanyPotsDisabledHandler::onCreativeTabContents);
+        modEventBus.addListener(WorkForceMinerCapabilities::register);
+        NeoForge.EVENT_BUS.addListener(WorkForceMinerLootManager::onReloadListeners);
+        QuestTreeItemFilter.register();
         AppendageCondition.Companion.registerAppendage(
                 GroundedSpawningCondition.class,
                 XiceSpawnConditionAppendage.class

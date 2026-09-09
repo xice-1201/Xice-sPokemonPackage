@@ -1,0 +1,108 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:large_cogwheel"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "createages:andesite_mechanism"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createages:incomplete_andesite_mechanism"
+        },
+        {
+          "tag": "minecraft:wooden_slabs"
+        }
+      ],
+      "results": [
+        {
+          "id": "createages:incomplete_andesite_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createages:incomplete_andesite_mechanism"
+        },
+        {
+          "item": "create:cogwheel"
+        }
+      ],
+      "results": [
+        {
+          "id": "createages:incomplete_andesite_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createages:incomplete_andesite_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "createages:incomplete_andesite_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createages:incomplete_andesite_mechanism"
+        },
+        {
+          "item": "create:cardboard"
+        }
+      ],
+      "results": [
+        {
+          "id": "createages:incomplete_andesite_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createages:incomplete_andesite_mechanism"
+        },
+        {
+          "item": "create:andesite_alloy"
+        }
+      ],
+      "results": [
+        {
+          "id": "createages:incomplete_andesite_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createages:incomplete_andesite_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "createages:incomplete_andesite_mechanism"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createages:incomplete_andesite_mechanism"
+  }
+}

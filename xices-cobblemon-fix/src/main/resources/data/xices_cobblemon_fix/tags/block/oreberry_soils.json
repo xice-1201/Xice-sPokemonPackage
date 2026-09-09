@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "#c:stones",
+    "#c:cobblestones",
+    "#c:ores",
+    "#c:end_stones",
+    "minecraft:netherrack",
+    "minecraft:blackstone",
+    "minecraft:basalt",
+    "minecraft:smooth_basalt",
+    "minecraft:calcite",
+    "minecraft:dripstone_block",
+    "minecraft:obsidian",
+    "minecraft:crying_obsidian"
+  ]
+}

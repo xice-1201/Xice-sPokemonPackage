@@ -1,0 +1,88 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:andesite_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 80.0,
+      "id": "createages:andesite_machine"
+    },
+    {
+      "chance": 15.0,
+      "id": "createages:andesite_machine",
+      "count": 2
+    },
+    {
+      "chance": 5.0,
+      "id": "createages:andesite_mechanism"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createages:incomplete_andesite_machine"
+        },
+        {
+          "item": "createages:andesite_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "createages:incomplete_andesite_machine"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createages:incomplete_andesite_machine"
+        },
+        {
+          "item": "create:piston_extension_pole"
+        }
+      ],
+      "results": [
+        {
+          "id": "createages:incomplete_andesite_machine"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createages:incomplete_andesite_machine"
+        },
+        {
+          "item": "create:cogwheel"
+        }
+      ],
+      "results": [
+        {
+          "id": "createages:incomplete_andesite_machine"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createages:incomplete_andesite_machine"
+        }
+      ],
+      "results": [
+        {
+          "id": "createages:incomplete_andesite_machine"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createages:incomplete_andesite_machine"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "create:iron_sheet" },
+  "loops": 1,
+  "results": [
+    { "chance": 100.0, "id": "cobblemon_workforce:slot_upgrade", "count": 4 }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "create:iron_sheet" },
+        { "item": "create:copper_nugget" }
+      ],
+      "results": [{ "id": "create:iron_sheet" }]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [{ "item": "create:iron_sheet" }],
+      "results": [{ "id": "create:iron_sheet" }]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "create:iron_sheet" },
+        { "item": "minecraft:gold_nugget" }
+      ],
+      "results": [{ "id": "create:iron_sheet" }]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [{ "item": "create:iron_sheet" }],
+      "results": [{ "id": "create:iron_sheet" }]
+    }
+  ],
+  "transitional_item": { "id": "create:iron_sheet" }
+}

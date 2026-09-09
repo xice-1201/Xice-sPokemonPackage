@@ -1,0 +1,41 @@
+{
+  "type": "botanypots:block_derived_crop",
+  "block": "minecraft:dark_oak_sapling",
+  "input": {
+    "item": "minecraft:dark_oak_sapling"
+  },
+  "soil": {
+    "tag": "botanypots:soil/dirt"
+  },
+  "grow_time": 2400,
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "xices_cobblemon_fix:botanypots/tree_sticks"
+    },
+    {
+      "type": "botanypots:items",
+      "items": [
+        {
+          "result": {
+            "id": "minecraft:dark_oak_log",
+            "count": 4
+          },
+          "chance": 1
+        },
+        {
+          "result": {
+            "id": "minecraft:dark_oak_sapling"
+          },
+          "chance": 0.1
+        },
+        {
+          "result": {
+            "id": "minecraft:apple"
+          },
+          "chance": 0.05
+        }
+      ]
+    }
+  ]
+}

@@ -51,7 +51,7 @@ $lines.Add('')
 $lines.Add('| 文件 | 大小（字节） | SHA-256 |')
 $lines.Add('|---|---:|---|')
 foreach ($mod in $mods) {
-    $lines.Add("| ``$($mod.file)`` | $($mod.sizeBytes) | ``$($mod.sha256)`` |")
+    $lines.Add(('| `{0}` | {1} | `{2}` |' -f $mod.file, $mod.sizeBytes, $mod.sha256))
 }
 [System.IO.File]::WriteAllText((Join-Path $packRoot 'MODLIST.md'), ($lines -join "`n") + "`n", $utf8NoBom)
 
