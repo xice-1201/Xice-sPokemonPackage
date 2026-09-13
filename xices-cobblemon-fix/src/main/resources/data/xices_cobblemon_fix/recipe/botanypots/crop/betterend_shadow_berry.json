@@ -1,0 +1,13 @@
+{
+  "type": "botanypots:block_derived_crop",
+  "block": "betterend:shadow_berry",
+  "input": { "item": "betterend:shadow_berry" },
+  "soil": { "tag": "botanypots:soil/end" },
+  "grow_time": 2400,
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "betterend:blocks/shadow_berry"
+    }
+  ]
+}

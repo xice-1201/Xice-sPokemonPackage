@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" B ", "CEC", "SSS"],
+  "key": {
+    "B": {"item": "minecraft:book"},
+    "C": {"item": "minecraft:chest"},
+    "E": {"item": "minecraft:emerald_block"},
+    "S": {"tag": "minecraft:wooden_slabs"}
+  },
+  "result": {"id": "xices_cobblemon_fix:proxy_trading_station", "count": 1}
+}

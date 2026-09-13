@@ -7,6 +7,9 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
+import net.minecraft.tags.BiomeTags;
+import net.minecraft.tags.FluidTags;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.ChunkPos;
 
@@ -77,11 +80,33 @@ public final class XiceSpawnConditionAppendage implements AppendageCondition {
     private Boolean requiresAnyStructure;
     private Boolean requiresNoStructure;
     private Integer noStructureRadius;
+    private Integer nearbyWaterRadius;
+    private Boolean twilightForestOnly;
+    private Boolean overworldNonOceanOnly;
+    private Boolean duskOrNightOnly;
 
     @Override
     public boolean fits(SpawnablePosition position) {
         var manager = position.getWorld().structureManager();
         BlockPos center = position.getPosition();
+
+        if (Boolean.TRUE.equals(twilightForestOnly)
+                && !position.getWorld().dimension().location().equals(
+                ResourceLocation.fromNamespaceAndPath("twilightforest", "twilight_forest"))) {
+            return false;
+        }
+        if (Boolean.TRUE.equals(overworldNonOceanOnly)) {
+            if (position.getWorld().dimension() != Level.OVERWORLD
+                    || position.getWorld().getBiome(center).is(BiomeTags.IS_OCEAN)) {
+                return false;
+            }
+        }
+        if (Boolean.TRUE.equals(duskOrNightOnly)) {
+            long timeOfDay = Math.floorMod(position.getWorld().getDayTime(), 24000L);
+            if (timeOfDay < 12000L || timeOfDay >= 23000L) {
+                return false;
+            }
+        }
 
         if (Boolean.TRUE.equals(requiresAnyStructure) && !manager.hasAnyStructureAt(center)) {
             return false;
@@ -153,6 +178,10 @@ public final class XiceSpawnConditionAppendage implements AppendageCondition {
                 position, center, Math.max(1, Math.min(16, nearbyInfrastructureRadius)), INFRASTRUCTURE_SOURCES)) {
             return false;
         }
+        if (nearbyWaterRadius != null && !hasWaterNearby(
+                position, center, Math.max(1, Math.min(16, nearbyWaterRadius)))) {
+            return false;
+        }
         return true;
     }
 
@@ -166,6 +195,17 @@ public final class XiceSpawnConditionAppendage implements AppendageCondition {
                 center.offset(-radius, -radius, -radius),
                 center.offset(radius, radius, radius))) {
             if (position.getWorld().getBlockState(candidate).is(tag)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private static boolean hasWaterNearby(SpawnablePosition position, BlockPos center, int radius) {
+        for (BlockPos candidate : BlockPos.betweenClosed(
+                center.offset(-radius, -radius, -radius),
+                center.offset(radius, radius, radius))) {
+            if (position.getWorld().getFluidState(candidate).is(FluidTags.WATER)) {
                 return true;
             }
         }

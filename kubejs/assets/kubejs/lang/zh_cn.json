@@ -1,4 +1,15 @@
 {
   "item.kubejs.mechanical_nutrient_block": "机巧营养块",
-  "item.kubejs.reinforced_brush": "强化刷"
+  "item.kubejs.insect_feed": "虫饲料",
+  "item.kubejs.growth_granules": "增长颗粒",
+  "item.kubejs.carbon_powder": "碳粉",
+  "item.kubejs.mineral_cookie": "矿物饼干",
+  "item.kubejs.reinforced_brush": "强化刷",
+  "item.kubejs.calm_cream": "镇静奶油",
+  "fluid.kubejs.torchberry_syrup": "火炬浆果稠液",
+  "fluid_type.kubejs.torchberry_syrup": "火炬浆果稠液",
+  "block.kubejs.torchberry_syrup": "火炬浆果稠液",
+  "item.kubejs.torchberry_syrup_bucket": "火炬浆果稠液桶",
+  "item.kubejs.torchberry_syrup_bottle": "火炬浆果稠液瓶",
+  "item.kubejs.inactive_essence": "失活精华"
 }

@@ -1,0 +1,39 @@
+[pokemon_beehive]
+	#Flower search radius in blocks.
+	# Default: 8
+	# Range: 1 ~ 32
+	flower_radius = 8
+	#Base ticks between production cycles.
+	# Default: 40
+	# Range: 20 ~ 72000
+	production_interval_ticks = 40
+	#Legacy base value; bee-specific production values are used.
+	# Default: 0
+	# Range: 0 ~ 1000
+	base_honey_mb = 0
+	#Internal honey capacity, in mB.
+	# Default: 8000
+	# Range: 250 ~ 100000
+	honey_capacity_mb = 8000
+	#Honey consumed per bottle conversion, in mB.
+	# Default: 250
+	# Range: 1 ~ 1000
+	bottle_cost_mb = 250
+	#Legacy value; flowers now reduce the interval by one tick each.
+	# Default: 0
+	# Range: 0 ~ 100
+	flower_bonus_percent = 0
+	#Legacy value; all flowers in range are counted.
+	# Default: 1024
+	# Range: 0 ~ 4096
+	max_flowers = 1024
+
+	[pokemon_beehive.proxy_trading_station]
+		#Radius in blocks in which an owned Indeedee family Pokemon enables the station.
+		# Default: 16
+		# Range: 1 ~ 128
+		work_radius = 16
+		#Ticks between proxy trading station operations.
+		# Default: 10
+		# Range: 1 ~ 72000
+		work_interval_ticks = 10

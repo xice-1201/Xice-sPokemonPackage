@@ -1,9 +1,31 @@
 {
-	chapter.12C065EAF5D85233.chapter_subtitle: ["第一单元：建立安山机械自动化产线"]
+	chapter.12C065EAF5D85233.chapter_subtitle: ["建立安山机械自动化产线"]
 	chapter.12C065EAF5D85233.title: "安山机械"
+	chapter.2D592BB5D3E96403.chapter_subtitle: ["建立铜加工与流体工程体系"]
+	chapter.2D592BB5D3E96403.title: "铜与流体工程"
+	chapter.31E5CE1B19D3A322.chapter_subtitle: ["万恶的资本家！"]
+	chapter.31E5CE1B19D3A322.title: "工业伙伴"
+	chapter.4B8E1A3D72C90F66.chapter_subtitle: ["建立经验糖果自动化产线"]
+	chapter.4B8E1A3D72C90F66.title: "宝可梦经验"
+	chapter.51BD5D84B4B30E99.chapter_subtitle: ["在对战之外……"]
+	chapter.51BD5D84B4B30E99.title: "宝可梦战斗"
+	chapter.51D5A1BF4440F6B9.chapter_subtitle: ["它们是……"]
+	chapter.51D5A1BF4440F6B9.title: "方块宝可梦"
+	chapter.6A5F8C1E4D2B7093.chapter_subtitle: ["建立锌机械自动化产线"]
+	chapter.6A5F8C1E4D2B7093.title: "锌机械"
+	chapter.7E4A91C3D6B8205F.chapter_subtitle: ["培养并优化宝可梦的各项能力"]
+	chapter.7E4A91C3D6B8205F.title: "能力培养"
+	chapter.8A31C6E4F2097B5D.chapter_subtitle: ["了解宝可梦在游戏中的各种机制"]
+	chapter.8A31C6E4F2097B5D.title: "方块宝可梦"
+	chapter.9D42E7F5A3106B8C.chapter_subtitle: ["让宝可梦参与并助力工业生产"]
+	chapter.9D42E7F5A3106B8C.title: "工业伙伴"
+	chapter.A153F806B4217C0D.chapter_subtitle: ["认识宝可梦相关的工具与设备"]
+	chapter.A153F806B4217C0D.title: "实用工具"
 	chapter_group.5B436C31B9C8044B.title: "工业时代"
 	chapter_group.757C57BE3C0B9157.title: "主线"
 	chapter_group.77E4B5DC69AEE112.title: "宝可梦大师"
+	quest.0002103697C5B64B.quest_desc: ["使用&6任意刷子&r与已驯服的&6盐石宝家族&r交互，消耗&e1点耐久&r获得方解石：盐石宝2个、盐石垒5个、盐石巨灵12个；交互&b无冷却&r。"]
+	quest.0002103697C5B64B.title: "获取方解石"
 	quest.007E1262811EE807.quest_desc: [
 		"我为&6大部分树木&r做了植物盆栽的适配。现在几乎所有的树苗都可以种植在&6植物盆栽&r中，用于&a自动化地获取树木资源&r。"
 		"比起动态结构，使用盆栽的&b体积更小，也更方便&r。"
@@ -18,21 +40,155 @@
 	]
 	quest.02B39137162D47D2.quest_subtitle: "你是怎么把俩矿石搅成一个的？！"
 	quest.02B39137162D47D2.title: "动力搅拌器"
+	quest.0362FAE070CABCB5.quest_desc: ["你真的要做一个&c烈焰人农场&r吗？"]
+	quest.0362FAE070CABCB5.quest_subtitle: "通过足够传统的方式获取烈焰粉"
+	quest.03EE810121A30B6D.quest_desc: [
+		"&6下界疣&r是酿造系统的第一步，几乎所有的药水都需要以&6下界疣&r作基底。"
+		"你可以利用&6植物盆栽&r直接种植下界疣，也可以种植&c绯红菌&r，并粉碎它产生的&6下界疣块&r。"
+	]
+	quest.03EE810121A30B6D.quest_subtitle: "种植下界疣"
+	quest.03EE810121A30B6D.title: "下界疣"
+	quest.0487527C00CC9FFA.quest_desc: ["大师糖果能直接把宝可梦提升至满级，能降低你患上腱鞘炎的概率。"]
+	quest.0487527C00CC9FFA.quest_subtitle: "隐藏款！"
+	quest.05A08BECE8BE2567.quest_desc: [
+		"我们已经在安山机械章节中完成过原木的量产，生产木质构件对你来说应该不难。"
+		"如果你乐意的话，副产物木屑也可以回收。"
+	]
+	quest.05A08BECE8BE2567.quest_subtitle: "这里还有什么构件是需要我认识的吗？"
+	quest.05A08BECE8BE2567.title: "木质构件"
+	quest.06DBB7495EC6DB81.quest_desc: [
+		"&6超能力属性&r宝可梦受到原版节肢生物、恼鬼和任意灾厄村民伤害&a翻倍&r。"
+		"超能力属性攻击无法对任何灾厄村民造成伤害，对铁傀儡伤害减半。"
+		"超能力属性宝可梦使用变化技能时，不施加抗性提升 I，而是同时为目标提供力量 I 和迅捷 I，持续10秒；判断增益是否已有也以力量和迅捷为准。"
+	]
+	quest.06DBB7495EC6DB81.title: "超能力属性"
+	quest.07A0CC143D78D472.quest_desc: [
+		"&6妖精属性&r宝可梦受到中毒、凋零和下落方块伤害&a翻倍&r，受到原版节肢生物和灾厄村民伤害&b减半&r。"
+		"妖精属性宝可梦免疫末影龙和龙息伤害。"
+		"妖精属性攻击对烈焰人、铁傀儡伤害减半，对末影龙和灾厄村民伤害翻倍。"
+		"妖精属性宝可梦使用变化技能时不施加抗性提升，而是为目标提供生命恢复 I，持续10秒；技能使用判断也检查生命恢复效果。"
+	]
+	quest.07A0CC143D78D472.title: "妖精属性"
+	quest.0842667F285C3BC2.quest_desc: ["使用普通糖果可以降低宝可梦的等级。这样做是有什么战术意义吗？"]
+	quest.0842667F285C3BC2.quest_subtitle: "你反悔了？"
+	quest.0842667F285C3BC2.title: "降级"
+	quest.0877271D0D7A9F38.quest_desc: ["努力值培养羽毛是最基础的努力值提升手段。"]
+	quest.0877271D0D7A9F38.quest_subtitle: "凑合用用"
+	quest.0877271D0D7A9F38.title: "基础努力值培养道具"
+	quest.08EDCB923E52F926.quest_desc: [
+		"&6格斗属性&r宝可梦受到节肢生物伤害&b减半&r。"
+		"格斗属性攻击对雪傀儡和灾厄村民伤害翻倍，对节肢生物伤害减半。"
+		"野生格斗属性宝可梦会主动攻击24格范围内的灾厄村民。"
+	]
+	quest.08EDCB923E52F926.title: "格斗属性"
+	quest.0A0BF0F233A62192.quest_desc: ["我重写了宝可梦在游戏世界中的大部分数值和行动模式，现在它们可以作为你探险途中的一大助力。"]
+	quest.0A0BF0F233A62192.quest_subtitle: "召唤师来喽"
 	quest.0A8066D8AFF0F0D9.quest_desc: ["&6粉碎轮&r是用于进行&b批量粉碎配方&r的重型设备。它除了执行粉碎配方外，还可以&c销毁没有粉碎配方的物品……以及生物&r。"]
 	quest.0A8066D8AFF0F0D9.quest_subtitle: "谨防安全事故"
 	quest.0A8066D8AFF0F0D9.title: "粉碎轮"
+	quest.0C30A986707A37F5.quest_desc: [
+		"正常来说，在宝可梦对战中每次使用招式都会消耗对应招式的&6PP值&r。如果所有招式都完全不可用，宝可梦将只能挣扎，进行伤敌一千自损一万的行动……"
+		"通过&6PP提升剂&r，你可以提高宝可梦招式可用&6PP值&r的上限。招式的PP上限最高为初始的&b160%&r。"
+	]
+	quest.0C30A986707A37F5.quest_subtitle: "龟壳队必备"
+	quest.0C30A986707A37F5.title: "PP值培养"
+	quest.0D85F4A5472FE999.quest_desc: [
+		"&6虫属性&r宝可梦属于节肢生物，会被节肢杀手附魔&c增伤与减速&r。"
+		"虫属性宝可梦受到火焰和熔岩伤害翻倍，但不会被蜘蛛网减速。"
+		"虫属性攻击对烈焰人、悦灵、恼鬼和铁傀儡伤害减半，对灾厄村民伤害翻倍。"
+	]
+	quest.0D85F4A5472FE999.title: "虫属性"
+	quest.0D94F5CAD6CFCABF.quest_desc: ["手持&6任意刷子&r与已驯服的&6火神蛾&r交互，消耗&e1点耐久&r并随机获得&a2~3个烈焰粉&r；&b无冷却&r。"]
+	quest.0D94F5CAD6CFCABF.title: "烈焰粉"
+	quest.0DA94CCF8FB3DFA3.quest_desc: [
+		"进入&6宝可梦对战&r时，对战双方全员都会获得“&b专心致志&r”效果，直到对战结束。"
+		"获得&b专心致志&r效果时，你不会成为大部分敌人的攻击目标，同时你也无法对其它敌人造成伤害。"
+	]
+	quest.0DA94CCF8FB3DFA3.quest_subtitle: "宝可梦对战可不能走神啊……"
+	quest.0DA94CCF8FB3DFA3.title: "宝可梦对战保护"
+	quest.0F87557A958C803B.quest_desc: [
+		"&6三蜜蜂家族&r可以在&6宝可梦蜂箱&r中产出&a蜂蜜&r。"
+		"一个宝可梦蜂箱最多可以放入&b3只三蜜蜂家族的宝可梦&r，之后它就可以自动地产出蜂蜜。产出蜂蜜的速度和&6宝可梦的数量、进化形态&r相关，也受&d附近花朵数量&r的影响。"
+		"你可以通过&b任意流体抽取渠道&r从中抽出蜂蜜。如果加装了&6物流槽位升级&r，你可以额外向其中加入一只&c非幽灵属性&r的宝可梦。这样，你就可以向其中输入&6玻璃瓶&r，并&a自动输出装好瓶的蜂蜜&r了。"
+	]
+	quest.0F87557A958C803B.quest_subtitle: "让宝可梦协助你构建产线！"
+	quest.0F87557A958C803B.title: "获取蜂蜜"
 	quest.111219B9C652E950.quest_desc: [
 		"继续处理砂砾，将其粉碎为&a沙子&r。"
 		"沙子可以生产多种物资——&6TNT、玻璃、砂岩&r等等。粉碎的副产物&a黏土球&r也有不小的用处。"
 	]
 	quest.111219B9C652E950.quest_subtitle: "粉碎一切"
 	quest.111219B9C652E950.title: "产出沙子"
+	quest.132BC265AC6CDB7D.quest_desc: [
+		"我们已经在安山机械章节量产过铁，分一点出来给锌机械产线应该不是什么难事。"
+		"不过你得保证你的产量足够。"
+	]
+	quest.132BC265AC6CDB7D.quest_subtitle: "怎么又是你"
+	quest.132BC265AC6CDB7D.title: "获取铁"
+	quest.134552B5AE07BCE8.quest_desc: ["这是一块让宝可梦完全不想&6努力&r的&6粘糕&r……"]
+	quest.134552B5AE07BCE8.quest_subtitle: "你还是回去睡觉吧"
+	quest.14E727DF705B8145.quest_desc: [
+		"&6辉绿岩&r可以通过&6圆石、粉碎粗铜和蜂蜜&r搅拌获取，辉绿岩可以粉碎获取更多&6粉碎粗铜和铜粒&r。"
+		"通过&6鼓风机&r可以将&6粉碎粗铜&r批量熔炼。也可以进行批量洗涤，以获取副产物&6黏土球&r。"
+	]
+	quest.14E727DF705B8145.quest_subtitle: "你这到底是铜还是铜锈？"
+	quest.152DFE9399E114BE.quest_desc: ["&6干海带&r常用于&b机械动力&r的物品运输元件。而且看起来也很好吃。"]
+	quest.152DFE9399E114BE.quest_subtitle: "海苔？！"
+	quest.152DFE9399E114BE.title: "干海带"
+	quest.16B89124911FF9E0.quest_desc: [
+		"&6恶属性&r宝可梦受到节肢生物伤害&a翻倍&r，受到恼鬼和灾厄村民伤害&b减半&r。"
+		"恶属性攻击对悦灵、恼鬼伤害翻倍，对灾厄村民伤害减半。"
+		"野生恶属性宝可梦会主动攻击24格范围内的铁傀儡、雪傀儡和村民。"
+	]
+	quest.16B89124911FF9E0.title: "恶属性"
+	quest.16CDAE894674815F.quest_desc: ["和&6铁矿&r一样，&6铜矿&r也有自己对应的&6矿莓&r。"]
+	quest.16CDAE894674815F.quest_subtitle: "不是，这真的是植物吗？"
+	quest.16CDAE894674815F.title: "铜矿莓"
+	quest.1874556D4945BC27.quest_desc: [
+		"&6皓蓝石&r可以通过&6圆石&r、&6粉碎粗锌&r和&6淡蓝色混凝土&r搅拌获取，可以以此获取更多&6粉碎粗锌&r和&6锌粒&r。"
+		"也可以通过&6鼓风机&r进行&b批量洗涤&r，以获取副产物&6火药&r。"
+	]
+	quest.1874556D4945BC27.quest_subtitle: "我给圆石上个色就是皓蓝石了"
+	quest.1874556D4945BC27.title: "皓蓝石"
+	quest.191377BEA30B87BA.quest_desc: ["&6火炬浆果&r经历退化，其果实已经不能再次种植。想要通过盆栽获取&a火炬浆果&r，你需要直接用&b剪刀&r剪下&6火炬浆果植物&r的植株。"]
+	quest.191377BEA30B87BA.quest_subtitle: "你做剪刀了没？"
+	quest.191377BEA30B87BA.title: "种植火炬浆果"
 	quest.1B181AEE17D258BA.quest_desc: [
 		"&6安山机械&r是机械动力的前期基础。"
 		"本单元将介绍如何搭建一条完整的&6安山机械&r&a自动化产线&r。"
 	]
 	quest.1B181AEE17D258BA.quest_subtitle: "机械动力必修一"
 	quest.1B181AEE17D258BA.title: "安山机械"
+	quest.1C4B6F6B0FF89C7F.quest_desc: [
+		"通过&6粉碎&r、&6熔炼&r部分植物，你可以轻松地获取&6染料&r。"
+		"相比原版的染料获取途径，&d宝可梦树果&r的加入极大的方便了部分染料的产出。"
+	]
+	quest.1C4B6F6B0FF89C7F.quest_subtitle: "为什么再生矿石需要染料啊？"
+	quest.1C4B6F6B0FF89C7F.title: "淡蓝色染料"
+	quest.1C9E4A7B2D6F8035.quest_desc: ["建立能够持续生产&6锌机械&r的自动化产线。"]
+	quest.1C9E4A7B2D6F8035.quest_subtitle: "锌时代的核心设备"
+	quest.1C9E4A7B2D6F8035.title: "锌机械"
+	quest.1E0125D333BA7D8C.quest_desc: ["&6宝可梦挖掘机&r还会产出&6铜矿&r。宝可梦挖掘机获取&6铜矿&r的效率和&6铁矿&r其实大差不差。"]
+	quest.1E0125D333BA7D8C.quest_subtitle: "Go work again"
+	quest.1E0125D333BA7D8C.title: "宝可梦挖掘机"
+	quest.2043AA8792F5EE3C.quest_desc: [
+		"向&6蜜脾&r中注入&6液态经验&r，可以一次获得&b9颗经验糖果XS&r。"
+		"这是经验糖果自动化产线的第一步。"
+	]
+	quest.2043AA8792F5EE3C.quest_subtitle: "100经验值/颗"
+	quest.2043AA8792F5EE3C.title: "基础款"
+	quest.20C686580DE1D617.quest_desc: ["&6铜构件&r是&6铜机械&r的核心部件。虽然但是，这个工序真的能不漏水吗……"]
+	quest.20C686580DE1D617.quest_subtitle: "能吃吗？"
+	quest.20C686580DE1D617.title: "铜构件"
+	quest.20CB3AB1CFDAA145.quest_desc: ["&b6种属性的糖果&r可以从&b6个维度&r提升宝可梦的&6有效个体值&r。"]
+	quest.20CB3AB1CFDAA145.quest_subtitle: "依旧吃糖变强"
+	quest.20CB3AB1CFDAA145.title: "基础个体值培养道具"
+	quest.21385C5395FC4639.quest_desc: [
+		"&6元气根&r是一种药品，不过味道似乎不是很好，吃过的宝可梦似乎都对喂食的训练家颇有微词……"
+		"你可以通过在&6植物盆栽&r里种植&6大根茎&r以获取副产物&6元气根&r，也可以直接通过&b村民自动化交易&r元气根。"
+	]
+	quest.21385C5395FC4639.quest_subtitle: "宝可梦农业"
+	quest.21385C5395FC4639.title: "元气根"
 	quest.229549D68945DB4B.quest_desc: [
 		"一般来说，你需要为每一种机械动力元件设计一道产线，以将它们全部量产。"
 		"我配置了&6安山机械&r，现在你可以用&b切石机&r来自由地将它切制成大部分安山合金相关的物品了。"
@@ -45,12 +201,32 @@
 	]
 	quest.23E04D5B5A258DE9.quest_subtitle: "粉碎一切"
 	quest.23E04D5B5A258DE9.title: "粉碎圆石"
+	quest.24569BA46F22290E.quest_desc: [
+		"&6王冠&r是一种特殊的&6个体值培养素材&r。它用于&6宝可梦&r的&6极限特训&r，以使得宝可梦的能力值得到显著的提升。"
+		"但是因为我其实并不是宝可梦原作粉丝，因此我也不知道王冠为什么能做到这样的事情……所以自然也不知道为什么这个&6木质王冠&r会&c随机地&r更改宝可梦的&6有效个体值&r。"
+	]
+	quest.24569BA46F22290E.quest_subtitle: "呃……会有人用这个吗？"
+	quest.24569BA46F22290E.title: "木质王冠"
 	quest.2485E6A0D0B5981A.quest_desc: [
 		"通过&6原版生电&r的思路获取&a铁锭&r也不失为一种办法。"
 		"但你为什么非要&c亲自上手&r？"
 	]
 	quest.2485E6A0D0B5981A.quest_subtitle: "……吗？"
 	quest.2485E6A0D0B5981A.title: "铁傀儡"
+	quest.25B8255F6263A982.quest_desc: ["&6蜂蜜瓶、蜂蜜块和蜂蜜桶&r均可作为蜂蜜来源，完成其中任意一项即可。"]
+	quest.25B8255F6263A982.quest_subtitle: "不管是哪种……"
+	quest.25B8255F6263A982.title: "获取蜂蜜"
+	quest.261C3B7279E60325.quest_desc: ["将&6经验糖果XS&r与&6力量药水&r一同投入&b动力搅拌器&r，可以制成&a经验糖果S&r。"]
+	quest.261C3B7279E60325.quest_subtitle: "800经验/颗"
+	quest.261C3B7279E60325.title: "初级款"
+	quest.274E659B4B0AA534.quest_desc: ["手持&e1个增长颗粒&r与已驯服的&6破破舵轮&r交互，消耗1个增长颗粒并获得&a3个海带&r；&b无冷却&r。机械手同样支持。"]
+	quest.274E659B4B0AA534.title: "海带"
+	quest.275369206B03C168.quest_desc: ["结合尸化精华，个体值糖果的效果会被反转，使得吃下的宝可梦对应个体值下降。"]
+	quest.275369206B03C168.quest_subtitle: "这是为了战术需求……"
+	quest.275369206B03C168.title: "基础个体值下降道具"
+	quest.2A0248ADA39A4AF0.quest_desc: ["建立能够持续生产&6铜机械&r的自动化产线。这将对你未来的产线建造带来极大的便利。"]
+	quest.2A0248ADA39A4AF0.quest_subtitle: "终于不用搓一堆木桶做锅炉了！"
+	quest.2A0248ADA39A4AF0.title: "铜机械"
 	quest.2A31A8A43BA8099A.quest_desc: [
 		"&6原木&r是 Minecraft 的底层逻辑之一。"
 		"木板、木台阶、木栅栏、木活板门……你会需要它们的。"
@@ -64,18 +240,67 @@
 	]
 	quest.2B90DCA68E7DB545.quest_subtitle: "无尽能源来的"
 	quest.2B90DCA68E7DB545.title: "水与熔岩"
+	quest.2C6379F2F500CBAA.quest_desc: [
+		"考虑到宝可梦的对战数值动辄数百HP、数百攻击力，这样的数值令监守者大人也感到不可战胜，我对宝可梦在世界中的&a实体数值&r做了些调整。现在宝可梦的实际实体数值仍会受到其&6六维&r的影响，但&c并非直接映射&r。"
+		"&aHP&r→影响宝可梦的&c生命值上限&r。"
+		"&c攻击&r→影响宝可梦在进行&6物理攻击&r时造成的伤害。"
+		"&b防御&r→影响宝可梦的&9护甲值与盔甲韧性&r。"
+		"&d特攻&r→影响宝可梦在进行&5魔法攻击&r时造成的伤害。"
+		"&3特防&r→影响宝可梦应对&5魔法伤害&r时的伤害减免。"
+		"&e速度&r→影响宝可梦的&a移动速度&r和&6攻击间隔&r。"
+		"这样或许能让宝可梦的数值稍微平衡一些？大概吧……"
+	]
+	quest.2C6379F2F500CBAA.quest_subtitle: "我想把宝可梦的攻击值原封不动地带进游戏"
+	quest.2C6379F2F500CBAA.title: "属性映射"
 	quest.2D5407EE6844379F.quest_desc: [
-		"&6熔岩虫家族、呆火驼家族&r的宝可梦可以用于产出熔岩。通过手持&6空桶&r与它们交互，即可获取&a熔岩桶&r。"
+		"&6熔岩虫家族、呆火驼家族&r的宝可梦可以用于产出&c熔岩&r。通过手持&6空桶&r与它们交互，即可获取&a熔岩桶&r。"
 		"熔岩虫的交互具有&e7秒&r冷却时间、呆火驼的交互具有&e3秒&r冷却时间。相比之下，熔岩蜗牛和喷火驼都可以频繁交互，&a没有冷却时间&r。"
 	]
 	quest.2D5407EE6844379F.quest_subtitle: "让宝可梦协助你构建产线！"
 	quest.2D5407EE6844379F.title: "获取熔岩"
+	quest.2EC65855AFA1153A.quest_desc: [
+		"你可以使用&6酿造台&r来自动化地酿造药水。在&b智能溜槽&r等机械动力物流的协助下，自动酿药机的制作远比原版简单。"
+		"当然，你也可以使用&b机械动力&r独特的&6加热搅拌配方&r。"
+	]
+	quest.2EC65855AFA1153A.quest_subtitle: "酿造药水"
+	quest.2EC65855AFA1153A.title: "力量药水"
+	quest.2EF8C7226CD207E0.quest_desc: [
+		"&6火属性&r宝可梦&c免疫&r熔岩与火焰伤害，不会被点燃。"
+		"它们受到的冻伤、节肢生物伤害和下落方块伤害减半，但受到的窒息伤害翻倍。"
+		"火属性攻击命中目标时，会重置目标因细雪累积的冻伤计时。火属性攻击对雪傀儡、铁傀儡和节肢生物造成双倍伤害；对烈焰人、末影龙和水生生物伤害减半。"
+	]
+	quest.2EF8C7226CD207E0.title: "火属性"
+	quest.2F7B533465E92541.quest_desc: [
+		"使用刷子与小仙奶家族的宝可梦交互，可以获取镇静奶油。小仙奶有5秒的交互冷却，霜奶仙则没有。"
+		"镇静奶油可以进一步搅拌，获得大量的糖。"
+	]
+	quest.2F7B533465E92541.quest_subtitle: "让宝可梦协助你构建产线！"
+	quest.2F7B533465E92541.title: "获取糖"
 	quest.3071AD99DE7FEFD4.quest_desc: [
-		"鼓风机的气流穿过&b水&r，即可对其中的物品进行&b洗涤&r。灵魂沙的洗涤产物为&a下界石英和金粒&r。"
+		"&6鼓风机&r的气流穿过&b水&r，即可对其中的物品进行&b洗涤&r。&6灵魂沙&r的洗涤产物为&a下界石英和金粒&r。"
 		"考虑到洗涤的&c产量不高&r，这一条生产链路只能作为临时的自动化方案。后期应替换更高效的产线。"
 	]
 	quest.3071AD99DE7FEFD4.quest_subtitle: "……产量是不是太低了？"
 	quest.3071AD99DE7FEFD4.title: "下界石英"
+	quest.3165730A2521148F.quest_desc: ["&6药酿&r在宝可梦药剂中的地位大致相当于粗制的药水在Minecraft中的地位。你会大量地需要它的。"]
+	quest.3165730A2521148F.quest_subtitle: "药剂基础"
+	quest.3165730A2521148F.title: "药酿"
+	quest.31FFC0B47805632E.quest_desc: [
+		"宝可梦可携带的招式数量早已超过4位数，单靠我独自为每个招式配置效果并不现实，因此我引入了&6招式映射系统&r。"
+		"招式映射只会考虑宝可梦真正配置的&a4个招式&r，这会真正影响宝可梦在世界中的&b行为模式&r。根据配置的4个技能，宝可梦的行为模式大致可以分为如下几种。"
+		"&d变化招式&r→为全队持续提供&a抗性提升I&r。"
+		"&c物理攻击招式&r→本次攻击造成&6物理伤害&r。"
+		"&5特殊攻击招式&r→本次攻击造成&d魔法伤害&r。"
+		"&6接触类招式&r→&c近战攻击&r。"
+		"&b非接触类招式&r→&9远程攻击&r。"
+		"宝可梦总是会在&c增益消失&r时优先提供&a增益效果&r，并尝试进行&c近战攻击&r——若攻击距离不够近，宝可梦才会尝试&9远程攻击&r。"
+		"部分宝可梦有其&6独特的行为模式&r，部分招式也有其&d独特的效果&r，留待你自行探索。"
+	]
+	quest.31FFC0B47805632E.quest_subtitle: "我真的没办法为每一个招式都制作一个特殊效果。"
+	quest.31FFC0B47805632E.title: "招式映射"
+	quest.33AFCF4C3C1CF728.quest_desc: ["&6烈焰粉&r是酿造&6力量药水&r的重要材料，也可以作为多种机械配方的燃料与催化材料。"]
+	quest.33AFCF4C3C1CF728.quest_subtitle: "获取烈焰粉"
+	quest.33AFCF4C3C1CF728.title: "烈焰粉"
 	quest.33E0D70E769113AF.quest_desc: [
 		"&6闪长岩与圆石&r搅拌可以获得&a安山岩&r。"
 		"你可以让这一配方和闪长岩共用一个工作盆（当然，这样做会&c损失约一半的效率&r）。至此，我们成功自动化地生产出安山岩了。"
@@ -83,17 +308,27 @@
 	quest.33E0D70E769113AF.quest_subtitle: "！？三废石？！"
 	quest.33E0D70E769113AF.title: "安山岩"
 	quest.3494B1B562755294.quest_desc: [
-		"圆石乃万物的起点（bushi）。"
+		"&6圆石&r乃万物的起点（bushi）。"
 		"圆石可以通过一系列加工步骤制取到&a铁、石英&r等矿物资源。只要有&a稳定的圆石来源&r，就能够小有规模地生产&6安山合金&r。"
 	]
 	quest.3494B1B562755294.quest_subtitle: "这玩意儿还需要教？！"
 	quest.3494B1B562755294.title: "获取圆石"
+	quest.34CE3650516B3C63.quest_desc: ["投入足够多的糖分，就能让宝可梦学到更多吗？"]
+	quest.34CE3650516B3C63.quest_subtitle: "3000经验值/颗"
+	quest.34CE3650516B3C63.title: "中级款"
 	quest.357D6820E30E354A.quest_desc: [
 		"&6安山岩和铁粒&r可以通过&6动力搅拌器&r制取&a安山合金&r。"
 		"至此，你已经获取了机械动力前期最关键的材料。该继续下一步了。"
 	]
 	quest.357D6820E30E354A.quest_subtitle: "终于……"
 	quest.357D6820E30E354A.title: "安山合金"
+	quest.360982CF17C24835.quest_desc: [
+		"&6岩石属性&r宝可梦受到原版水生生物伤害&a翻倍&r，受到下落方块伤害&a翻倍&r。"
+		"岩石属性宝可梦受到火焰、熔岩伤害减半且不会被点燃。"
+		"岩石属性攻击对烈焰人、雪傀儡和原版节肢生物伤害翻倍，对铁傀儡伤害减半。"
+		"岩石属性宝可梦初始拥有0.9击退抗性。"
+	]
+	quest.360982CF17C24835.title: "岩石属性"
 	quest.369585D85B9AFDBE.quest_desc: [
 		"&6齿轮儿家族&r的宝可梦可以直接为你提供&a齿轮&r。当然，前提是让它们&e吃饱&r。"
 		"&6机巧营养块&r是为它们准备的优质食物。喂食它们即可获取&a大量的齿轮&r，并且&a没有冷却&r。"
@@ -101,6 +336,39 @@
 	]
 	quest.369585D85B9AFDBE.quest_subtitle: "让宝可梦协助你构建产线！"
 	quest.369585D85B9AFDBE.title: "获取齿轮"
+	quest.36A7E6BE31E949B4.quest_desc: ["&6奶&r可用于制作部分&d宝可梦&r喜爱的食物。对任意一头成年的&6牛&r使用&b铁桶&r即可获取&6奶桶&r。"]
+	quest.36A7E6BE31E949B4.quest_subtitle: "并非所有宝可梦都乳糖耐受吧"
+	quest.36A7E6BE31E949B4.title: "奶"
+	quest.3843D17A4B44497A.quest_desc: [
+		"&6铜&r不仅是重要的工业材料，也是&b流体工程&r的基础。"
+		"本单元将引导你建立稳定的&6铜加工体系&r，掌握流体的&b输送、储存与应用&r，并最终实现&a铜机械自动化&r。"
+	]
+	quest.3843D17A4B44497A.quest_subtitle: "老大，这玩意儿好使吗？"
+	quest.3843D17A4B44497A.title: "铜与流体工程"
+	quest.38988FB0B09A63B8.quest_desc: [
+		"&6蜜脾&r作为&6经验糖果&r的基底，让其充满甜味。"
+		"我们在&6铜与流体工程&r单元中已经实现了&b蜜脾的量产&r。"
+	]
+	quest.38988FB0B09A63B8.quest_subtitle: "糖果必须是甜的"
+	quest.38988FB0B09A63B8.title: "蜜脾"
+	quest.3929323B04606727.quest_desc: ["&6锌&r是用于制作&6黄铜锭&r的重要材料之一。同时，它还能制作&6锌机械&r，或许能帮助你在未来少搓点东西？"]
+	quest.3929323B04606727.quest_subtitle: "一种普普通通的金属"
+	quest.3929323B04606727.title: "锌粒"
+	quest.3A4E2E46CAAE14DB.quest_desc: [
+		"宝可梦的&6个体值&r在出生时就是确定的。野生宝可梦的个体值通常会在一个特定的范围内随机生成，而繁殖获得的宝可梦，其个体值会从父母以一定的规则遗传。"
+		"尝试不断地繁殖宝可梦以获取完美个体值的个体无疑是一个长期且枯燥的流程，因此游戏也加入了可以调整个体值的道具。需要注意的是，这类道具大多数只能调整&6有效个体值&r——这意味着它们在对战中与完美个体值的宝可梦无异，但在繁殖时作为父母难以胜任。"
+	]
+	quest.3A4E2E46CAAE14DB.quest_subtitle: "为什么天赋也可以后天培养啊？"
+	quest.3A4E2E46CAAE14DB.title: "个体值培养道具"
+	quest.3C592D29A795A809.quest_desc: [
+		"&6飞行属性&r宝可梦受到闪电和冻伤伤害&a翻倍&r，被雪球击中时额外受到&e2点&r物理伤害；受到节肢生物伤害&b减半&r。"
+		"飞行属性宝可梦免疫摔落伤害。"
+		"飞行属性攻击对节肢生物伤害翻倍，对铁傀儡伤害减半。"
+	]
+	quest.3C592D29A795A809.title: "飞行属性"
+	quest.3CDFD6761155DBE2.quest_desc: ["通过&6植物盆栽&r，你可以轻易地量产&6可可豆&r，用于制取&6巧克力&r。"]
+	quest.3CDFD6761155DBE2.quest_subtitle: "棕色染料罢了"
+	quest.3CDFD6761155DBE2.title: "可可豆"
 	quest.3ED018DA4D2436EA.quest_desc: [
 		"&6沙河马家族&r和&6沙包蛇家族&r的宝可梦可以为你提供&a沙子&r，使用&b各类刷子&r与它们交互即可。"
 		"&6沙河马家族&r可以一次性地提供大量沙子：沙河马一次产出&a16×沙子&r，河马兽一次产出&a48×沙子&r。但是，它们需要&e1分钟&r的时间休息。"
@@ -108,20 +376,112 @@
 	]
 	quest.3ED018DA4D2436EA.quest_subtitle: "让宝可梦协助你构建产线！"
 	quest.3ED018DA4D2436EA.title: "获取沙子"
-	task.3D6EA7C67687341F.title: "拥有任意沙河马或沙包蛇家族的宝可梦"
-	task.58D4057071DC0A7B.title: "拥有任意刷子"
 	quest.4085E0B8D493EEC7.quest_desc: [
 		"鼓风机可以吹出或吸入气流。如果气流穿过&d灵魂火&r，就可以对气流中的物品执行&d缠魂&r。"
 		"沙子缠魂得到的产物是&a灵魂沙&r。"
 	]
 	quest.4085E0B8D493EEC7.quest_subtitle: "鼓风机大人该发力了"
 	quest.4085E0B8D493EEC7.title: "灵魂沙"
+	quest.40DD5369DEDFDCBF.quest_desc: ["&6努力值粘糕&r能够一次提升&b4点&r对应的&6努力值&r。"]
+	quest.40DD5369DEDFDCBF.quest_subtitle: "点得我手指好累……"
+	quest.40DD5369DEDFDCBF.title: "进阶努力值培养道具"
+	quest.41761BC413841F4C.quest_desc: ["通过加入&6活力蕾&r，你可以制取&6PP提升剂&r。这是一种能让招式PP值上限提升&b20%&r的药剂。"]
+	quest.41761BC413841F4C.quest_subtitle: "PP值上限增加"
+	quest.41761BC413841F4C.title: "PP提升剂"
 	quest.419593F97FA56316.quest_desc: [
 		"对&6纸浆&r进行&6冲压&r，即可获得&a纸板&r。"
 		"纸板可以制作一套盔甲和一把武器。它们的强度都……&e颇具特色&r。"
 	]
 	quest.419593F97FA56316.quest_subtitle: "造纸术"
 	quest.419593F97FA56316.title: "纸板"
+	quest.41A3353D5A441BA4.quest_desc: [
+		"种植在两块相邻的&6耕地&r上时，一些&d树果&r会杂交，产生新的果实。"
+		"&6桃桃果&r+&6柿仔果&r→&a芒芒果&r"
+		"&6芒芒果&r+&6蕉香果&r→&a岳竹果&r"
+		"&6岳竹果&r+&6扁樱果&r→&a瓜西果&r"
+		"&6瓜西果&r+&6灯浆果&r→&a释陀果&r"
+		"成功杂交出&6释陀果&r后，即可直接在&6植物盆栽&r中种植了。"
+	]
+	quest.41A3353D5A441BA4.quest_subtitle: "杂交"
+	quest.41A3353D5A441BA4.title: "释陀果"
+	quest.42E2F0614D0D6C3D.quest_desc: [
+		"&6龙属性&r宝可梦受到火焰、熔岩、水生生物和闪电伤害&b减半&r，受到冻伤伤害&a翻倍&r；被雪球命中时额外受到&e2点&r物理伤害。"
+		"龙属性宝可梦受到末影龙伤害翻倍，但免疫龙息伤害，并会在末影龙吐息云中持续恢复生命值。"
+		"龙属性攻击对末影龙伤害翻倍，对铁傀儡伤害减半。"
+	]
+	quest.42E2F0614D0D6C3D.title: "龙属性"
+	quest.4353DC63EB2503A3.quest_desc: ["本单元介绍宝可梦在世界中的基础机制与特殊行为。"]
+	quest.4353DC63EB2503A3.quest_subtitle: "认识这个宝可梦世界"
+	quest.4353DC63EB2503A3.title: "方块宝可梦"
+	quest.43BB3A46B23D3EEB.quest_desc: ["&6一般属性&r攻击无法对悦灵、恼鬼造成伤害，对铁傀儡造成的伤害&b减半&r。"]
+	quest.43BB3A46B23D3EEB.title: "一般属性"
+	quest.43E469172C8F7E73.quest_desc: [
+		"&6石灰岩&r可以通过&6鼓风机&r洗涤，得到&6粉碎粗锌&r、&6玉石&r、&6黑玉石&r和&6天蓝玉石&r。而石灰岩本身则可以通过流动的&c熔岩&r和&6蜂蜜&r接触获取。"
+		"虽然通过洗涤石灰岩获取矿物的产量低到令人发指，但如果你能弄到&6动力刷石机&r，巨量的石灰岩或许可以解决你的苦恼。不过接下来苦恼的大概是你的电脑了吧？"
+	]
+	quest.43E469172C8F7E73.quest_subtitle: "你不说我都不知道熔岩和蜂蜜……"
+	quest.43E469172C8F7E73.title: "石灰岩"
+	quest.45CA46378D67C700.quest_desc: ["使用&6属性增强剂&r可以更高效地提升宝可梦的&6努力值&r。虽然&6属性提升羽毛&r能达到相同的效果，但这能显著减少鼠标的耐久消耗。"]
+	quest.45CA46378D67C700.quest_subtitle: "还有更好的吗？"
+	quest.45CA46378D67C700.title: "高级努力值培养道具"
+	quest.46E43C9AE87E886E.quest_desc: [
+		"使用&6铁桶&r与已驯服的&6熔岩虫家族或呆火驼家族宝可梦&r交互，即可获取&a熔岩桶&r；玩家和机械手均可执行。"
+		"每次交互消耗&e1个铁桶&r并产出&a1个熔岩桶&r。&6熔岩虫&r交互冷却&e7秒&r，&6呆火驼&r交互冷却&e3秒&r；&6熔岩蜗牛、喷火驼&r&b无冷却&r。"
+	]
+	quest.46E43C9AE87E886E.quest_subtitle: "让宝可梦协助你构建产线！"
+	quest.46E43C9AE87E886E.title: "熔岩桶"
+	quest.4880D8B6792133D9.quest_desc: ["将&6原木&r熔炼成&6木炭&r，可以用作燃料，也可以进一步制取其它材料。"]
+	quest.4880D8B6792133D9.quest_subtitle: "老大，你家房梁被我烧成木炭了喵"
+	quest.4880D8B6792133D9.title: "木炭"
+	quest.48B590DC06EB0340.quest_desc: ["锌构件是用于制作锌机械的重要中间产物。但是因为我编不出文案了，所以这个任务节点就这样空着吧。"]
+	quest.48B590DC06EB0340.quest_subtitle: "你这锌构件里面怎么这么多木头啊"
+	quest.48B590DC06EB0340.title: "锌构件"
+	quest.4936238879D4291A.quest_desc: ["&6火炬浆果&r在&6加热搅拌&r后会化成浓稠的流体形态，可以用作部分设备的&6粘合剂&r。"]
+	quest.4936238879D4291A.quest_subtitle: "好喝吗？"
+	quest.4936238879D4291A.title: "火炬浆果稠液"
+	quest.49B154B72E505615.quest_desc: ["手持&6任意刷子&r与已驯服的&6沙河马/沙包蛇家族&r交互，消耗&e1点耐久&r。沙河马、河马兽产出&a16、48个沙子&r，冷却&e1分钟&r；沙包蛇、沙螺蟒产出&a1、3个沙子&r且&b无冷却&r。"]
+	quest.49B154B72E505615.title: "沙子"
+	quest.4A246DD86D1F2BF7.quest_desc: ["手持&e1个虫饲料&r喂食已驯服的&6电萤虫/甜甜萤&r，消耗1个虫饲料并获得&a2个火炬浆果&r；&b无冷却&r。"]
+	quest.4A246DD86D1F2BF7.title: "火炬浆果"
+	quest.4C1E7F32B91DDF2E.quest_desc: [
+		"非常遗憾的是，由于我瞎扯的设定，宝可梦挖掘机无法开掘出锌矿。不过，锌矿的再生问题并非无法解决。"
+		"向&6小磁怪家族宝可梦&r喂食&6机巧营养块&r，可以产出&6粉碎粗锌&r。这一交互存在&e2秒&r的冷却时间。"
+		"如果你能把它进化成&6自爆磁怪&r，那么不仅交互的冷却时间会取消，还能额外获取&b青金石&r和&c红石粉&r。"
+	]
+	quest.4C1E7F32B91DDF2E.quest_subtitle: "让宝可梦协助你构建产线！"
+	quest.4C1E7F32B91DDF2E.title: "直接获取粉碎粗锌"
+	quest.4E2E2363FDCBFACB.quest_desc: ["&6海带&r可以在&6植物盆栽&r中种植。虽然不知道为什么，生电玩家似乎很喜欢把它们种在&6岩浆块和灵魂沙&r上。"]
+	quest.4E2E2363FDCBFACB.quest_subtitle: "其实是用来做水电梯的……"
+	quest.4E2E2363FDCBFACB.title: "海带种植"
+	quest.4F9B8E425896EC22.quest_desc: ["手持&e1个矿物饼干&r喂食已驯服的&6小炭仔家族/煤炭龟&r。小炭仔、大炭车、巨炭山分别产出&a1、3、5个煤炭&r；煤炭龟产出&a64个煤炭&r，冷却&e2分钟&r。"]
+	quest.4F9B8E425896EC22.title: "煤炭"
+	quest.5002D88DDE762715.quest_desc: ["宝可梦共有18种属性。&6单属性&r宝可梦只有一种属性，&6双属性&r宝可梦同时拥有两种属性，因此会同时受到两种属性相克关系影响，攻击倍率可能叠加或抵消。属性还会影响免疫、抗性与招式效果。"]
+	quest.5002D88DDE762715.quest_subtitle: "属性特效"
+	quest.5002D88DDE762715.title: "宝可梦的属性"
+	quest.50232F28C16D5F31.quest_desc: ["向&6经验糖果L&r中注入&6奇妙的魔法佐料&r！"]
+	quest.50232F28C16D5F31.quest_subtitle: "30000经验/颗"
+	quest.50232F28C16D5F31.title: "大师款"
+	quest.505DB58B66BE008D.quest_desc: [
+		"&6冰属性&r宝可梦受到火焰和熔岩伤害&a翻倍&r，受到下落方块伤害&a翻倍&r，但&c免疫&r细雪冻伤。"
+		"下雪时，冰属性宝可梦的护甲值与盔甲韧性提升至 1.5 倍。"
+		"冰属性攻击对烈焰人、水生生物、铁傀儡和雪傀儡伤害减半，对末影龙伤害翻倍。"
+	]
+	quest.505DB58B66BE008D.title: "冰属性"
+	quest.511859909F380F72.quest_desc: ["甘蔗可以通过多种途径制取糖。"]
+	quest.511859909F380F72.quest_subtitle: "植物糖分"
+	quest.511859909F380F72.title: "种植甘蔗"
+	quest.51E7646B249FC0E5.quest_desc: [
+		"&6钢属性&r宝可梦受到火焰和熔岩伤害&a翻倍&r，但着火时间&b减半&r；受到冻伤和节肢生物伤害&b减半&r。"
+		"钢属性宝可梦免疫中毒、凋零伤害，受到末影龙和铁傀儡伤害减半。"
+		"钢属性攻击对烈焰人、水生生物和铁傀儡伤害减半，对雪傀儡伤害翻倍。"
+	]
+	quest.51E7646B249FC0E5.title: "钢属性"
+	quest.52767466725949D4.quest_desc: [
+		"&6铁粉&r与&6碳粉&r&c加热搅拌&r，即可获取&6锻铁锭&r。"
+		"&6锻铁锭&r是强化版的铁锭，但它其实并没有什么用处。"
+	]
+	quest.52767466725949D4.quest_subtitle: "众所周知，锻铁锭不是锻打出来的"
+	quest.52767466725949D4.title: "锻铁锭"
 	quest.541C70325884EC83.quest_desc: [
 		"&6齿轮&r是机械动力的核心动力方块之一。"
 		"齿轮可以用于简单的传递应力场景，也用于&b变速、反转&r等情况。"
@@ -129,12 +489,32 @@
 	]
 	quest.541C70325884EC83.quest_subtitle: "什么叫你搓了个齿轮墙？"
 	quest.541C70325884EC83.title: "齿轮"
+	quest.548472C815E5CF16.quest_desc: [
+		"宝可梦的个体值（IV，0~31）是在其出生时就决定好、无法修改的。通常来说，你需要通过宝可梦繁殖的方式来不断尝试优化宝可梦的个体值，以达到最优六维。"
+		"好在实际对战中，我们往往只需要关注“有效个体值”就可以了。有相当数量的道具可以用于提高或降低宝可梦的有效个体值，虽然不能帮助你繁殖出更优秀的宝可梦后代，但是用于对战已经绰绰有余。"
+	]
+	quest.548472C815E5CF16.quest_subtitle: "人与人之间不能一概而论……宝可梦也是"
+	quest.548472C815E5CF16.title: "宝可梦的个体值"
+	quest.59668324937EB0BD.quest_desc: ["手持&6任意刷子&r与已驯服的&6黏黏宝家族&r交互，消耗&e1点耐久&r。黏黏宝、黏美儿分别产出&a1、2个明胶&r，黏美龙随机产出&a2~4个明胶&r；&b无冷却&r。"]
+	quest.59668324937EB0BD.title: "明胶"
+	quest.5A6F0C1D2E3B4A90.quest_desc: [
+		"&6经验糖果&r可以直接为宝可梦提供经验，是培养队伍和推进图鉴的重要消耗品。"
+		"本单元将引导你搭建一条能够&a自动化生产经验糖果系列物品&r的产线。"
+	]
+	quest.5A6F0C1D2E3B4A90.quest_subtitle: "宝可梦升级工厂"
+	quest.5A6F0C1D2E3B4A90.title: "宝可梦经验"
 	quest.5A87E4D193C6B20F.quest_desc: [
 		"部分&6植物材料&r可以投入装有水的工作盆以制取&a纸浆&r。"
 		"纸浆经过&6动力冲压&r后可以制成&a纸板&r。"
 	]
 	quest.5A87E4D193C6B20F.quest_subtitle: "竹子还是甘蔗呢……"
 	quest.5A87E4D193C6B20F.title: "纸浆"
+	quest.5B24F17EACBCD9E9.quest_desc: [
+		"&6铜粒&r多用于制作&b流体相关的机械动力元件&r，也是&6黄铜锭&r的重要材料。"
+		"不必担心，&b机械动力&r和&d暮色森林&r的&6铜粒&r已经是同一个了……"
+	]
+	quest.5B24F17EACBCD9E9.quest_subtitle: "为什么暮色森林的铜粒不能用在机械动力里面？"
+	quest.5B24F17EACBCD9E9.title: "铜粒"
 	quest.5C24C4BBB40A10C0.quest_desc: [
 		"&6绯红岩&r可以通过圆石、粉碎粗铁和熔岩搅拌获取，而绯红岩通过粉碎可以获取更多&a粉碎粗铁和铁粒&r。通过这一方式，可以让粉碎粗铁的数量&b持续增长&r，进而获得铁锭。"
 		"也可以通过鼓风机进行&b批量洗涤&r，以获取副产物&a红石粉&r。"
@@ -148,6 +528,44 @@
 	]
 	quest.5E80EE8275138878.quest_subtitle: "重金属是不是有点超标了？"
 	quest.5E80EE8275138878.title: "铁矿莓"
+	quest.5F188D118B1B0065.quest_desc: ["&6破破舵轮&r是一种只出现在&b沉船和遗迹附近水域&r的宝可梦。通过向它们喂食&6增长颗粒&r，你可以&a快速批量地获取海带&r。"]
+	quest.5F188D118B1B0065.quest_subtitle: "让宝可梦协助你构建产线！"
+	quest.5F188D118B1B0065.title: "获取海带"
+	quest.63E25A6FBD85DD2E.quest_desc: ["正在施展让食物变好吃的魔法……"]
+	quest.63E25A6FBD85DD2E.quest_subtitle: "甜味素"
+	quest.63E25A6FBD85DD2E.title: "糖"
+	quest.647FDA601DDE1472.quest_desc: [
+		"&6浓缩精华莓&r是一种来自&d暮色森林&r的地下作物，可以种植在各类石头上。"
+		"加热&6浓缩精华莓&r可以获取&6液态经验&r。"
+	]
+	quest.647FDA601DDE1472.quest_subtitle: "种植经验"
+	quest.647FDA601DDE1472.title: "浓缩精华莓"
+	quest.650D57C8C6DC395B.quest_desc: [
+		"&6毒属性&r宝可梦受到的凋零效果伤害和原版节肢生物伤害&b减半&r。"
+		"毒属性攻击无法对铁傀儡造成伤害，对悦灵和恼鬼伤害减半。"
+		"毒属性宝可梦中毒时不会受到中毒伤害，反而会持续恢复生命值。"
+	]
+	quest.650D57C8C6DC395B.title: "毒属性"
+	quest.65DC163CAF2C832F.quest_desc: [
+		"通过将&6沙子&r、&6沙砾&r和&6染料&r混合，你可以得到&6混凝土粉末&r。"
+		"各色混凝土在建筑领域广受好评。真的。"
+	]
+	quest.65DC163CAF2C832F.quest_subtitle: "染色剂生产"
+	quest.65DC163CAF2C832F.title: "淡蓝色混凝土粉末"
+	quest.65DCFEC5BC953A23.quest_desc: ["宝可梦等级会影响基础能力值、可学习招式、进化条件以及部分工作设备的产出表现。战斗和使用经验道具都可以提升等级。"]
+	quest.65DCFEC5BC953A23.quest_subtitle: "等级越高，成长越快"
+	quest.65DCFEC5BC953A23.title: "宝可梦的等级"
+	quest.66371B2C74E58C53.quest_desc: [
+		"&6电属性&r宝可梦受到的闪电伤害和下落方块伤害&b减半&r。"
+		"电属性攻击对水生生物造成双倍伤害，对末影龙造成的伤害减半。但如果目标周围16格内存在避雷针，电属性攻击将无法命中目标。"
+	]
+	quest.66371B2C74E58C53.title: "电属性"
+	quest.6637444DA390E9D1.quest_desc: [
+		"&6坐骑小羊家族&r的&d雌性&r可以提供&6奶&r。手持&b铁桶&r与雌性&6坐骑小羊&r或&6坐骑山羊&r交互，即可获得&6奶桶&r。"
+		"&6大奶罐&r更是优质奶源。"
+	]
+	quest.6637444DA390E9D1.quest_subtitle: "让宝可梦协助你构建产线！"
+	quest.6637444DA390E9D1.title: "获取奶"
 	quest.672F343D14763185.quest_desc: [
 		"&6鼓风机&r可以吹出或吸入空气流，物品和实体会随空气流移动。"
 		"当气流穿过各种触媒时，气流会发生变化：&b水&r、&c火&r、&d灵魂火&r、&e沙子&r、&5龙息&r……"
@@ -155,18 +573,49 @@
 	]
 	quest.672F343D14763185.quest_subtitle: "批量……你能干啥来着？"
 	quest.672F343D14763185.title: "鼓风机"
+	quest.67637F517576DFF4.quest_desc: ["使用&6动力冲压机&r，可以直接将&6玻璃&r压制成&6玻璃板&r。"]
+	quest.67637F517576DFF4.quest_subtitle: "真的不会碎吗？"
+	quest.67637F517576DFF4.title: "玻璃板"
+	quest.67A7E0D6A3C65480.quest_desc: [
+		"&6草属性&r宝可梦受到火焰、熔岩、冻伤、中毒、凋零和节肢生物伤害&a翻倍&r，着火时间&a翻倍&r；受到水生生物和闪电伤害&b减半&r；被雪球击中时额外受到&e2点&r物理伤害。"
+		"草属性宝可梦生命值未满时，每隔一段时间会尝试吸收草地的能量，恢复三分之一最大生命值。"
+		"草属性攻击对烈焰人、节肢生物、铁傀儡和末影龙伤害减半，对水生生物伤害翻倍。"
+	]
+	quest.67A7E0D6A3C65480.title: "草属性"
 	quest.68DC91A15C50BE88.quest_desc: [
-		"任意学习了&6挖洞技能&r的宝可梦，可以置入&6宝可梦挖掘机&r中工作。宝可梦挖掘机在工作中可以产出各类矿物，其中就包括&a粗铁&r。为宝可梦挖掘机提供&6物流升级&r，并向其中额外配置一只任意宝可梦（&c不能是幽灵属性&r），还允许挖掘机通过漏斗、溜槽等方式自动化地输出这些矿物。"
+		"任意学习了&6挖洞技能&r的宝可梦，可以置入&6宝可梦挖掘机&r中工作。宝可梦挖掘机在工作中可以产出各类矿物，其中就包括&a粗铁&r。为宝可梦挖掘机提供&6物流升级&r，并向其中额外配置一只任意宝可梦（&c不能是幽灵属性&r），还允许挖掘机通过&6漏斗、溜槽&r等方式自动化地输出这些矿物。"
 		"需要注意的是，宝可梦挖掘机的产物会受到&e宝可梦的等级和实际能力值&r影响。宝可梦挖掘机并&c不适合作为长期的铁资源来源&r……"
 	]
 	quest.68DC91A15C50BE88.quest_subtitle: "Go work"
 	quest.68DC91A15C50BE88.title: "宝可梦挖掘机"
+	quest.6922FFA40210906A.quest_desc: [
+		"&6地面属性&r宝可梦受到水生生物伤害&a翻倍&r，受到冻伤伤害&a翻倍&r；被雪球击中时额外受到&e2点&r物理伤害。"
+		"地面属性宝可梦免疫闪电伤害，不会因闪电着火；受到中毒、凋零和节肢生物伤害减半。"
+		"地面属性攻击对烈焰人和铁傀儡伤害翻倍，对节肢生物伤害减半。"
+	]
+	quest.6922FFA40210906A.title: "地面属性"
+	quest.6B7C8D9E0F1A2B30.quest_desc: ["&6神奇糖果&r能固定提升宝可梦等级&a1级&r。"]
+	quest.6B7C8D9E0F1A2B30.quest_subtitle: "只是加上了包装"
+	quest.6B7C8D9E0F1A2B30.title: "神奇糖果"
+	quest.6BCDFA7629580672.quest_desc: ["使用&6任意刷子&r可以扫落&c火神蛾&r翅膀上的&a烈焰粉&r。每次交互会消耗&e1点耐久&r，并随机产出&a2~3个烈焰粉&r；该交互&b没有冷却限制&r。"]
+	quest.6BCDFA7629580672.quest_subtitle: "让宝可梦协助你构建产线！"
+	quest.6BCDFA7629580672.title: "获取烈焰粉"
 	quest.6D5EC89E987553B7.quest_desc: [
 		"&6安山构件&r将可能是你接触到的第一个&b序列装配配方&r——最简单的一个（大概）。"
 		"安山构件最主要的用途就是制作&6安山机械&r。"
 	]
 	quest.6D5EC89E987553B7.quest_subtitle: "序列装配到底是哪个天才的发明？"
 	quest.6D5EC89E987553B7.title: "安山构件"
+	quest.74B3094504BBBCC6.quest_desc: [
+		"&6水属性&r宝可梦属于水生生物，不会在水下窒息，也会被穿刺附魔&c增伤&r。"
+		"它们受到的火焰、熔岩、冻伤和下落方块伤害减半，着火时间减半。"
+		"水属性宝可梦受到的闪电伤害翻倍。"
+		"水属性攻击对烈焰人造成双倍伤害，对水生生物和末影龙伤害减半。"
+	]
+	quest.74B3094504BBBCC6.title: "水属性"
+	quest.75853FF2BA88F712.quest_desc: ["宝可梦的生成会受到&6群系、维度、时间、天气、亮度、海拔、附近结构与方块条件&r等因素影响。部分宝可梦还需要特定结构、天气或附近方块；传说、幻之、究极、悖谬、化石等宝可梦&c不会自然生成&r，需通过结构、任务或事件获取。"]
+	quest.75853FF2BA88F712.quest_subtitle: "我找不到想要的宝可梦"
+	quest.75853FF2BA88F712.title: "宝可梦的生成条件"
 	quest.76ADE155346B278D.quest_desc: [
 		"&6软管滑轮&r可以用于获取&a无限量的熔岩&r。"
 		"将软管滑轮的管道伸入一个足够大的熔岩池，保证其管口上方有连续的&e10000格以上熔岩&r。如此，其抽取熔岩时就&a不会消耗&r这个熔岩池的熔岩。"
@@ -174,6 +623,20 @@
 	]
 	quest.76ADE155346B278D.quest_subtitle: "雷霆大池子"
 	quest.76ADE155346B278D.title: "获取熔岩"
+	quest.77567B57F3E4A58D.quest_desc: [
+		"&6煤炭&r可以通过&6宝可梦挖掘机&r白嫖获取，是前期稳定的入手方式。"
+		"用&6矿物饼干&r喂食&6煤炭龟&r，可以一次性获取&a大量的煤炭&r。但这需要&e2分钟&r后才能再次获得。"
+		"&6矿物饼干&r也可以用于喂食&6小炭仔家族宝可梦&r。小炭仔、大炭车、巨炭山每次喂食分别提供&a1、3、5个煤炭&r。"
+		"生产出的&6煤炭&r磨成&6碳粉&r，可以回收回来重新制作&6矿物饼干&r。"
+	]
+	quest.77567B57F3E4A58D.quest_subtitle: "让宝可梦协助你构建产线！"
+	quest.77567B57F3E4A58D.title: "获取煤炭"
+	quest.776843476D9F151B.quest_desc: [
+		"一些宝可梦具有自己独特的工业价值。为了保护宝可梦生态，我禁用了野生宝可梦的任何交互产出。只有真正与你建立连接的宝可梦才能参与到工业生产中来。"
+		"本单元简要地介绍了可以参与到工业产出的宝可梦。"
+	]
+	quest.776843476D9F151B.quest_subtitle: "你，去挑一个路灯吧"
+	quest.776843476D9F151B.title: "让宝可梦协助你构建产线！"
 	quest.7820E76D7A0A937D.quest_desc: [
 		"如果你能费点劲搞到&6动力刷石机&r……"
 		"它的&a产量真的很高&r。"
@@ -186,19 +649,130 @@
 	]
 	quest.78E720EF3A66BB33.quest_subtitle: "什么叫你在下界放了一格水？"
 	quest.78E720EF3A66BB33.title: "触媒"
+	quest.79874AA9987CBC7B.quest_desc: [
+		"我们抛弃了落后的村民交易（存疑）。"
+		"&6交易清单&r和&6代理交易站&r可用于&b自动化村民交易&r。当玩家与任意村民进行交易时，物品栏中的&6交易清单&r会自动记录本次交易信息。手持&6交易清单&r右键交互&6代理交易站&r，即可设置对应的交易。设置好交易之后，&6代理交易站&r将允许自动化物流的输入和输出。"
+		"&6爱管侍家族的宝可梦&r可以操作&6代理交易站&r。每只&6爱管侍家族的宝可梦&r会操作&616格&r范围内的&6代理交易站&r，使它们利用输入的物品自动化地执行记录的交易内容。"
+		"你甚至可以用它来记录一些特殊的交易内容……"
+	]
+	quest.79874AA9987CBC7B.quest_subtitle: "让宝可梦协助你构建产线！"
+	quest.79874AA9987CBC7B.title: "自动化村民交易"
+	quest.79F50C55548EC088.quest_desc: [
+		"&6蜜脾&r是制作&6铜机械&r的关键材料之一，通常需要使用&6剪刀&r交互满层的蜂巢/蜂箱获取。"
+		"我提供了&6冲压配方&r，允许你直接使用&6蜂蜜&r压制&6蜜脾&r，也允许你将&6蜜脾&r加热搅拌回&6蜂蜜&r。&c作为代价，现在你不能直接用剪刀从蜂巢和蜂箱剪下蜜脾了。&r"
+	]
+	quest.79F50C55548EC088.quest_subtitle: "发射器才是真正的养蜂人……现在不是了"
+	quest.79F50C55548EC088.title: "蜜脾"
 	quest.7BCE4DBF1B23F135.quest_desc: [
 		"原版机械动力中，&6闪长岩&r需要用合成器或动力合成器来自动化获取。"
 		"我加入了&6动力搅拌器&r的加工配方。现在，动力搅拌器可以直接将圆石和下界石英加工成&a闪长岩&r。"
 	]
 	quest.7BCE4DBF1B23F135.quest_subtitle: "和你的动力合成器说再见吧"
 	quest.7BCE4DBF1B23F135.title: "制取闪长岩"
+	quest.7BFEE52F8B27126B.quest_desc: ["&6玻璃&r可以通过熔炼&6沙子&r制取，也可以依靠&6村民交易&r批量获得。"]
+	quest.7BFEE52F8B27126B.quest_subtitle: "快进到一不小心放在地上"
+	quest.7BFEE52F8B27126B.title: "玻璃"
 	quest.7CFAB4285B014A3B.quest_desc: [
 		"量产&a铁粒&r。"
 		"铁是极其重要的资源，各种物资都需要用到它。"
 	]
 	quest.7CFAB4285B014A3B.quest_subtitle: "铁傀儡被放过了……"
 	quest.7CFAB4285B014A3B.title: "铁粒"
+	quest.7D3B1A9E5C6F2048.quest_desc: [
+		"&6锌机械&r可用于广泛的金属制品加工。"
+		"本单元将介绍如何搭建一条完整的&6锌机械&r&a自动化产线&r。"
+		"本单元为支线内容，请量力而行。"
+	]
+	quest.7D3B1A9E5C6F2048.quest_subtitle: "好像没什么用啊"
+	quest.7D3B1A9E5C6F2048.title: "锌机械"
+	quest.7D43F0FAAC6CE3BC.quest_desc: ["手持&e1个机巧营养块&r喂食已驯服的&6小磁怪家族&r。小磁怪、三合一磁怪、自爆磁怪分别产出&a1、3、3个粉碎粗锌&r；前两者冷却&e2秒&r，自爆磁怪&b无冷却&r，另有&a15%青金石&r与&a15%红石粉&r概率。"]
+	quest.7D43F0FAAC6CE3BC.title: "粉碎粗锌"
+	quest.7D81B9C8D63BC669.quest_desc: [
+		"&6幽灵属性&r宝可梦受到中毒、凋零和节肢生物伤害&b减半&r，受到恼鬼和灾厄村民伤害&a翻倍&r；不会受到下落方块和窒息伤害。"
+		"幽灵属性攻击对悦灵、恼鬼伤害翻倍，对灾厄村民伤害减半。"
+		"生命值低于30%时，幽灵属性宝可梦会隐身并加速。"
+		"亡灵杀手附魔会对幽灵属性宝可梦造成额外伤害。"
+	]
+	quest.7D81B9C8D63BC669.title: "幽灵属性"
+	quest.7D9DB4A36F9C6D08.quest_desc: ["手持&e1个铁桶&r与已驯服的&6大奶罐/坐骑小羊家族&r交互，获得&a1个奶桶&r。坐骑小羊必须为&6雌性&r；坐骑小羊冷却&e5秒&r，大奶罐与坐骑山羊&b无冷却&r。"]
+	quest.7D9DB4A36F9C6D08.title: "奶桶"
+	quest.7DB7DC2B03FD3D18.quest_desc: ["电萤虫和甜甜萤可以为你产出火炬浆果——代价是一点点虫饲料。"]
+	quest.7DB7DC2B03FD3D18.quest_subtitle: "让宝可梦协助你构建产线！"
+	quest.7DB7DC2B03FD3D18.title: "获取火炬浆果"
+	quest.7DD78C4C59A1E2D2.quest_desc: ["我们在&6铜与流体工程&r单元中已经完成&6火炬浆果稠液&r的量产。相信这难不倒你。"]
+	quest.7DD78C4C59A1E2D2.quest_subtitle: "会发光的甜品"
+	quest.7DD78C4C59A1E2D2.title: "火炬浆果稠液"
+	quest.7EAD0CD424BE77C1.quest_desc: ["&6PP极限提升剂&r可以直接让一个招式的PP上限达到最大值。"]
+	quest.7EAD0CD424BE77C1.quest_subtitle: "一键成型！"
+	quest.7EAD0CD424BE77C1.title: "PP极限提升剂"
+	quest.7EF12214791C6A66.quest_desc: ["向&6经验糖果M&r中加入&6元气根&r，提高宝可梦的气血，并用最甜的&6释陀果&r调味。"]
+	quest.7EF12214791C6A66.quest_subtitle: "10000经验/颗"
+	quest.7EF12214791C6A66.title: "高级款"
+	quest.7F1C5A17047696EA.quest_desc: ["手持&e1个机巧营养块&r喂食已驯服的&6齿轮儿家族&r：齿轮儿产出&a2个齿轮&r，齿轮组产出&a2个齿轮+1个大齿轮&r，齿轮怪产出&a3个齿轮+2个大齿轮&r；&b无冷却&r。"]
+	quest.7F1C5A17047696EA.title: "齿轮"
+	quest.7F2C5A9D1B6E3048.quest_desc: [
+		"&6努力值&r是&6宝可梦&r培养的步骤之一。通过培养&6努力值&r，你可以均匀地提升&6宝可梦&r的数值，也可以让它在某些方面尤其专精。这也能让同一只&6宝可梦&r可能出现在不同的战术场合。"
+		"一只&6宝可梦&r最多可以分配&b510点&r&6努力值&r。其中，每一个能力维度最多可以分配&b252点&r&6努力值&r。对于一个能力维度，每&b4点&r&6努力值&r可以实际地提升对应数值&b1点&r。"
+	]
+	quest.7F2C5A9D1B6E3048.quest_subtitle: "只要吃东西就能变努力的好事也给我来一份"
+	quest.7F2C5A9D1B6E3048.title: "努力值培养"
+	quest.8B42D7F5A3106C9E.title: "方块宝可梦"
+	quest.9E53F806B4217C0D.title: "工业伙伴"
+	quest.A1B2C3D4E5F60718.quest_desc: ["使用&6任意刷子&r与已驯服的&6黏黏宝家族&r交互，消耗&e1点耐久&r获得明胶：&6黏黏宝&r1个、&6黏美儿&r2个、&6黏美龙&r随机2~4个；交互&b无冷却&r。"]
+	quest.A1B2C3D4E5F60718.title: "获取明胶"
+	quest.A1B2C3D4E5F6071B.quest_desc: ["使用&e1个机巧营养块&r喂食&6齿轮儿家族&r：齿轮儿产出&a2个齿轮&r；齿轮组产出&a2个齿轮+1个大齿轮&r；齿轮怪产出&a3个齿轮+2个大齿轮&r；交互&b无冷却&r。"]
+	quest.A1B2C3D4E5F6071B.title: "获取齿轮"
+	quest.A1B2C3D4E5F6071E.quest_desc: ["使用&6任意刷子&r与已驯服的&6沙河马或沙包蛇家族&r交互，消耗&e1点耐久&r获得沙子：沙河马16个、河马兽48个、沙包蛇1个、沙螺蟒3个。&6沙河马与河马兽&r交互冷却&e1分钟&r。"]
+	quest.A1B2C3D4E5F6071E.title: "获取沙子"
+	quest.A1B2C3D4E5F60721.quest_desc: ["使用&e1个机巧营养块&r喂食&6小磁怪家族&r，获得粉碎粗锌：小磁怪1个、三合一磁怪3个、自爆磁怪3个。自爆磁怪另有&a15%青金石&r和&a15%红石粉&r概率；前两者交互冷却&e2秒&r。"]
+	quest.A1B2C3D4E5F60721.title: "获取锌资源"
+	quest.A1B2C3D4E5F60724.quest_desc: ["使用&e1个矿物饼干&r喂食&6小炭仔家族或煤炭龟&r，获得煤炭：小炭仔1个、大炭车3个、巨炭山5个、煤炭龟64个。煤炭龟交互冷却&e2分钟&r。"]
+	quest.A1B2C3D4E5F60724.title: "获取煤炭"
+	quest.A1B2C3D4E5F60727.quest_desc: ["使用&e1个虫饲料&r喂食&6电萤虫或甜甜萤&r，获得&a2个火炬浆果&r；交互&b无冷却&r。"]
+	quest.A1B2C3D4E5F60727.title: "获取火炬浆果"
+	quest.A1B2C3D4E5F6072A.quest_desc: ["使用&e1个增长颗粒&r喂食已驯服的&6破破舵轮&r，获得&a3个海带&r；交互&b无冷却&r。"]
+	quest.A1B2C3D4E5F6072A.title: "获取海带"
+	quest.A1B2C3D4E5F6072D.quest_desc: ["使用&6任意刷子&r与已驯服的&6火神蛾&r交互，消耗&e1点耐久&r，随机获得&a2~3个烈焰粉&r；交互&b无冷却&r。"]
+	quest.A1B2C3D4E5F6072D.title: "获取烈焰粉"
+	quest.A1B2C3D4E5F60730.quest_desc: ["使用&e1个铁桶&r与已驯服的&6大奶罐或坐骑小羊家族&r交互，获得&a1个奶桶&r。坐骑小羊必须为&6雌性&r，交互冷却&e5秒&r。"]
+	quest.A1B2C3D4E5F60730.title: "获取奶"
+	quest.A264A917C5328D1E.title: "实用工具"
+	task.08C08390BA9EE493.title: "拥有增长颗粒"
+	task.08DF26D48F2DB3A0.title: "拥有机巧营养块"
+	task.0CEB1E9320D46AEA.title: "拥有任意小磁怪家族的宝可梦"
 	task.0D73296A0D1C8C37.title: "铁傀儡"
+	task.0D7415CB8CB646B1.title: "拥有任意小仙奶家族的宝可梦"
+	task.0ED6984036626E9A.title: "拥有破破舵轮"
+	task.0FECF51AEE70C4CD.title: "拥有任意刷子"
+	task.115269DC241C68F3.title: "拥有火神蛾"
+	task.1368F6C9E0CE8FA7.title: "拥有任意大奶罐/坐骑小羊家族的宝可梦"
 	task.1BAE4C318D7BD863.title: "拥有任意齿轮儿家族的宝可梦"
+	task.1E76725AA824BB40.title: "拥有铁桶"
+	task.21E424F94D35EEF1.title: "拥有铁桶"
+	task.253D4300666F4ECA.title: "拥有任意盐石宝家族的宝可梦"
+	task.2B96744A1375B3F5.title: "拥有任意电萤虫/甜甜萤家族的宝可梦"
+	task.2C4A3FE38E42C1B0.title: "拥有任一小炭仔家族或煤炭龟"
+	task.2EA6B891B2CB42DC.title: "拥有任意三蜜蜂家族的宝可梦"
+	task.33E980B5C8DEA857.title: "拥有任意沙河马或沙包蛇家族的宝可梦"
+	task.3AC72BF394121B5E.title: "拥有矿物饼干"
+	task.3CC2B3A49C50B9B0.title: "拥有任意刷子"
+	task.3D6EA7C67687341F.title: "拥有任意沙河马或沙包蛇家族的宝可梦"
+	task.402C66A1AD10036D.title: "拥有任意刷子"
+	task.43FE0A230BEF42D1.title: "拥有任意黏黏宝家族的宝可梦"
+	task.4677DAF6A1E6604A.title: "拥有任意大奶罐/坐骑小羊家族的宝可梦"
+	task.4BF7878A162156CD.title: "拥有任意齿轮儿家族的宝可梦"
 	task.4C57A0A43EB16D92.title: "拥有任意熔岩虫家族/呆火驼家族的宝可梦"
+	task.58321F5B18152C1F.title: "拥有任意刷子"
+	task.58D4057071DC0A7B.title: "拥有任意刷子"
+	task.5A2C0045305B4B04.title: "击杀烈焰人获取烈焰粉"
+	task.5AE26E59D01F4FB5.title: "拥有破破舵轮"
+	task.5CFBB74FEC65C661.title: "拥有任意熔岩虫家族/呆火驼家族的宝可梦"
+	task.5F48DE82DED383A9.title: "拥有任意爱管侍家族的宝可梦"
+	task.601EC561DEAE91B4.title: "拥有任意小炭仔家族或煤炭龟"
+	task.61A5A32709AF6A54.title: "拥有任意刷子"
+	task.6CB1255A5DC87BE3.title: "拥有机巧营养块"
+	task.6E9526358E00ABBE.title: "拥有任意刷子"
+	task.73FB2FFFF7610595.title: "拥有火神蛾"
+	task.7A354515173BF555.title: "拥有虫饲料"
+	task.7E9F52782487D24E.title: "拥有任意电萤虫/甜甜萤家族的宝可梦"
 }

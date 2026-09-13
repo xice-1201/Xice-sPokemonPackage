@@ -1,0 +1,335 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "zinc_machine"
+	group: "5B436C31B9C8044B"
+	icon: {
+		id: "createages:zinc_machine"
+	}
+	id: "6A5F8C1E4D2B7093"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["229549D68945DB4B"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "createages:zinc_machine"
+			}
+			id: "7D3B1A9E5C6F2048"
+			rewards: [{
+				count: 20
+				id: "06345F44AA804D0C"
+				item: {
+					count: 1
+					id: "createages:zinc_machine"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "4F8C2D6A1B7E9035"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"48B590DC06EB0340"
+				"52767466725949D4"
+			]
+			id: "1C9E4A7B2D6F8035"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "63B55F55BC3A74F2"
+				item: { count: 1, id: "createages:zinc_machine" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65DC163CAF2C832F"]
+			icon: {
+				id: "create:asurine"
+			}
+			id: "1874556D4945BC27"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "7082C0ABF34760E0"
+				item: { count: 1, id: "create:asurine" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7D3B1A9E5C6F2048"]
+			icon: {
+				id: "create:limestone"
+			}
+			id: "43E469172C8F7E73"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "7C378F6811B68A15"
+				item: { count: 1, id: "create:limestone" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D3B1A9E5C6F2048"]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:magnemite"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "4C1E7F32B91DDF2E"
+			shape: "circle"
+			tasks: [
+				{
+					action: "have_registered"
+					amount: 1L
+					biome: ""
+					dex_progress: "caught"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "51901A30AD270B3E"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:magnemite,cobblemon:magneton,cobblemon:magnezone"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					consume_items: false
+					id: "5A2360E940B57600"
+					item: { count: 1, id: "kubejs:mechanical_nutrient_block" }
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1874556D4945BC27"
+				"4C1E7F32B91DDF2E"
+				"43E469172C8F7E73"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "create:zinc_nugget"
+			}
+			id: "3929323B04606727"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "782D7CAD4C37076C"
+				item: { count: 1, id: "create:zinc_nugget" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C4B6F6B0FF89C7F"]
+			icon: {
+				id: "minecraft:light_blue_concrete_powder"
+			}
+			id: "65DC163CAF2C832F"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "10900A9D9FC175EC"
+				item: { count: 1, id: "minecraft:light_blue_concrete_powder" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7D3B1A9E5C6F2048"]
+			icon: {
+				id: "minecraft:light_blue_dye"
+			}
+			id: "1C4B6F6B0FF89C7F"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "5E044AE0BF9EFBD8"
+				item: { count: 1, id: "minecraft:light_blue_dye" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7D3B1A9E5C6F2048"]
+			icon: {
+				id: "createages:wooden_mechanism"
+			}
+			id: "05A08BECE8BE2567"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "5DA0B2B9229B6138"
+				item: { count: 1, id: "createages:wooden_mechanism" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7D3B1A9E5C6F2048"]
+			icon: {
+				id: "minecraft:iron_nugget"
+			}
+			id: "132BC265AC6CDB7D"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "4F5975ABB51A6219"
+				item: { count: 1, id: "minecraft:iron_nugget" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"05A08BECE8BE2567"
+				"132BC265AC6CDB7D"
+				"3929323B04606727"
+			]
+			icon: {
+				id: "createages:zinc_mechanism"
+			}
+			id: "48B590DC06EB0340"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "2BF8199BCC458F1F"
+				item: { count: 1, id: "createages:zinc_mechanism" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"132BC265AC6CDB7D"
+				"4880D8B6792133D9"
+				"77567B57F3E4A58D"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "twilightforest:wrought_iron_bar"
+			}
+			id: "52767466725949D4"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "48CCA8D50A9AF3A4"
+				item: { count: 1, id: "twilightforest:wrought_iron_bar" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D3B1A9E5C6F2048"]
+			icon: {
+				id: "minecraft:charcoal"
+			}
+			id: "4880D8B6792133D9"
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "27BD0F62AD55E786"
+				item: { count: 1, id: "minecraft:charcoal" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D3B1A9E5C6F2048"]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:rolycoly"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "77567B57F3E4A58D"
+			shape: "circle"
+			tasks: [
+				{
+					action: "have_registered"
+					amount: 1L
+					biome: ""
+					dex_progress: "caught"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "2C4A3FE38E42C1B0"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:rolycoly,cobblemon:carkol,cobblemon:coalossal,cobblemon:torkoal"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					consume_items: false
+					id: "0C9A31E43BB779D2"
+					item: { count: 1, id: "kubejs:mineral_cookie" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 1.5d
+		}
+	]
+}

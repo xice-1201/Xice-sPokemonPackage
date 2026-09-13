@@ -1,0 +1,12 @@
+{
+  "species": "xices_cobblemon_fix:warden_boss",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "xices_cobblemon_fix:warden_boss.geo",
+      "poser": "xices_cobblemon_fix:warden_boss",
+      "texture": "minecraft:textures/entity/warden/warden.png"
+    }
+  ]
+}

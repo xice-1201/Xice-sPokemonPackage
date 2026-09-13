@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "CBT",
+    "PPP"
+  ],
+  "key": {
+    "P": { "tag": "minecraft:planks" },
+    "C": { "item": "cobblemon:pc" },
+    "B": { "item": "minecraft:beehive" },
+    "T": { "item": "create:fluid_tank" }
+  },
+  "result": {
+    "id": "xices_cobblemon_fix:pokemon_beehive",
+    "count": 1
+  }
+}

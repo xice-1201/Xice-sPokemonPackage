@@ -1,0 +1,549 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "industrial_partners"
+	group: "77E4B5DC69AEE112"
+	icon: {
+		id: "cobblemon:pasture"
+	}
+	id: "31E5CE1B19D3A322"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependent_lines: true
+			icon: {
+				id: "cobblemon:pasture"
+			}
+			id: "776843476D9F151B"
+			rewards: [{
+				id: "601D6F194F5A57EA"
+				item: {
+					count: 1
+					id: "kubejs:reinforced_brush"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "36CD6B082933EB37"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: -9.75d
+		}
+		{
+			dependencies: ["776843476D9F151B"]
+			icon: {
+				id: "minecraft:lava_bucket"
+			}
+			id: "46E43C9AE87E886E"
+			rewards: [{
+				id: "2F3526A08CE1D379"
+				item: {
+					count: 1
+					id: "minecraft:lava_bucket"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					action: "have_registered"
+					amount: 1L
+					biome: ""
+					dex_progress: "caught"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "5CFBB74FEC65C661"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:slugma,cobblemon:magcargo,cobblemon:numel,cobblemon:camerupt"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "21E424F94D35EEF1"
+					item: { count: 1, id: "minecraft:bucket" }
+					type: "item"
+				}
+			]
+			x: -14.25d
+			y: -8.25d
+		}
+		{
+			dependencies: ["776843476D9F151B"]
+			icon: {
+				id: "betterend:gelatine"
+			}
+			id: "59668324937EB0BD"
+			rewards: [{
+				id: "296D6D23517A6469"
+				item: {
+					count: 1
+					id: "betterend:gelatine"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					action: "have_registered"
+					amount: 1L
+					biome: ""
+					dex_progress: "caught"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "43FE0A230BEF42D1"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:goomy,cobblemon:sliggoo,cobblemon:goodra"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "3CC2B3A49C50B9B0"
+					item: { count: 1, id: "xices_cobblemon_fix:quest_brushes" }
+					type: "item"
+				}
+			]
+			x: -12.75d
+			y: -8.25d
+		}
+		{
+			dependencies: ["776843476D9F151B"]
+			icon: {
+				id: "create:cogwheel"
+			}
+			id: "7F1C5A17047696EA"
+			rewards: [{
+				count: 2
+				id: "5272E43308E39ED7"
+				item: {
+					count: 1
+					id: "create:cogwheel"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					action: "have_registered"
+					amount: 1L
+					biome: ""
+					dex_progress: "caught"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "4BF7878A162156CD"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:klink,cobblemon:klang,cobblemon:klinklang"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "6CB1255A5DC87BE3"
+					item: { count: 1, id: "kubejs:mechanical_nutrient_block" }
+					type: "item"
+				}
+			]
+			x: -6.75d
+			y: -6.75d
+		}
+		{
+			dependencies: ["776843476D9F151B"]
+			icon: {
+				id: "minecraft:sand"
+			}
+			id: "49B154B72E505615"
+			rewards: [{
+				count: 16
+				id: "0F045C0A5C4C2599"
+				item: {
+					count: 1
+					id: "minecraft:sand"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					action: "have_registered"
+					amount: 1L
+					biome: ""
+					dex_progress: "caught"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "33E980B5C8DEA857"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:hippopotas,cobblemon:hippowdon,cobblemon:silicobra,cobblemon:sandaconda"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "58321F5B18152C1F"
+					item: { count: 1, id: "xices_cobblemon_fix:quest_brushes" }
+					type: "item"
+				}
+			]
+			x: -12.75d
+			y: -5.25d
+		}
+		{
+			dependencies: ["776843476D9F151B"]
+			icon: {
+				id: "create:crushed_raw_zinc"
+			}
+			id: "7D43F0FAAC6CE3BC"
+			rewards: [{
+				id: "7B998943B82BCF18"
+				item: {
+					count: 1
+					id: "create:crushed_raw_zinc"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					action: "have_registered"
+					amount: 1L
+					biome: ""
+					dex_progress: "caught"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "0CEB1E9320D46AEA"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:magnemite,cobblemon:magneton,cobblemon:magnezone"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "08DF26D48F2DB3A0"
+					item: { count: 1, id: "kubejs:mechanical_nutrient_block" }
+					type: "item"
+				}
+			]
+			x: -6.75d
+			y: -8.25d
+		}
+		{
+			dependencies: ["776843476D9F151B"]
+			icon: {
+				id: "minecraft:coal"
+			}
+			id: "4F9B8E425896EC22"
+			rewards: [{
+				id: "7281478C56DF9432"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					action: "have_registered"
+					amount: 1L
+					biome: ""
+					dex_progress: "caught"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "601EC561DEAE91B4"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:rolycoly,cobblemon:carkol,cobblemon:coalossal,cobblemon:torkoal"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "3AC72BF394121B5E"
+					item: { count: 1, id: "kubejs:mineral_cookie" }
+					type: "item"
+				}
+			]
+			x: -11.25d
+			y: -8.25d
+		}
+		{
+			dependencies: ["776843476D9F151B"]
+			icon: {
+				id: "twilightforest:torchberries"
+			}
+			id: "4A246DD86D1F2BF7"
+			rewards: [{
+				count: 2
+				id: "25298D2D5A94E78A"
+				item: {
+					count: 1
+					id: "twilightforest:torchberries"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					action: "have_registered"
+					amount: 1L
+					biome: ""
+					dex_progress: "caught"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "7E9F52782487D24E"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:volbeat,cobblemon:illumise"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "7A354515173BF555"
+					item: { count: 1, id: "kubejs:insect_feed" }
+					type: "item"
+				}
+			]
+			x: -8.25d
+			y: -8.25d
+		}
+		{
+			dependencies: ["776843476D9F151B"]
+			icon: {
+				id: "minecraft:kelp"
+			}
+			id: "274E659B4B0AA534"
+			rewards: [{
+				count: 3
+				id: "55283E90153AB700"
+				item: {
+					count: 1
+					id: "minecraft:kelp"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					action: "have_registered"
+					amount: 1L
+					biome: ""
+					dex_progress: "caught"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "5AE26E59D01F4FB5"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:dhelmise"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "08C08390BA9EE493"
+					item: { count: 1, id: "kubejs:growth_granules" }
+					type: "item"
+				}
+			]
+			x: -9.75d
+			y: -8.25d
+		}
+		{
+			dependencies: ["776843476D9F151B"]
+			icon: {
+				id: "minecraft:blaze_powder"
+			}
+			id: "0D94F5CAD6CFCABF"
+			rewards: [{
+				count: 2
+				id: "1D5DDA0C33D5EFA9"
+				item: {
+					count: 1
+					id: "minecraft:blaze_powder"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					action: "have_registered"
+					amount: 1L
+					biome: ""
+					dex_progress: "caught"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "73FB2FFFF7610595"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:volcarona"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "402C66A1AD10036D"
+					item: { count: 1, id: "xices_cobblemon_fix:quest_brushes" }
+					type: "item"
+				}
+			]
+			x: -12.75d
+			y: -6.75d
+		}
+		{
+			dependencies: ["776843476D9F151B"]
+			icon: {
+				id: "minecraft:milk_bucket"
+			}
+			id: "7D9DB4A36F9C6D08"
+			rewards: [{
+				id: "4C26621F32DF6D73"
+				item: {
+					count: 1
+					id: "minecraft:milk_bucket"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					action: "have_registered"
+					amount: 1L
+					biome: ""
+					dex_progress: "caught"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "1368F6C9E0CE8FA7"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:miltank,cobblemon:skiddo,cobblemon:gogoat"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "1E76725AA824BB40"
+					item: { count: 1, id: "minecraft:bucket" }
+					type: "item"
+				}
+			]
+			x: -14.25d
+			y: -6.75d
+		}
+		{
+			dependencies: ["776843476D9F151B"]
+			icon: {
+				id: "minecraft:calcite"
+			}
+			id: "0002103697C5B64B"
+			rewards: [{
+				id: "5ACA8B913248968D"
+				item: {
+					count: 1
+					id: "minecraft:calcite"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					action: "have_registered"
+					amount: 1L
+					biome: ""
+					dex_progress: "caught"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "253D4300666F4ECA"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:nacli,cobblemon:naclstack,cobblemon:garganacl"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "6E9526358E00ABBE"
+					item: { count: 1, id: "xices_cobblemon_fix:quest_brushes" }
+					type: "item"
+				}
+			]
+			x: -12.75d
+			y: -3.75d
+		}
+	]
+}

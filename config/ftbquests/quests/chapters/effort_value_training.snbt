@@ -1,0 +1,417 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "effort_value_training"
+	group: "5B436C31B9C8044B"
+	icon: {
+		id: "cobblemon_utility:goldencap"
+	}
+	id: "7E4A91C3D6B8205F"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependent_lines: true
+			icon: {
+				id: "cobblemon:protein"
+			}
+			id: "7F2C5A9D1B6E3048"
+			rewards: [
+				{
+					count: 32
+					id: "6A2B564683C98E20"
+					item: {
+						count: 1
+						id: "cobblemon:hp_up"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7025C0334CC70084"
+					item: {
+						count: 1
+						id: "cobblemon:protein"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2E28B388A930940E"
+					item: {
+						count: 1
+						id: "cobblemon:iron"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "626C5B4AAC2282D9"
+					item: {
+						count: 1
+						id: "cobblemon:calcium"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "58D7C1192F2CEC7F"
+					item: {
+						count: 1
+						id: "cobblemon:zinc"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "32F78A88735269B3"
+					item: {
+						count: 1
+						id: "cobblemon:carbos"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "4C8E1A7B2D5F9036"
+				type: "checkmark"
+			}]
+			x: -16.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7F2C5A9D1B6E3048"]
+			id: "0877271D0D7A9F38"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: false
+					id: "1529BC486EDCE347"
+					item: { count: 1, id: "cobblemon:health_feather" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4AAC52AE88BB33B6"
+					item: { count: 1, id: "cobblemon:muscle_feather" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3035E61F722637CD"
+					item: { count: 1, id: "cobblemon:resist_feather" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5BEEE1CBD9C328CD"
+					item: { count: 1, id: "cobblemon:genius_feather" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "79F1373C5CD89966"
+					item: { count: 1, id: "cobblemon:clever_feather" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0F8111C6E6B50B17"
+					item: { count: 1, id: "cobblemon:swift_feather" }
+					type: "item"
+				}
+			]
+			x: -15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7F2C5A9D1B6E3048"]
+			id: "40DD5369DEDFDCBF"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3C10AC3771F00869"
+					item: { count: 1, id: "cobblemon:health_mochi" }
+					type: "item"
+				}
+				{
+					id: "6829BB4F5FA7D6B0"
+					item: { count: 1, id: "cobblemon:muscle_mochi" }
+					type: "item"
+				}
+				{
+					id: "13C38A6F7C51282E"
+					item: { count: 1, id: "cobblemon:resist_mochi" }
+					type: "item"
+				}
+				{
+					id: "46734668AF388AD9"
+					item: { count: 1, id: "cobblemon:genius_mochi" }
+					type: "item"
+				}
+				{
+					id: "76A271637AFC9FB0"
+					item: { count: 1, id: "cobblemon:clever_mochi" }
+					type: "item"
+				}
+				{
+					id: "3ED2BDF4592612F3"
+					item: { count: 1, id: "cobblemon:swift_mochi" }
+					type: "item"
+				}
+			]
+			x: -15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["40DD5369DEDFDCBF"]
+			icon: {
+				id: "cobblemon:fresh_start_mochi"
+			}
+			id: "134552B5AE07BCE8"
+			invisible: true
+			shape: "gear"
+			tasks: [{
+				id: "392BF20E30D1D883"
+				item: { count: 1, id: "cobblemon:fresh_start_mochi" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7F2C5A9D1B6E3048"
+				"41761BC413841F4C"
+			]
+			id: "45CA46378D67C700"
+			shape: "circle"
+			tasks: [
+				{
+					id: "0C5848C33484CAC5"
+					item: { count: 1, id: "cobblemon:hp_up" }
+					type: "item"
+				}
+				{
+					id: "638CFC628D91C0B5"
+					item: { count: 1, id: "cobblemon:protein" }
+					type: "item"
+				}
+				{
+					id: "4DD3B8F80110E385"
+					item: { count: 1, id: "cobblemon:iron" }
+					type: "item"
+				}
+				{
+					id: "262E6E4934439943"
+					item: { count: 1, id: "cobblemon:calcium" }
+					type: "item"
+				}
+				{
+					id: "207CAF7FBE55AB4F"
+					item: { count: 1, id: "cobblemon:zinc" }
+					type: "item"
+				}
+				{
+					id: "09B12DFAC96DC7B5"
+					item: { count: 1, id: "cobblemon:carbos" }
+					type: "item"
+				}
+			]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon: {
+				id: "cobblemon:pp_max"
+			}
+			id: "0C30A986707A37F5"
+			rewards: [{
+				count: 8
+				id: "67ED9391DD94C098"
+				item: {
+					count: 1
+					id: "cobblemon:pp_max"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "4AAE00D507347FB3"
+				type: "checkmark"
+			}]
+			x: -19.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0C30A986707A37F5"]
+			icon: {
+				id: "cobblemon:medicinal_brew"
+			}
+			id: "3165730A2521148F"
+			shape: "circle"
+			tasks: [{
+				id: "225DB7982F65E3C6"
+				item: { count: 1, id: "cobblemon:medicinal_brew" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3165730A2521148F"]
+			icon: {
+				id: "cobblemon:pp_up"
+			}
+			id: "41761BC413841F4C"
+			shape: "circle"
+			tasks: [{
+				id: "265B0538A5F2C407"
+				item: { count: 1, id: "cobblemon:pp_up" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["41761BC413841F4C"]
+			icon: {
+				id: "cobblemon:pp_max"
+			}
+			id: "7EAD0CD424BE77C1"
+			shape: "circle"
+			tasks: [{
+				id: "10B0C1C35D98D372"
+				item: { count: 1, id: "cobblemon:pp_max" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 1.5d
+		}
+		{
+			hide_dependent_lines: true
+			icon: {
+				id: "cobblemon_utility:goldencap"
+			}
+			id: "3A4E2E46CAAE14DB"
+			rewards: [{
+				id: "5C73E618164466EB"
+				item: {
+					count: 1
+					id: "cobblemon_utility:goldencap"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "49F6C84652D10C8C"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3A4E2E46CAAE14DB"
+				"40DD5369DEDFDCBF"
+			]
+			id: "20CB3AB1CFDAA145"
+			shape: "circle"
+			tasks: [
+				{
+					id: "69192C5DCB03E14C"
+					item: { count: 1, id: "cobblemon:health_candy" }
+					type: "item"
+				}
+				{
+					id: "4D04D44846D10572"
+					item: { count: 1, id: "cobblemon:mighty_candy" }
+					type: "item"
+				}
+				{
+					id: "5F8E56B79C9E86C3"
+					item: { count: 1, id: "cobblemon:tough_candy" }
+					type: "item"
+				}
+				{
+					id: "3B9BEDC8BA2429A0"
+					item: { count: 1, id: "cobblemon:smart_candy" }
+					type: "item"
+				}
+				{
+					id: "1F86553E46DB01B5"
+					item: { count: 1, id: "cobblemon:courage_candy" }
+					type: "item"
+				}
+				{
+					id: "253F37B24456B1A8"
+					item: { count: 1, id: "cobblemon:quick_candy" }
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["20CB3AB1CFDAA145"]
+			icon: {
+				id: "cobblemon:sickly_candy"
+			}
+			id: "275369206B03C168"
+			shape: "circle"
+			tasks: [
+				{
+					id: "75054DB3A746D385"
+					item: { count: 1, id: "cobblemon:sickly_candy" }
+					type: "item"
+				}
+				{
+					id: "05097A0D8E9AD0F1"
+					item: { count: 1, id: "cobblemon:weak_candy" }
+					type: "item"
+				}
+				{
+					id: "4013DDE56328E13E"
+					item: { count: 1, id: "cobblemon:brittle_candy" }
+					type: "item"
+				}
+				{
+					id: "46984D1FA103E44B"
+					item: { count: 1, id: "cobblemon:numb_candy" }
+					type: "item"
+				}
+				{
+					id: "40B181B24AF6D9AD"
+					item: { count: 1, id: "cobblemon:coward_candy" }
+					type: "item"
+				}
+				{
+					id: "321A161542DBD436"
+					item: { count: 1, id: "cobblemon:slow_candy" }
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3A4E2E46CAAE14DB"]
+			icon: {
+				id: "cobblemon_utility:woodencap"
+			}
+			id: "24569BA46F22290E"
+			shape: "circle"
+			tasks: [{
+				id: "2097447C62381BD0"
+				item: { count: 1, id: "cobblemon_utility:woodencap" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+	]
+}

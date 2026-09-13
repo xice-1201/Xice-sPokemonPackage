@@ -60,6 +60,7 @@
 			size: 1.5d
 			tasks: [{
 				consume_items: true
+				count: 64L
 				id: "33ACEA5603B25D7E"
 				item: { count: 1, id: "createages:andesite_machine" }
 				type: "item"
@@ -538,7 +539,7 @@
 				action: "have_registered"
 				amount: 1L
 				biome: ""
-				dex_progress: "seen"
+				dex_progress: "caught"
 				dimension: ""
 				form: ""
 				gender: ""

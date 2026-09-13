@@ -1,9 +1,41 @@
 {
-  "xices_cobblemon_fix.jei.sequenced_assembly.all_results": "全部可能产出：",
-  "xices_cobblemon_fix.jei.sequenced_assembly.byproducts": "副产物（发生副产物时）：",
-  "tooltip.xices_cobblemon_fix.disabled_item": "该物品已被禁用",
-  "container.xices_cobblemon_fix.poke_miner": "宝可梦挖掘机缓存",
-  "item.xices_cobblemon_fix.quest_botany_logs": "任意盆栽原木",
-  "item.xices_cobblemon_fix.quest_botany_saplings": "任意盆栽树苗",
-  "item.xices_cobblemon_fix.quest_brushes": "任意刷子"
-}
+  "cobblemon.move.soniclock": "音波锁定",
+  "cobblemon.move.soniclock.desc": "通过声波辨位，锁定目标",
+  "cobblemon.battle.start.xicesoundlock": "%2$s通过声波锁定了%1$s！",
+  "cobblemon.battle.end.xicesoundlock": "%1$s的音波锁定消失了。",
+  "cobblemon.battle.activate.soniclock": "%1$s通过音波锁定了%2$s！",
+  "cobblemon.move.wardenpunch": "监守者之拳",
+  "cobblemon.move.wardenpunch.desc": "挥动有力的拳头对目标造成伤害",
+  "cobblemon.move.xicesonicwave": "尖啸音波",
+  "cobblemon.move.xicesonicwave.desc": "极短的蓄力后，造成无法抵挡的音波伤害。",
+  "cobblemon.move.xicedarksurge": "黑暗涌动",
+  "cobblemon.move.xicedarksurge.desc": "迸发涌动的黑暗遮蔽视线，降低附近所有宝可梦的命中。",
+  "cobblemon.ability.xicedarkshroud": "黑暗笼罩",
+  "cobblemon.ability.xicedarkshroud.desc": "免疫麻痹与睡眠，对手登场时令其命中大幅降低",
+  "cobblemon.ability.xicedarkshroud.description": "免疫麻痹与睡眠，对手登场时令其命中大幅降低",
+  "cobblemon.ability.xice_dark_shroud": "黑暗笼罩",
+  "cobblemon.ability.xice_dark_shroud.desc": "免疫麻痹与睡眠，对手登场时令其命中大幅降低",
+  "cobblemon.ability.xice_dark_shroud.description": "免疫麻痹与睡眠，对手登场时令其命中大幅降低",
+  "block.xices_cobblemon_fix.pokemon_beehive": "宝可梦蜂箱",
+  "item.xices_cobblemon_fix.pokemon_beehive": "宝可梦蜂箱",
+  "item.xices_cobblemon_fix.trade_list": "交易清单",
+  "item.xices_cobblemon_fix.trade_list.input": "输入：%s",
+  "item.xices_cobblemon_fix.trade_list.output": "输出：%s",
+  "block.xices_cobblemon_fix.proxy_trading_station": "代理交易站",
+  "item.xices_cobblemon_fix.proxy_trading_station": "代理交易站",
+  "jade.xices_cobblemon_fix.armor": "护甲：%s  韧性：%s",
+  "effect.xices_cobblemon_fix.attention_transfer": "注意力转移",
+  "effect.xices_cobblemon_fix.battle_focus": "专心致志"
+  ,"cobblemon.species.warden_boss.name": "监守者"
+  ,"cobblemon.species.warden_boss.desc": "沉睡于深暗地下、以震动感知一切的守护者。"
+  ,"cobblemon.move.wardenpunch": "监守者之拳"
+  ,"cobblemon.move.xicesonicwave": "尖啸音波"
+  ,"cobblemon.move.sonicwave": "尖啸音波"
+  ,"cobblemon.move.sonicwave.desc": "极短的蓄力后，造成无法抵挡的音波伤害。"
+  ,"cobblemon.move.xicedarksurge": "黑暗涌动"
+  ,"cobblemon.move.darksurge": "黑暗涌动"
+  ,"cobblemon.move.darksurge.desc": "迸发涌动的黑暗遮蔽视线，降低附近所有宝可梦的命中。"
+  ,"cobblemon.ability.xicedarkshroud": "黑暗笼罩"
+  ,"cobblemon.ability.xicedarkshroud.desc": "免疫麻痹与睡眠，对手登场时令其命中大幅降低"
+,"cobblemon.move.soniclock":"音波锁定","cobblemon.move.soniclock.desc":"通过声波辨位，锁定目标","cobblemon.move.wardenpunch.desc":"挥动有力的拳头对目标造成伤害","cobblemon.move.sonicwave":"尖啸音波","cobblemon.move.sonicwave.desc":"极短的蓄力后，造成无法抵挡的音波伤害。","cobblemon.move.darksurge":"黑暗涌动","cobblemon.move.darksurge.desc":"迸发涌动的黑暗遮蔽视线，降低附近所有宝可梦的命中。","cobblemon.ability.xice_dark_shroud":"黑暗笼罩","cobblemon.ability.xice_dark_shroud.desc":"免疫麻痹与睡眠，对手登场时令其命中大幅降低"}
+

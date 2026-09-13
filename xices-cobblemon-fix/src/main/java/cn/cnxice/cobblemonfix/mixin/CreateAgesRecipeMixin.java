@@ -32,6 +32,11 @@ public abstract class CreateAgesRecipeMixin {
     private static final String ANDESITE_MECHANISM = "createages:andesite_mechanism";
     private static final String ANDESITE_TEMPLATE = "createages:andesite_template";
     private static final String ANDESITE_MACHINE = "createages:andesite_machine";
+    private static final String COPPER_MACHINE = "createages:copper_machine";
+    private static final String ZINC_MECHANISM = "createages:zinc_mechanism";
+    private static final String ZINC_MACHINE = "createages:zinc_machine";
+    private static final String INCOMPLETE_ZINC_MECHANISM = "createages:incomplete_zinc_mechanism";
+    private static final String INCOMPLETE_ZINC_MACHINE = "createages:incomplete_zinc_machine";
     private static final Set<String> DISABLED_ECONOMY_CONTENT = Set.of(
             "createages:package_assembler",
             "createages:port_station",
@@ -46,6 +51,12 @@ public abstract class CreateAgesRecipeMixin {
     );
     private static final ResourceLocation CUSTOM_ANDESITE_MACHINE_RECIPE =
             ResourceLocation.fromNamespaceAndPath("xices_cobblemon_fix", "andesite_machine_sequenced_assembly");
+    private static final ResourceLocation CUSTOM_COPPER_MACHINE_RECIPE =
+            ResourceLocation.fromNamespaceAndPath("xices_cobblemon_fix", "copper_machine_sequenced_assembly");
+    private static final ResourceLocation CUSTOM_ZINC_MACHINE_RECIPE =
+            ResourceLocation.fromNamespaceAndPath("xices_cobblemon_fix", "zinc_machine_sequenced_assembly");
+    private static final ResourceLocation CUSTOM_ZINC_MECHANISM_RECIPE =
+            ResourceLocation.fromNamespaceAndPath("xices_cobblemon_fix", "zinc_mechanism_sequenced_assembly");
     private static final Set<ResourceLocation> ALLOWED_WORKFORCE_RECIPES = Set.of(
             xice$recipe("workforce/poke_miner"),
             xice$recipe("workforce/slot_upgrade_sequenced_assembly"),
@@ -91,11 +102,13 @@ public abstract class CreateAgesRecipeMixin {
             xice$restoredRecipe("crafting/logistics/packager"),
             xice$restoredRecipe("crafting/kinetics/propeller"),
             xice$restoredRecipe("crafting/kinetics/rope_pulley"),
+            xice$restoredRecipe("crafting/kinetics/steam_engine"),
             xice$restoredRecipe("crafting/kinetics/whisk"),
             xice$restoredRecipe("crafting/kinetics/windmill_bearing"),
             xice$restoredRecipe("sequenced_assembly/precision_mechanism")
     );
     private static final Map<String, CutOutput> ANDESITE_MACHINE_OUTPUTS = xice$andesiteMachineOutputs();
+    private static final Map<String, CutOutput> ZINC_MACHINE_OUTPUTS = xice$zincMachineOutputs();
 
     @ModifyVariable(method = "apply", at = @At("HEAD"), argsOnly = true, ordinal = 0)
     private Map<ResourceLocation, JsonElement> xice$filterInvalidCreateAgesRecipes(Map<ResourceLocation, JsonElement> recipes) {
@@ -114,6 +127,8 @@ public abstract class CreateAgesRecipeMixin {
             return xice$shouldDisable(id, modernized) ? xice$falseCondition() : modernized;
         });
         xice$addAndesiteMachineCuttingRecipes(patched);
+        xice$addCopperMachineCuttingRecipes(patched);
+        xice$addZincMachineCuttingRecipes(patched);
         xice$addHopperBotanyPotRecipes(patched);
         return patched;
     }
@@ -205,6 +220,26 @@ public abstract class CreateAgesRecipeMixin {
         // Every other recipe containing one is an Ages progression/crafting use and must go;
         // cutting recipes are injected only after this filtering pass.
         if (!CUSTOM_ANDESITE_MACHINE_RECIPE.equals(id) && xice$containsString(json, ANDESITE_MACHINE)) {
+            return true;
+        }
+
+        // Same policy for Copper Machines: only the pack's custom sequence may create one.
+        // All Create: Ages remnants that consume or produce copper machines are removed here;
+        // pack cutting recipes are injected after filtering, so they stay available.
+        if (!CUSTOM_COPPER_MACHINE_RECIPE.equals(id) && xice$containsString(json, COPPER_MACHINE)) {
+            return true;
+        }
+
+        // Create: Ages' Zinc Machine progression is disabled in the pack.
+        // This removes the machine, its sequenced assembly, and every recipe
+        // consuming/producing it or its zinc mechanism. Recipes restored from
+        // Create remain available because they use the original Create IDs.
+        if (!CUSTOM_ZINC_MACHINE_RECIPE.equals(id)
+                && !CUSTOM_ZINC_MECHANISM_RECIPE.equals(id)
+                && (xice$containsString(json, ZINC_MACHINE)
+                || xice$containsString(json, ZINC_MECHANISM)
+                || xice$containsString(json, INCOMPLETE_ZINC_MACHINE)
+                || xice$containsString(json, INCOMPLETE_ZINC_MECHANISM))) {
             return true;
         }
 
@@ -369,23 +404,46 @@ public abstract class CreateAgesRecipeMixin {
     }
 
     private static void xice$addAndesiteMachineCuttingRecipes(Map<ResourceLocation, JsonElement> recipes) {
-        ANDESITE_MACHINE_OUTPUTS.forEach((name, output) -> {
+        xice$addMachineCuttingRecipes(recipes, ANDESITE_MACHINE, "andesite_machine", ANDESITE_MACHINE_OUTPUTS);
+    }
+
+    private static void xice$addCopperMachineCuttingRecipes(Map<ResourceLocation, JsonElement> recipes) {
+        xice$addMachineCuttingRecipes(recipes, COPPER_MACHINE, "copper_machine", COPPER_MACHINE_OUTPUTS);
+    }
+
+    private static void xice$addZincMachineCuttingRecipes(Map<ResourceLocation, JsonElement> recipes) {
+        xice$addMachineCuttingRecipes(recipes, ZINC_MACHINE, "zinc_machine", ZINC_MACHINE_OUTPUTS);
+    }
+
+    private static void xice$addMachineCuttingRecipes(
+            Map<ResourceLocation, JsonElement> recipes,
+            String inputItem,
+            String recipePrefix,
+            Map<String, CutOutput> outputs
+    ) {
+        outputs.forEach((name, output) -> {
             ResourceLocation item = ResourceLocation.parse(output.item());
             if (!"minecraft".equals(item.getNamespace()) && !ModList.get().isLoaded(item.getNamespace())) {
                 return;
             }
 
             JsonObject ingredient = new JsonObject();
-            ingredient.addProperty("item", ANDESITE_MACHINE);
+            ingredient.addProperty("item", inputItem);
             JsonObject result = new JsonObject();
             result.addProperty("id", output.item());
             result.addProperty("count", output.count());
+            if (output.components() != null && !output.components().entrySet().isEmpty()) {
+                result.add("components", output.components().deepCopy());
+            }
 
             JsonObject stonecutting = new JsonObject();
             stonecutting.addProperty("type", "minecraft:stonecutting");
             stonecutting.add("ingredient", ingredient.deepCopy());
             stonecutting.add("result", result.deepCopy());
-            recipes.put(ResourceLocation.fromNamespaceAndPath("xices_cobblemon_fix", "andesite_machine/stonecutting/" + name), stonecutting);
+            recipes.put(ResourceLocation.fromNamespaceAndPath(
+                    "xices_cobblemon_fix",
+                    recipePrefix + "/stonecutting/" + name
+            ), stonecutting);
 
             com.google.gson.JsonArray ingredients = new com.google.gson.JsonArray();
             ingredients.add(ingredient.deepCopy());
@@ -396,7 +454,10 @@ public abstract class CreateAgesRecipeMixin {
             cutting.add("ingredients", ingredients);
             cutting.addProperty("processing_time", 50);
             cutting.add("results", results);
-            recipes.put(ResourceLocation.fromNamespaceAndPath("xices_cobblemon_fix", "andesite_machine/cutting/" + name), cutting);
+            recipes.put(ResourceLocation.fromNamespaceAndPath(
+                    "xices_cobblemon_fix",
+                    recipePrefix + "/cutting/" + name
+            ), cutting);
         });
     }
 
@@ -511,10 +572,95 @@ public abstract class CreateAgesRecipeMixin {
         outputs.put("bee_port", new CutOutput("create_mobile_packages:bee_port", 1));
         outputs.put("robo_bee", new CutOutput("create_mobile_packages:robo_bee", 1));
         outputs.put("empty_andesite_chunk_loader", new CutOutput("create_power_loader:empty_andesite_chunk_loader", 1));
+        outputs.put("encased_chain_cogwheel", new CutOutput("create_connected:encased_chain_cogwheel", 1));
+        outputs.put("crank_wheel", new CutOutput("create_connected:crank_wheel", 2));
+        outputs.put("large_crank_wheel", new CutOutput("create_connected:large_crank_wheel", 1));
+        outputs.put("inverted_clutch", new CutOutput("create_connected:inverted_clutch", 2));
+        outputs.put("inverted_gearshift", new CutOutput("create_connected:inverted_gearshift", 1));
+        outputs.put("parallel_gearbox", new CutOutput("create_connected:parallel_gearbox", 1));
+        outputs.put("vertical_parallel_gearbox", new CutOutput("create_connected:vertical_parallel_gearbox", 1));
+        outputs.put("six_way_gearbox", new CutOutput("create_connected:six_way_gearbox", 1));
+        outputs.put("vertical_six_way_gearbox", new CutOutput("create_connected:vertical_six_way_gearbox", 1));
+        outputs.put("cross_connector", new CutOutput("create_connected:cross_connector", 1));
+        outputs.put("shear_pin", new CutOutput("create_connected:shear_pin", 8));
+        outputs.put("overstress_clutch", new CutOutput("create_connected:overstress_clutch", 1));
+        outputs.put("centrifugal_clutch", new CutOutput("create_connected:centrifugal_clutch", 1));
+        outputs.put("freewheel_clutch", new CutOutput("create_connected:freewheel_clutch", 1));
+        outputs.put("brake", new CutOutput("create_connected:brake", 1));
+        outputs.put("basin_lid", new CutOutput("createdieselgenerators:basin_lid", 1));
+        outputs.put("andesite_girder", new CutOutput("createdieselgenerators:andesite_girder", 16));
         return Map.copyOf(outputs);
     }
 
-    private record CutOutput(String item, int count) {
+    private static final Map<String, CutOutput> COPPER_MACHINE_OUTPUTS = xice$copperMachineOutputs();
+
+    private static Map<String, CutOutput> xice$copperMachineOutputs() {
+        Map<String, CutOutput> outputs = new LinkedHashMap<>();
+        // Copper backtanks are non-stackable, so the recipe result must never exceed 1.
+        outputs.put("copper_backtank", new CutOutput("create:copper_backtank", 1));
+        outputs.put("fluid_pipe", new CutOutput("create:fluid_pipe", 16));
+        outputs.put("mechanical_pump", new CutOutput("create:mechanical_pump", 4));
+        outputs.put("smart_fluid_pipe", new CutOutput("create:smart_fluid_pipe", 8));
+        outputs.put("fluid_valve", new CutOutput("create:fluid_valve", 4));
+        outputs.put("copper_valve_handle", new CutOutput("create:copper_valve_handle", 8));
+        outputs.put("fluid_tank", new CutOutput("create:fluid_tank", 4));
+        outputs.put("hose_pulley", new CutOutput("create:hose_pulley", 1));
+        outputs.put("item_drain", new CutOutput("create:item_drain", 4));
+        outputs.put("spout", new CutOutput("create:spout", 4));
+        outputs.put("portable_fluid_interface", new CutOutput("create:portable_fluid_interface", 2));
+        outputs.put("steam_engine", new CutOutput("create:steam_engine", 1));
+        outputs.put("steam_whistle", new CutOutput("create:steam_whistle", 4));
+        outputs.put("copper_casing", new CutOutput("create:copper_casing", 8));
+        outputs.put("fluid_hatch", new CutOutput("create_dragons_plus:fluid_hatch", 4));
+        outputs.put("experience_hatch", new CutOutput("create_enchantment_industry:experience_hatch", 2));
+        outputs.put("experience_lantern", new CutOutput("create_enchantment_industry:experience_lantern", 2));
+        outputs.put("printer", new CutOutput("create_enchantment_industry:printer", 1));
+        outputs.put("pumpjack_hole", new CutOutput("createdieselgenerators:pumpjack_hole", 1));
+        outputs.put("fluid_vessel", new CutOutput("create_connected:fluid_vessel", 4));
+        return Map.copyOf(outputs);
+    }
+
+    private static Map<String, CutOutput> xice$zincMachineOutputs() {
+        Map<String, CutOutput> outputs = new LinkedHashMap<>();
+        outputs.put("iron_door", new CutOutput("minecraft:iron_door", 1));
+        outputs.put("chain", new CutOutput("minecraft:chain", 2));
+        outputs.put("anvil", new CutOutput("minecraft:anvil", 1));
+        outputs.put("cauldron", new CutOutput("minecraft:cauldron", 1));
+        outputs.put("hopper", new CutOutput("minecraft:hopper", 1));
+        outputs.put("minecart", new CutOutput("minecraft:minecart", 1));
+        outputs.put("zinc_hand", new CutOutput("createages:zinc_hand", 1));
+        outputs.put("zinc_casing", new CutOutput("createages:zinc_casing", 2));
+        outputs.put("chute", new CutOutput("create:chute", 4));
+        outputs.put("empty_blaze_burner", new CutOutput("create:empty_blaze_burner", 1));
+        outputs.put("track", new CutOutput("create:track", 16));
+        outputs.put("item_vault", new CutOutput("create:item_vault", 1));
+        outputs.put("distillation_controller", new CutOutput("createdieselgenerators:distillation_controller", 1));
+        outputs.put("oil_scanner", new CutOutput("createdieselgenerators:oil_scanner", 1));
+        outputs.put("pumpjack_bearing", new CutOutput("createdieselgenerators:pumpjack_bearing", 1));
+        outputs.put("pumpjack_crank", new CutOutput("createdieselgenerators:pumpjack_crank", 1));
+        outputs.put("pumpjack_head", new CutOutput("createdieselgenerators:pumpjack_head", 1));
+        outputs.put("canister", new CutOutput("createdieselgenerators:canister", 1));
+        outputs.put("oil_barrel", new CutOutput("createdieselgenerators:oil_barrel", 1));
+        outputs.put("engine_turbocharger", new CutOutput("createdieselgenerators:engine_turbocharger", 1));
+        outputs.put("bowl_mold", xice$moldCutOutput("createdieselgenerators:bowl", 2));
+        outputs.put("lines_mold", xice$moldCutOutput("createdieselgenerators:lines", 2));
+        outputs.put("chain_mold", xice$moldCutOutput("createdieselgenerators:chain", 2));
+        outputs.put("bar_mold", xice$moldCutOutput("createdieselgenerators:bar", 2));
+        outputs.put("portable_stock_ticker", new CutOutput("create_mobile_packages:portable_stock_ticker", 1));
+        outputs.put("item_silo", new CutOutput("create_connected:item_silo", 1));
+        return Map.copyOf(outputs);
+    }
+
+    private static CutOutput xice$moldCutOutput(String moldType, int count) {
+        JsonObject components = new JsonObject();
+        components.addProperty("createdieselgenerators:mold_type", moldType);
+        return new CutOutput("createdieselgenerators:mold", count, components);
+    }
+
+    private record CutOutput(String item, int count, JsonObject components) {
+        private CutOutput(String item, int count) {
+            this(item, count, null);
+        }
     }
 
     private static JsonObject xice$falseCondition() {

@@ -23,11 +23,13 @@ neoForge {
 }
 
 dependencies {
-    compileOnly files('../mods/[方块宝可梦] Cobblemon-neoforge-1.8.0+1.21.1.jar')
+      compileOnly files('../mods/[方块宝可梦] Cobblemon-neoforge-1.8.0+1.21.1.jar')
+      compileOnly files('../mods/mega_showdown-neoforge-1.0+1.8+1.21.1-release-hotfix.jar')
     compileOnly files('../mods/cobblemonintegrations-neoforge-1.21.1-1.1.6.jar')
     compileOnly files('../mods/[JEI物品管理器] jei-1.21.1-neoforge-19.53.0.426.jar')
     compileOnly files('../mods/[机械动力] create-1.21.1-6.0.10.jar')
     compileOnly files('../mods/[植物盆栽] botanypots-neoforge-1.21.1-21.1.44.jar')
+    compileOnly files('../mods/[玉 🔍] Jade-1.21.1-NeoForge-15.10.6.jar')
     compileOnly files('../mods/bookshelf-neoforge-1.21.1-21.1.81.jar')
     compileOnly files('../mods/createages-0.6.1.jar')
     compileOnly files('../mods/cobblemon_workforce-neoforge-1.0.1.jar')

@@ -1,4 +1,15 @@
 {
   "item.kubejs.mechanical_nutrient_block": "Mechanical Nutrient Block",
-  "item.kubejs.reinforced_brush": "Reinforced Brush"
+  "item.kubejs.insect_feed": "Insect Feed",
+  "item.kubejs.growth_granules": "Growth Granules",
+  "item.kubejs.carbon_powder": "Carbon Powder",
+  "item.kubejs.mineral_cookie": "Mineral Cookie",
+  "item.kubejs.reinforced_brush": "Reinforced Brush",
+  "item.kubejs.calm_cream": "Calming Cream",
+  "fluid.kubejs.torchberry_syrup": "Torchberry Syrup",
+  "fluid_type.kubejs.torchberry_syrup": "Torchberry Syrup",
+  "block.kubejs.torchberry_syrup": "Torchberry Syrup",
+  "item.kubejs.torchberry_syrup_bucket": "Torchberry Syrup Bucket",
+  "item.kubejs.torchberry_syrup_bottle": "Torchberry Syrup Bottle",
+  "item.kubejs.inactive_essence": "Inactive Essence"
 }

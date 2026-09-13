@@ -199,11 +199,8 @@
       "level": "18-43",
       "weight": 60.0,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_forest",
-          "#cobblemon:is_plains"
-        ],
-        "timeRange": "night"
+        "twilightForestOnly": true,
+        "nearbyWaterRadius": 8
       }
     },
     {
@@ -218,11 +215,42 @@
       "level": "18-43",
       "weight": 60.0,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_forest",
-          "#cobblemon:is_plains"
-        ],
-        "timeRange": "night"
+        "twilightForestOnly": true,
+        "nearbyWaterRadius": 8
+      }
+    },
+    {
+      "id": "xice-volbeat-overworld-water-night",
+      "pokemon": "volbeat",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "18-43",
+      "weight": 60.0,
+      "condition": {
+        "overworldNonOceanOnly": true,
+        "duskOrNightOnly": true,
+        "nearbyWaterRadius": 8
+      }
+    },
+    {
+      "id": "xice-illumise-overworld-water-night",
+      "pokemon": "illumise",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "18-43",
+      "weight": 60.0,
+      "condition": {
+        "overworldNonOceanOnly": true,
+        "duskOrNightOnly": true,
+        "nearbyWaterRadius": 8
       }
     },
     {

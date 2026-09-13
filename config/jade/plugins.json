@@ -52,6 +52,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "xices_cobblemon_fix": {
+    "pokemon_armor": true
+  },
   "create_mobile_packages": {
     "bee_port": true
   },

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "twilightforest:blackberry",
+    "twilightforest:blueberry",
+    "twilightforest:maloberry",
+    "twilightforest:raspberry",
+    "twilightforest:stingberry",
+    "twilightforest:torchberries"
+  ]
+}

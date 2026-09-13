@@ -1,0 +1,482 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "copper_and_fluid_engineering"
+	group: "5B436C31B9C8044B"
+	icon: {
+		id: "createages:copper_machine"
+	}
+	id: "2D592BB5D3E96403"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["229549D68945DB4B"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "create:fluid_pipe"
+			}
+			id: "3843D17A4B44497A"
+			rewards: [{
+				count: 20
+				id: "37E5F59A7E0E403B"
+				item: {
+					count: 1
+					id: "createages:copper_machine"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "689589A50E6C6889"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"20C686580DE1D617"
+				"152DFE9399E114BE"
+				"67637F517576DFF4"
+				"79F50C55548EC088"
+			]
+			id: "2A0248ADA39A4AF0"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "79C5A3A6A56C4364"
+				item: { count: 1, id: "createages:copper_machine" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79874AA9987CBC7B"]
+			id: "16CDAE894674815F"
+			shape: "circle"
+			tasks: [{
+				id: "20C9ED2341180267"
+				item: { count: 1, id: "twilightforest:copper_berry" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3843D17A4B44497A"]
+			icon: {
+				id: "cobblemon_workforce:poke_miner"
+			}
+			id: "1E0125D333BA7D8C"
+			shape: "circle"
+			tasks: [
+				{
+					id: "768A3804AF34FF58"
+					item: { count: 1, id: "cobblemon_workforce:poke_miner" }
+					type: "item"
+				}
+				{
+					id: "5D236F70E9F3D447"
+					item: { count: 1, id: "cobblemon_workforce:normal_slot_upgrade" }
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["25B8255F6263A982"]
+			id: "14E727DF705B8145"
+			shape: "circle"
+			tasks: [{
+				id: "6AC333088C9ADD44"
+				item: { count: 1, id: "create:veridium" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"16CDAE894674815F"
+				"1E0125D333BA7D8C"
+				"14E727DF705B8145"
+			]
+			dependency_requirement: "one_completed"
+			id: "5B24F17EACBCD9E9"
+			shape: "circle"
+			tasks: [{
+				id: "04CAD2A3457FEE3C"
+				item: { count: 1, id: "create:copper_nugget" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"191377BEA30B87BA"
+				"7DB7DC2B03FD3D18"
+			]
+			dependency_requirement: "one_completed"
+			id: "4936238879D4291A"
+			shape: "circle"
+			tasks: [{
+				id: "40C27C3F2D05D411"
+				item: { count: 1, id: "twilightforest:torchberries" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3843D17A4B44497A"]
+			icon: {
+				id: "twilightforest:torchberry_plant"
+			}
+			id: "191377BEA30B87BA"
+			shape: "circle"
+			tasks: [
+				{
+					id: "6E4E4DE1ABCF8853"
+					item: { count: 1, id: "twilightforest:torchberry_plant" }
+					type: "item"
+				}
+				{
+					id: "7D8684B628D213E1"
+					item: { count: 1, id: "botanypots:terracotta_botany_pot" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5B24F17EACBCD9E9"
+				"4936238879D4291A"
+			]
+			id: "20C686580DE1D617"
+			shape: "circle"
+			tasks: [{
+				id: "62F48F9D8974A5D5"
+				item: { count: 1, id: "createages:copper_mechanism" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4E2E2363FDCBFACB"
+				"5F188D118B1B0065"
+			]
+			dependency_requirement: "one_completed"
+			id: "152DFE9399E114BE"
+			shape: "circle"
+			tasks: [{
+				id: "38CF69A82FCAAB69"
+				item: { count: 1, id: "minecraft:dried_kelp" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3843D17A4B44497A"]
+			icon: {
+				id: "minecraft:kelp"
+			}
+			id: "4E2E2363FDCBFACB"
+			shape: "circle"
+			tasks: [
+				{
+					id: "0E2E5A1B1C76FDE5"
+					item: { count: 1, id: "minecraft:kelp" }
+					type: "item"
+				}
+				{
+					id: "4CDE477DD894E065"
+					item: { count: 1, id: "botanypots:terracotta_botany_pot" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7BFEE52F8B27126B"]
+			id: "67637F517576DFF4"
+			shape: "circle"
+			tasks: [{
+				id: "40B7413AAD3A477B"
+				item: { count: 1, id: "minecraft:glass_pane" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79874AA9987CBC7B"]
+			id: "7BFEE52F8B27126B"
+			shape: "circle"
+			tasks: [{
+				id: "2EF840E48C74D7EC"
+				item: { count: 1, id: "minecraft:glass" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25B8255F6263A982"]
+			id: "79F50C55548EC088"
+			shape: "circle"
+			tasks: [{
+				id: "6514685FF6351C2A"
+				item: { count: 1, id: "minecraft:honeycomb" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0F87557A958C803B"]
+			dependency_requirement: "one_completed"
+			id: "25B8255F6263A982"
+			shape: "circle"
+			tasks: [
+				{
+					id: "2BD170AEB0086795"
+					item: { count: 1, id: "minecraft:honey_bottle" }
+					type: "item"
+				}
+				{
+					id: "3D682B26DDFFE443"
+					item: { count: 1, id: "create:honey_bucket" }
+					type: "item"
+				}
+				{
+					id: "7D209782A86C75FA"
+					item: { count: 1, id: "minecraft:honey_block" }
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3843D17A4B44497A"]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:combee"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "0F87557A958C803B"
+			shape: "circle"
+			tasks: [
+				{
+					action: "have_registered"
+					amount: 1L
+					biome: ""
+					dex_progress: "caught"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "2EA6B891B2CB42DC"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:combee,cobblemon:vespiquen"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					consume_items: false
+					id: "71B4FEA82B5442EC"
+					item: { count: 1, id: "xices_cobblemon_fix:pokemon_beehive" }
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3843D17A4B44497A"]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:indeedee"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "79874AA9987CBC7B"
+			shape: "circle"
+			tasks: [
+				{
+					action: "have_registered"
+					amount: 1L
+					biome: ""
+					dex_progress: "caught"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "5F48DE82DED383A9"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:indeedee"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "469CA6E5853AFED6"
+					item: { count: 1, id: "xices_cobblemon_fix:proxy_trading_station" }
+					type: "item"
+				}
+				{
+					id: "72FA51D08741D346"
+					item: { count: 1, id: "xices_cobblemon_fix:trade_list" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3843D17A4B44497A"]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:volbeat"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "7DB7DC2B03FD3D18"
+			shape: "circle"
+			tasks: [
+				{
+					action: "have_registered"
+					amount: 1L
+					biome: ""
+					dex_progress: "caught"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "2B96744A1375B3F5"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:volbeat,cobblemon:illumise"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "63E46D39FC43D774"
+					item: { count: 1, id: "kubejs:insect_feed" }
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3843D17A4B44497A"]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:dhelmise"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "5F188D118B1B0065"
+			shape: "circle"
+			tasks: [
+				{
+					action: "have_registered"
+					amount: 1L
+					biome: ""
+					dex_progress: "caught"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "0ED6984036626E9A"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:dhelmise"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "6BB627B1D963B21B"
+					item: { count: 1, id: "kubejs:growth_granules" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 1.5d
+		}
+	]
+}

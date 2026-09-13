@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "minecraft:paper"},
+    {"item": "minecraft:feather"}
+  ],
+  "result": {"id": "xices_cobblemon_fix:trade_list", "count": 1}
+}

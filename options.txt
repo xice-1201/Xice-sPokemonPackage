@@ -135,10 +135,10 @@ key_gui.xaero_map_zoom_out:key.keyboard.unknown
 key_gui.xaero_quick_confirm:key.keyboard.right.shift
 key_gui.xaero_toggle_dimension:key.keyboard.unknown
 key_key.modernfix.config:key.keyboard.unknown
-key_key.twilightforest.red_thread_vision:key.keyboard.unknown
+key_key.twilightforest.swap_hotbar:key.keyboard.v
 key_key.twilightforest.item_display_map_cycle:key.keyboard.c
 key_key.twilightforest.zoom:key.keyboard.z
-key_key.twilightforest.swap_hotbar:key.keyboard.v
+key_key.twilightforest.red_thread_vision:key.keyboard.unknown
 key_key.curios.open.desc:key.keyboard.g
 key_key.cobblemon.hideparty:key.keyboard.o
 key_key.cobblemon.summary:key.keyboard.v
@@ -188,6 +188,7 @@ key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
 key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
 key_key.jei.closeRecipeGui:key.keyboard.escape
 key_key.jei.copy.recipe.id:key.keyboard.unknown
+key_key.kubejs.kubedex:key.keyboard.k
 key_key.cobblemonexpall.toggle_exp_share:key.keyboard.x
 key_key.cobblemonexpall.toggle_ev_share:key.keyboard.v
 key_key.cobblemon_smartphone.open:key.keyboard.k
@@ -199,6 +200,7 @@ key_key.cobblemon_smartphone.quick_action_4:key.keyboard.unknown
 key_key.cobblemon_smartphone.quick_action_5:key.keyboard.unknown
 key_key.cobblemon_smartphone.quick_action_6:key.keyboard.unknown
 key_key.cobblemon-battle-extras.battle_logs:key.keyboard.b
+key_key.modmenu.open_menu:key.keyboard.unknown
 key_key.ftbquests.quests:key.keyboard.unknown
 key_key.ftbquests.cycle_pinned_tracker:key.keyboard.unknown
 key_key.ftbquests.gui.zoom_in:key.keyboard.equal
@@ -272,14 +274,14 @@ key_gui.xaero_toggle_pac_chunk_claims:key.keyboard.unknown
 key_key.kitsuneime.hotkey:key.keyboard.home
 key_key.entityculling.toggle:key.keyboard.unknown
 soundCategory_master:0.5022079366721854
-soundCategory_music:1.0
-soundCategory_record:1.0
-soundCategory_weather:1.0
+soundCategory_music:0.056338028169014086
+soundCategory_record:0.5052816901408451
+soundCategory_weather:0.2007042253521127
 soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0
 soundCategory_player:1.0
-soundCategory_ambient:1.0
+soundCategory_ambient:0.5070422535211268
 soundCategory_voice:1.0
 modelPart_cape:true
 modelPart_jacket:true

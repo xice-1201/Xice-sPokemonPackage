@@ -1,0 +1,375 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "block_pokemon"
+	group: "77E4B5DC69AEE112"
+	icon: {
+		id: "cobblemon:poke_ball"
+	}
+	id: "51D5A1BF4440F6B9"
+	images: [{
+		click_action: "none:"
+		height: 9.0d
+		id: "7C0937CFA0E0CAD4"
+		image: "kubejs:textures/quests/type_chart.png"
+		order: -1
+		rotation: 0.0d
+		width: 12.0d
+		x: -15.0d
+		y: -2.25d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependent_lines: true
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "4353DC63EB2503A3"
+			rewards: [{
+				count: 64
+				id: "4EC624FE22B0B365"
+				item: {
+					count: 1
+					id: "cobblemon:ultra_ball"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "48C9BA58766C669F"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["4353DC63EB2503A3"]
+			icon: {
+				id: "minecraft:grass_block"
+			}
+			id: "75853FF2BA88F712"
+			shape: "circle"
+			tasks: [{
+				id: "71B098BBFA6CB919"
+				type: "checkmark"
+			}]
+			x: -21.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["4353DC63EB2503A3"]
+			hide_dependent_lines: true
+			icon: {
+				id: "twilightforest:steeleaf_ingot"
+			}
+			id: "5002D88DDE762715"
+			shape: "circle"
+			tasks: [{
+				id: "249ED9F9683BF002"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["4353DC63EB2503A3"]
+			icon: {
+				id: "cobblemon:rare_candy"
+			}
+			id: "65DCFEC5BC953A23"
+			shape: "circle"
+			tasks: [{
+				id: "6AE869953A94E79C"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["5002D88DDE762715"]
+			icon: {
+				id: "cobblemon:normal_gem"
+			}
+			id: "43BB3A46B23D3EEB"
+			shape: "circle"
+			tasks: [{
+				id: "68151952BDFFB188"
+				type: "checkmark"
+			}]
+			x: -21.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["5002D88DDE762715"]
+			icon: {
+				id: "cobblemon:fire_gem"
+			}
+			id: "2EF8C7226CD207E0"
+			shape: "circle"
+			tasks: [{
+				id: "739EBCC40CEF68BB"
+				type: "checkmark"
+			}]
+			x: -19.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["5002D88DDE762715"]
+			icon: {
+				id: "cobblemon:water_gem"
+			}
+			id: "74B3094504BBBCC6"
+			shape: "circle"
+			tasks: [{
+				id: "40412E929D716945"
+				type: "checkmark"
+			}]
+			x: -18.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["5002D88DDE762715"]
+			icon: {
+				id: "cobblemon:electric_gem"
+			}
+			id: "66371B2C74E58C53"
+			shape: "circle"
+			tasks: [{
+				id: "6F23D4A96184D119"
+				type: "checkmark"
+			}]
+			x: -16.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["5002D88DDE762715"]
+			icon: {
+				id: "cobblemon:grass_gem"
+			}
+			id: "67A7E0D6A3C65480"
+			shape: "circle"
+			tasks: [{
+				id: "71CE47D67DA7AD71"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["5002D88DDE762715"]
+			icon: {
+				id: "cobblemon:ice_gem"
+			}
+			id: "505DB58B66BE008D"
+			shape: "circle"
+			tasks: [{
+				id: "6575D6203C813C6D"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["5002D88DDE762715"]
+			icon: {
+				id: "cobblemon:fighting_gem"
+			}
+			id: "08EDCB923E52F926"
+			shape: "circle"
+			tasks: [{
+				id: "73D7D45059BC0643"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["5002D88DDE762715"]
+			icon: {
+				id: "cobblemon:poison_gem"
+			}
+			id: "650D57C8C6DC395B"
+			shape: "circle"
+			tasks: [{
+				id: "2C6D0C7AB6418B05"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["5002D88DDE762715"]
+			icon: {
+				id: "cobblemon:ground_gem"
+			}
+			id: "6922FFA40210906A"
+			shape: "circle"
+			tasks: [{
+				id: "6BEA72E2401661E2"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["5002D88DDE762715"]
+			icon: {
+				id: "cobblemon:flying_gem"
+			}
+			id: "3C592D29A795A809"
+			shape: "circle"
+			tasks: [{
+				id: "165828D5AC042FBD"
+				type: "checkmark"
+			}]
+			x: -21.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["5002D88DDE762715"]
+			icon: {
+				id: "cobblemon:psychic_gem"
+			}
+			id: "06DBB7495EC6DB81"
+			shape: "circle"
+			tasks: [{
+				id: "328F7DA320807FC9"
+				type: "checkmark"
+			}]
+			x: -19.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["5002D88DDE762715"]
+			icon: {
+				id: "cobblemon:bug_gem"
+			}
+			id: "0D85F4A5472FE999"
+			shape: "circle"
+			tasks: [{
+				id: "3A268FCC25C13622"
+				type: "checkmark"
+			}]
+			x: -18.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["5002D88DDE762715"]
+			icon: {
+				id: "cobblemon:rock_gem"
+			}
+			id: "360982CF17C24835"
+			shape: "circle"
+			tasks: [{
+				id: "7C3C64C30DC37D96"
+				type: "checkmark"
+			}]
+			x: -16.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["5002D88DDE762715"]
+			icon: {
+				id: "cobblemon:ghost_gem"
+			}
+			id: "7D81B9C8D63BC669"
+			shape: "circle"
+			tasks: [{
+				id: "153D32F95E7BBD40"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["5002D88DDE762715"]
+			icon: {
+				id: "cobblemon:dragon_gem"
+			}
+			id: "42E2F0614D0D6C3D"
+			shape: "circle"
+			tasks: [{
+				id: "084C05A7D2232E29"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["5002D88DDE762715"]
+			icon: {
+				id: "cobblemon:dark_gem"
+			}
+			id: "16B89124911FF9E0"
+			shape: "circle"
+			tasks: [{
+				id: "3B4B2B0AAA9F69B8"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["5002D88DDE762715"]
+			icon: {
+				id: "cobblemon:steel_gem"
+			}
+			id: "51E7646B249FC0E5"
+			shape: "circle"
+			tasks: [{
+				id: "740F5CA1F611DEB3"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["5002D88DDE762715"]
+			icon: {
+				id: "cobblemon:fairy_gem"
+			}
+			id: "07A0CC143D78D472"
+			shape: "circle"
+			tasks: [{
+				id: "6CBCAC2B34762355"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["4353DC63EB2503A3"]
+			icon: {
+				components: {
+					"ftbquests:icon": "xices_cobblemon_fix:textures/mob_effect/battle_focus.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0DA94CCF8FB3DFA3"
+			shape: "circle"
+			tasks: [{
+				id: "1F18CCCB587D83E0"
+				type: "checkmark"
+			}]
+			x: -18.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["4353DC63EB2503A3"]
+			icon: {
+				id: "cobblemon_utility:goldencap"
+			}
+			id: "548472C815E5CF16"
+			shape: "circle"
+			tasks: [{
+				id: "536016BA50E60199"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -6.75d
+		}
+	]
+}

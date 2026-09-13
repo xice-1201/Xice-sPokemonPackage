@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "xices_cobblemon_fix:trade_list"}
+  ],
+  "result": {"id": "xices_cobblemon_fix:trade_list", "count": 1}
+}

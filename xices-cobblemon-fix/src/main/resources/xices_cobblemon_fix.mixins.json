@@ -4,6 +4,9 @@
   "package": "cn.cnxice.cobblemonfix.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "WardenNativeAbilityMixin",
+    "SwitchTrace",
+    "WardenPackedTeamMixin",
     "CobblemonIntegrationsConfigMixin",
     "CobblemonQuestsPokedexMixin",
     "CobblemonQuestsTaskMixin",
@@ -13,13 +16,50 @@
     "CreateAgesEconomyManagerMixin$ShopOffers",
     "CreateAgesEconomyMachineMixin",
     "CreateAgesRecipeMixin",
+    "DispenserShearsMixin",
     "OwnedPokemonLavaBucketMixin",
+    "PokemonBattleAttributesMixin",
+    "FirePokemonResistanceMixin",
+    "ElectricPokemonResistanceMixin",
+    "GrassPokemonResistanceMixin",
+    "IcePokemonResistanceMixin",
+    "FightingPokemonResistanceMixin",
+    "PoisonPokemonResistanceMixin",
+    "GroundPokemonResistanceMixin",
+    "FlyingPokemonResistanceMixin",
+    "PsychicPokemonResistanceMixin",
+    "RockPokemonResistanceMixin",
+    "GhostPokemonResistanceMixin",
+    "DragonPokemonResistanceMixin",
+    "DarkPokemonResistanceMixin",
+    "SteelPokemonResistanceMixin",
+    "FairyPokemonResistanceMixin",
+    "BugPokemonResistanceMixin",
+    "PokemonColdResistanceMixin",
+    "WaterPokemonResistanceMixin",
+    "PokemonFireDurationMixin",
+    "PokemonMoveControlMixin",
     "PokeMinerBlockEntityMixin",
     "PokeMinerBlockMixin",
+    "PokemonBeehivePasturePokemonMixin",
+    "PokemonBeehiveUnpasturePokemonMixin",
+    "PokemonBeehiveUnpastureAllMixin",
     "PCInteractionCooldownMixin",
     "ReinforcedBrushDurabilityMixin",
     "SpawnWeightMixin",
+    "TorchberrySyrupFluidInteractionMixin",
     "WorkForceLiteralMixin"
+    ,"AttentionTransferMixin"
+    ,"BattleFocusMixin"
+    ,"BattleFocusMobMixin"
+    ,"ShowdownMovesetGimmickMixin"
+    ,"WardenBattleAiAccessor"
+
+    ,"WardenBoostInstructionMixin"
+    ,"WardenSetBoostInstructionMixin"
+    ,"WardenClearBoostInstructionMixin"
+    ,"WardenClearAllBoostInstructionMixin"
+    ,"WardenClearNegativeBoostInstructionMixin"
   ],
   "client": [
     "CaughtTooltipConditionMixin",
@@ -31,7 +71,8 @@
     "FTBXModCompatJEIRecipeHelperMixin",
     "SequencedAssemblyCategoryMixin",
     "UnknownTooltipConditionMixin",
-    "WoverExperimentalWarningMixin"
+    "WoverExperimentalWarningMixin",
+    "CobblemonAbilityPoolMixin"
   ],
   "injectors": {
     "defaultRequire": 1

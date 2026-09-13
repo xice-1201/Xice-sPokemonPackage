@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"xices_cobblemon_fix:block/pokemon_beehive"},"facing=south":{"model":"xices_cobblemon_fix:block/pokemon_beehive","y":180},"facing=west":{"model":"xices_cobblemon_fix:block/pokemon_beehive","y":270},"facing=east":{"model":"xices_cobblemon_fix:block/pokemon_beehive","y":90}}}

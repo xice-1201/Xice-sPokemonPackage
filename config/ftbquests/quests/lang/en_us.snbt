@@ -2,8 +2,208 @@
 	chapter_group.757C57BE3C0B9157.title: "Main Story"
 	chapter_group.5B436C31B9C8044B.title: "Industrial Age"
 	chapter_group.77E4B5DC69AEE112.title: "Pokémon Master"
+	chapter.8A31C6E4F2097B5D.title: "Block Pokémon"
+	chapter.8A31C6E4F2097B5D.chapter_subtitle: ["Learn how Pokémon work in the game"]
+	chapter.9D42E7F5A3106B8C.title: "Industrial Partners"
+	chapter.9D42E7F5A3106B8C.chapter_subtitle: ["Use Pokémon to support industrial production"]
+	chapter.A153F806B4217C0D.title: "Practical Tools"
+	chapter.A153F806B4217C0D.chapter_subtitle: ["Explore Pokémon-related tools and equipment"]
+	quest.8B42D7F5A3106C9E.title: "Block Pokémon"
+	quest.9E53F806B4217C0D.title: "Industrial Partners"
+	quest.A264A917C5328D1E.title: "Practical Tools"
 	chapter.12C065EAF5D85233.title: "Andesite Machine"
 	chapter.12C065EAF5D85233.chapter_subtitle: ["Unit 1: Automate Andesite Machines"]
+	chapter.2D592BB5D3E96403.title: "Copper and Fluid Engineering"
+	chapter.2D592BB5D3E96403.chapter_subtitle: ["Unit 2: Establish Copper Processing and Fluid Engineering"]
+	chapter.4B8E1A3D72C90F66.title: "Pokémon Experience"
+	chapter.4B8E1A3D72C90F66.chapter_subtitle: ["Unit 4: Automate Experience Candy Production"]
+	chapter.6A5F8C1E4D2B7093.title: "Zinc Machine"
+	chapter.6A5F8C1E4D2B7093.chapter_subtitle: ["Unit 3: Automate Zinc Machines"]
+	chapter.7E4A91C3D6B8205F.chapter_subtitle: ["Unit 4: Train and optimize Pokémon EVs"]
+	chapter.7E4A91C3D6B8205F.title: "EV Training"
+	quest.7F2C5A9D1B6E3048.title: "EV Training"
+	quest.7F2C5A9D1B6E3048.quest_desc: ["Begin training your Pokémon's Effort Values."]
+	quest.0877271D0D7A9F38.title: "Basic EV Training Items"
+	quest.0877271D0D7A9F38.quest_subtitle: "Good enough for now"
+	quest.0877271D0D7A9F38.quest_desc: ["EV training feathers are the most basic way to raise a Pokémon's Effort Values."]
+	quest.134552B5AE07BCE8.title: "Fresh-Start Mochi"
+	quest.134552B5AE07BCE8.quest_subtitle: "You should go back to sleep"
+	quest.134552B5AE07BCE8.quest_desc: ["This is a piece of &6Mochi&r that makes Pokémon completely lose their &6motivation&r..."]
+	quest.40DD5369DEDFDCBF.title: "Advanced EV Training Items"
+	quest.40DD5369DEDFDCBF.quest_subtitle: "My fingers hurt from clicking..."
+	quest.40DD5369DEDFDCBF.quest_desc: ["&6EV Mochi&r raises the corresponding &6Effort Value&r by &b4 points&r at once."]
+	quest.0C30A986707A37F5.title: "PP Training"
+	quest.0C30A986707A37F5.quest_subtitle: "Essential for the Turtle Team"
+	quest.0C30A986707A37F5.quest_desc: [
+		"Normally, using a move in a Pokémon battle consumes that move's &6PP&r. If all moves are unusable, the Pokémon can only Struggle..."
+		"&6PP Up&r raises a Pokémon move's maximum &6PP&r. The maximum can reach &b160%&r of the starting value."
+	]
+	quest.3165730A2521148F.title: "Medicinal Brew"
+	quest.3165730A2521148F.quest_subtitle: "The basis of medicine"
+	quest.3165730A2521148F.quest_desc: ["&6Medicinal Brew&r is roughly equivalent to an awkward potion in Minecraft's Pokémon medicines. You will need a lot of it."]
+	quest.41761BC413841F4C.title: "PP Up"
+	quest.41761BC413841F4C.quest_subtitle: "Increase the PP limit"
+	quest.41761BC413841F4C.quest_desc: ["Add &6Vivichoke&r to produce &6PP Up&r, a medicine that increases a move's maximum PP by &b20%&r."]
+	quest.7EAD0CD424BE77C1.title: "PP Max"
+	quest.7EAD0CD424BE77C1.quest_subtitle: "One click and done!"
+	quest.7EAD0CD424BE77C1.quest_desc: ["&6PP Max&r immediately raises a move's PP limit to its maximum value."]
+	quest.45CA46378D67C700.title: "Advanced EV Training Items"
+	quest.45CA46378D67C700.quest_subtitle: "Is there anything better?"
+	quest.45CA46378D67C700.quest_desc: ["&6Stat-enhancing items&r raise a Pokémon's &6Effort Values&r more efficiently. &6Stat-boosting feathers&r have the same effect, but these items greatly reduce mouse wear."]
+	quest.2C6379F2F500CBAA.title: "Attribute Mapping"
+	quest.2C6379F2F500CBAA.quest_subtitle: "I wanted to bring Pokémon stats into the world unchanged"
+	quest.2C6379F2F500CBAA.quest_desc: [
+		"Pokémon battle stats can easily reach hundreds of HP and Attack, values that would make even a Warden feel outmatched. Pokémon entity attributes are therefore adjusted rather than mapped directly, while still being influenced by their &6six stats&r."
+		"&aHP&r → maximum health."
+		"&cAttack&r → damage dealt by &6physical attacks&r."
+		"&bDefence&r → armour and armour toughness."
+		"&dSpecial Attack&r → damage dealt by &5magic attacks&r."
+		"&3Special Defence&r → damage reduction against &5magic damage&r."
+		"&eSpeed&r → movement speed and attack interval."
+		"Perhaps this makes Pokémon a little more balanced in the world... probably."
+	]
+	quest.31FFC0B47805632E.title: "Move Mapping"
+	quest.31FFC0B47805632E.quest_subtitle: "I cannot create a unique effect for every single move."
+	quest.31FFC0B47805632E.quest_desc: [
+		"Pokémon have more than a thousand moves, so this pack uses a &6move-mapping system&r instead of defining every move individually."
+		"Only the Pokémon's &afour equipped moves&r are considered, and they determine its &bbehaviour in the world&r."
+		"&dStatus moves&r → continuously provide &aResistance I&r to the team."
+		"&cPhysical moves&r → deal &6physical damage&r."
+		"&5Special moves&r → deal &dmagic damage&r."
+		"&6Contact moves&r → &cmelee attacks&r."
+		"&bNon-contact moves&r → &9ranged attacks&r."
+		"A Pokémon prioritizes restoring a missing buff, then attempts melee combat; it uses a ranged move when the target is too far away."
+		"Some Pokémon and moves have unique behaviours for you to discover."
+	]
+	quest.0DA94CCF8FB3DFA3.title: "Pokémon Battle Protection"
+	quest.0DA94CCF8FB3DFA3.quest_subtitle: "You cannot lose focus during a Pokémon battle..."
+	quest.0DA94CCF8FB3DFA3.quest_desc: [
+		"When entering a &6Pokémon battle&r, everyone on both sides receives the \"&bBattle Focus&r\" effect until the battle ends."
+		"While you have &bBattle Focus&r, most hostile entities will not target you, and you cannot damage other enemies."
+	]
+	quest.548472C815E5CF16.title: "Pokémon Individual Values"
+	quest.548472C815E5CF16.quest_subtitle: "People cannot all be judged the same... neither can Pokémon."
+	quest.548472C815E5CF16.quest_desc: [
+		"A Pokémon's Individual Values (IVs, 0–31) are determined at birth and cannot normally be changed. Breeding is usually required to optimize them."
+		"In actual battles, however, effective IV values are often all that matters. Several items can raise or lower effective IVs, which is more than enough for battle use."
+	]
+	quest.3843D17A4B44497A.title: "Copper and Fluid Engineering"
+	quest.3843D17A4B44497A.quest_desc: [
+		"&6Copper&r is both an important industrial material and the foundation of &bfluid engineering&r."
+		"This unit will guide you through stable &6copper processing&r, the &btransport, storage and use of fluids&r, and ultimately the automation of &aCopper Machines&r."
+	]
+	quest.2A0248ADA39A4AF0.title: "Copper Machine"
+	quest.7D3B1A9E5C6F2048.title: "Zinc Machine"
+	quest.7D3B1A9E5C6F2048.quest_subtitle: "Create Kinetics III"
+	quest.7D3B1A9E5C6F2048.quest_desc: [
+		"&6Zinc Machines&r are the core equipment of the zinc-processing stage."
+		"This unit introduces a complete automated production line for &6Zinc Machines&r."
+	]
+	quest.1C9E4A7B2D6F8035.title: "Zinc Machine"
+	quest.1C9E4A7B2D6F8035.quest_subtitle: "The core of the Zinc Age"
+	quest.1C9E4A7B2D6F8035.quest_desc: [
+		"Build an automated production line capable of continuously producing &6Zinc Machines&r."
+		"Submit &a64 Zinc Machines&r to complete this unit."
+	]
+	quest.1874556D4945BC27.title: "Asurine"
+	quest.1874556D4945BC27.quest_subtitle: "Blue stone, zinc inside"
+	quest.1874556D4945BC27.quest_desc: [
+		"&6Asurine&r is produced by mixing &6cobblestone&r, &6crushed raw zinc&r and &6light blue concrete&r."
+		"It can be processed into more &6crushed raw zinc&r and &6zinc nuggets&r."
+		"It can also be bulk-washed with an &6Encased Fan&r for a chance at bonus materials."
+	]
+	quest.1C4B6F6B0FF89C7F.title: "Light Blue Dye"
+	quest.1C4B6F6B0FF89C7F.quest_subtitle: "Dye production"
+	quest.1C4B6F6B0FF89C7F.quest_desc: [
+		"Crushing and smelting selected plants provides an easy source of &6dyes&r."
+		"Pokémon berries make several dye colours much easier to obtain than in vanilla."
+	]
+	quest.65DC163CAF2C832F.title: "Light Blue Concrete Powder"
+	quest.65DC163CAF2C832F.quest_subtitle: "Colouring the aggregate"
+	quest.65DC163CAF2C832F.quest_desc: [
+		"Mix &6sand&r, &6gravel&r and &6dye&r to obtain concrete powder."
+		"Coloured concrete is widely useful for building."
+	]
+	quest.43E469172C8F7E73.title: "Limestone"
+	quest.43E469172C8F7E73.quest_subtitle: "Lava and honey, apparently"
+	quest.43E469172C8F7E73.quest_desc: [
+		"&6Limestone&r can be bulk-washed with an &6Encased Fan&r for &6crushed raw zinc&r, &6jade&r, &6black jade&r and &6sky jade&r."
+		"It is formed when flowing &clava&r contacts &6honey&r."
+		"The washing yield is low, but a mechanical cobblestone generator can provide limestone in bulk."
+	]
+	quest.4C1E7F32B91DDF2E.title: "Direct Crushed Zinc"
+	quest.4C1E7F32B91DDF2E.quest_subtitle: "A useful shortcut"
+	quest.4C1E7F32B91DDF2E.quest_desc: [
+		"The Pokémon Excavator cannot mine zinc ore in this pack, but zinc can still be renewed."
+		"Feed &6Mechanical Nutrient Blocks&r to Pokémon in the &6Magnemite family&r to obtain &6crushed raw zinc&r, with a &e2-second&r cooldown."
+		"With &6Magnezone&r, the cooldown is removed and bonus &blapis lazuli&r and &credstone dust&r may also be produced."
+	]
+	quest.3929323B04606727.title: "Zinc Nugget"
+	quest.3929323B04606727.quest_subtitle: "A very ordinary metal"
+	quest.3929323B04606727.quest_desc: [
+		"&6Zinc&r is an important ingredient for &6brass&r. It is also used to make &6Zinc Machines&r, which may save you some crafting later."
+	]
+	quest.05A08BECE8BE2567.title: "Wooden Mechanism"
+	quest.05A08BECE8BE2567.quest_subtitle: "Another mechanism already?"
+	quest.05A08BECE8BE2567.quest_desc: [
+		"&6Wooden Mechanisms&r are made through sequenced assembly from &6planks&r, &6cogwheels&r and &6wooden buttons&r."
+		"The saw step may rarely produce &6wood chips&r instead."
+	]
+	quest.132BC265AC6CDB7D.title: "Obtaining Iron"
+	quest.132BC265AC6CDB7D.quest_subtitle: "Iron again"
+	quest.132BC265AC6CDB7D.quest_desc: [
+		"Prepare an &6iron nugget&r as part of the Zinc Mechanism route."
+	]
+	quest.48B590DC06EB0340.title: "Zinc Mechanism"
+	quest.48B590DC06EB0340.quest_subtitle: "Why is there so much wood in this?"
+	quest.48B590DC06EB0340.quest_desc: [
+		"&6Zinc Mechanisms&r are an important intermediate for making &6Zinc Machines&r."
+	]
+	quest.4880D8B6792133D9.title: "Charcoal"
+	quest.4880D8B6792133D9.quest_subtitle: "The roof beams are fuel now"
+	quest.4880D8B6792133D9.quest_desc: [
+		"Smelt &6logs&r into &6charcoal&r. It can be used as fuel or processed into other materials."
+	]
+	quest.52767466725949D4.title: "Wrought Iron Bar"
+	quest.52767466725949D4.quest_subtitle: "Famously not made by hammering"
+	quest.52767466725949D4.quest_desc: [
+		"Heat-mix &6iron dust&r and &6carbon powder&r to obtain a &6Wrought Iron Bar&r."
+		"It is a reinforced form of iron, even if it is not very useful yet."
+	]
+	quest.77567B57F3E4A58D.title: "Obtaining Coal"
+	quest.77567B57F3E4A58D.quest_subtitle: "Let Pokémon help you build the production line!"
+	quest.77567B57F3E4A58D.quest_desc: [
+		"&6Coal&r can be obtained from the Pokémon Excavator and is a stable early source."
+		"Feed a &6Mineral Cookie&r to &6Torkoal&r to obtain a large amount of coal at once. This has a &e2-minute&r cooldown."
+		"&6Mineral Cookies&r can also be fed to Pokémon in the &6Rolycoly family&r. Rolycoly, Carkol and Coalossal provide &a1, 3 and 5 coal&r respectively."
+		"The produced &6coal&r can be crushed into &6carbon powder&r, letting it cycle back into more &6Mineral Cookies&r."
+	]
+	task.2C4A3FE38E42C1B0.title: "Own any Pokémon from the Rolycoly family or Torkoal"
+	quest.2A0248ADA39A4AF0.quest_subtitle: "The foundation of fluid industry"
+	quest.2A0248ADA39A4AF0.quest_desc: [
+		"Build an automated production line capable of continuously producing &6Copper Machines&r."
+		"Submit &a64 Copper Machines&r to complete the final objective of Copper and Fluid Engineering."
+	]
+	quest.4E2E2363FDCBFACB.title: "Kelp Farming"
+	quest.4E2E2363FDCBFACB.quest_subtitle: "A renewable aquatic crop"
+	quest.4E2E2363FDCBFACB.quest_desc: ["Grow kelp in a Botany Pot for a compact, renewable supply of kelp."]
+	quest.152DFE9399E114BE.title: "Dried Kelp"
+	quest.152DFE9399E114BE.quest_desc: ["Smelt kelp into dried kelp for use in copper processing and other recipes."]
+	quest.191377BEA30B87BA.title: "Torchberry Farming"
+	quest.191377BEA30B87BA.quest_subtitle: "Bring shears"
+	quest.191377BEA30B87BA.quest_desc: ["Torchberry fruit cannot be replanted. Use shears on a Torchberry Plant, then grow the plant in a Botany Pot to automate Torchberries."]
+	quest.4936238879D4291A.title: "Torchberry Syrup"
+	quest.4936238879D4291A.quest_subtitle: "Is it drinkable?"
+	quest.4936238879D4291A.quest_desc: ["Heat Torchberries in a Mechanical Mixer to produce a thick fluid used as an adhesive in selected machines."]
+	quest.79F50C55548EC088.title: "Honeycomb"
+	quest.79F50C55548EC088.quest_subtitle: "The dispenser is the real beekeeper"
+	quest.79F50C55548EC088.quest_desc: [
+		"&6Honeycomb&r is a key material for &6Copper Machines&r and is normally obtained by using &6shears&r on a full bee nest or beehive."
+		"This pack adds a &6pressing recipe&r for compressing &6honey&r into &6honeycomb&r, and a heated mixing recipe to turn &6honeycomb&r back into &6honey&r."
+	]
+	quest.5F188D118B1B0065.title: "Obtaining Kelp"
+	quest.5F188D118B1B0065.quest_subtitle: "Let Pokémon help you build the production line!"
+	quest.5F188D118B1B0065.quest_desc: ["&6Dhelmise&r appears in waters near &bshipwrecks and ruins&r. Feed it &6Growth Granules&r to obtain &akelp quickly in bulk&r."]
 
 	quest.1B181AEE17D258BA.title: "Unit Goal"
 	quest.1B181AEE17D258BA.quest_desc: [
@@ -92,6 +292,68 @@
 		"Mix &6pulpifiable plant material&r with water in a Basin to produce &apulp&r."
 		"Pulp can then be &bpressed&r into &acardboard&r."
 	]
+	quest.5A6F0C1D2E3B4A90.title: "Pokémon Experience"
+	quest.5A6F0C1D2E3B4A90.quest_subtitle: "An upgrade factory for Pokémon"
+	quest.5A6F0C1D2E3B4A90.quest_desc: [
+		"&6Experience Candies&r provide experience directly to Pokémon and are useful for training your team."
+		"This unit will guide you through building an &aautomated production line for the Experience Candy series&r."
+	]
+	quest.6B7C8D9E0F1A2B30.title: "Exp. Candy XL"
+	quest.6B7C8D9E0F1A2B30.quest_subtitle: "Industrialised levelling"
+	quest.6B7C8D9E0F1A2B30.quest_desc: [
+		"Build a production line capable of steadily producing &6Exp. Candy XL&r."
+		"Submit &a64 Exp. Candy XL&r to complete this unit."
+	]
+	quest.261C3B7279E60325.title: "Exp. Candy S"
+	quest.261C3B7279E60325.quest_subtitle: "800 experience per candy"
+	quest.261C3B7279E60325.quest_desc: [
+		"Mix &6Exp. Candy XS&r with &6Strength Potion&r in a &bMechanical Mixer&r to produce &aExp. Candy S&r."
+	]
+	quest.2EC65855AFA1153A.title: "Strength Potion"
+	quest.2EC65855AFA1153A.quest_subtitle: "Brew strength"
+	quest.2EC65855AFA1153A.quest_desc: [
+		"Strength Potion is used as the catalyst for upgrading &6Exp. Candy XS&r."
+		"It can be brewed in a Brewing Stand or produced through Create's potion-fluid processing."
+	]
+	quest.03EE810121A30B6D.title: "Nether Wart"
+	quest.03EE810121A30B6D.quest_subtitle: "The brewing base"
+	quest.03EE810121A30B6D.quest_desc: [
+		"&6Nether Wart&r is the basic ingredient for brewing awkward potions."
+	]
+	quest.33AFCF4C3C1CF728.title: "Blaze Powder"
+	quest.33AFCF4C3C1CF728.quest_subtitle: "A fiery catalyst"
+	quest.33AFCF4C3C1CF728.quest_desc: [
+		"&6Blaze Powder&r is an important ingredient for &6Strength Potion&r and a common fuel for brewing."
+	]
+	quest.6BCDFA7629580672.title: "Obtaining Blaze Powder"
+	quest.6BCDFA7629580672.quest_subtitle: "Let Pokémon help you build the production line!"
+	quest.6BCDFA7629580672.quest_desc: [
+		"Use &6any brush&r on &cVolcarona&r to brush &aBlaze Powder&r from its wings."
+		"Each interaction consumes &e1 durability&r and produces &a2-3 Blaze Powder&r. This interaction has &bno cooldown&r."
+	]
+	quest.0362FAE070CABCB5.quest_subtitle: "A very traditional source of Blaze Powder"
+	quest.0362FAE070CABCB5.quest_desc: ["Do you really want to build a &cBlaze farm&r?"]
+	task.115269DC241C68F3.title: "Own Volcarona"
+	task.0FECF51AEE70C4CD.title: "Own any brush"
+	task.5A2C0045305B4B04.title: "Kill a Blaze for Blaze Powder"
+	quest.647FDA601DDE1472.title: "Essence Berry"
+	quest.647FDA601DDE1472.quest_subtitle: "Growing experience"
+	quest.647FDA601DDE1472.quest_desc: [
+		"&6Essence Berries&r are underground crops from the &dTwilight Forest&r and can be grown in stone-based Botany Pots."
+		"Heat &6Essence Berries&r to obtain &6liquid experience&r."
+	]
+	quest.38988FB0B09A63B8.title: "Honeycomb"
+	quest.38988FB0B09A63B8.quest_subtitle: "Candy must be sweet"
+	quest.38988FB0B09A63B8.quest_desc: [
+		"&6Honeycomb&r forms the sweet base of Experience Candy."
+		"The &6Copper and Fluid Engineering&r unit already provides an automated honeycomb route."
+	]
+	quest.2043AA8792F5EE3C.title: "Exp. Candy XS"
+	quest.2043AA8792F5EE3C.quest_subtitle: "The basic size"
+	quest.2043AA8792F5EE3C.quest_desc: [
+		"Inject &6liquid experience&r into &6honeycomb&r to produce nine &6Exp. Candy XS&r."
+		"This is the first step of the Experience Candy production line."
+	]
 	quest.419593F97FA56316.title: "Cardboard"
 	quest.419593F97FA56316.quest_subtitle: "Papermaking"
 	quest.419593F97FA56316.quest_desc: [
@@ -137,7 +399,24 @@
 	]
 	quest.2D5407EE6844379F.quest_subtitle: "Let Pokémon help you build the production line!"
 	quest.2D5407EE6844379F.title: "Obtaining Lava"
+	quest.25B8255F6263A982.title: "Obtaining Honey"
+	quest.25B8255F6263A982.quest_subtitle: "Any form will do..."
+	quest.25B8255F6263A982.quest_desc: [
+		"Obtain a &6honey bottle, honey block or honey bucket&r; any one of the three is sufficient."
+		"&cWarning: shearing full bee nests or beehives for honeycomb is disabled in this pack.&r"
+	]
+	quest.0F87557A958C803B.title: "Pokémon Beekeeping"
+	quest.0F87557A958C803B.quest_subtitle: "Let Pokémon help you build the production line!"
+	quest.0F87557A958C803B.quest_desc: [
+		"Pokémon in the &6Combee family&r can produce &ahoney&r in a &6Pokémon Beehive&r."
+		"A Pokémon Beehive can hold up to &bthree Combee-family Pokémon&r. Its production rate depends on their &6number and evolutionary stage&r, as well as the &dflowers nearby&r."
+		"Honey can be extracted through &bfluid pipes&r. After installing a &6Logistics Slot Upgrade&r and assigning a &cnon-Ghost-type Pokémon&r, the hive can accept &6glass bottles&r and &aoutput filled honey bottles automatically&r."
+	]
+	task.2EA6B891B2CB42DC.title: "Own any Pokémon from the Combee family"
 	task.4C57A0A43EB16D92.title: "Own any Pokémon from the Slugma or Numel family"
+	task.2B96744A1375B3F5.title: "Own any Pokémon from the Volbeat or Illumise family"
+	task.0ED6984036626E9A.title: "Own Dhelmise"
+	task.5F48DE82DED383A9.title: "Own any Pokémon from the Indeedee family"
 	quest.76ADE155346B278D.quest_desc: [
 		"A &6Hose Pulley&r can be used to obtain an &aunlimited supply of lava&r."
 		"Lower its hose into a sufficiently large lava pool, ensuring that at least &e10,000 connected lava source blocks&r lie above the hose end. It can then pump &awithout consuming&r the lava pool."
@@ -162,4 +441,65 @@
 	task.3D6EA7C67687341F.title: "Own any Pokémon from the Hippopotas or Silicobra family"
 	task.58D4057071DC0A7B.title: "Own any brush"
 	task.1BAE4C318D7BD863.title: "Own any Pokémon from the Klink family"
+	quest.43BB3A46B23D3EEB.title: "Normal Type"
+	quest.43BB3A46B23D3EEB.quest_desc: ["Normal-type attacks cannot damage Allays or Vexes, and deal half damage to Iron Golems."]
+	quest.2EF8C7226CD207E0.title: "Fire Type"
+	quest.2EF8C7226CD207E0.quest_desc: ["Fire-type Pokémon are immune to fire and lava damage. Their attacks are especially effective against snow golems, iron golems and arthropods, but weaker against Blazes, Ender Dragons and aquatic mobs."]
+	quest.74B3094504BBBCC6.title: "Water Type"
+	quest.74B3094504BBBCC6.quest_desc: ["Water-type Pokémon breathe underwater and take increased lightning damage. Their attacks are strong against Blazes and weaker against aquatic mobs and Ender Dragons."]
+	quest.66371B2C74E58C53.title: "Electric Type"
+	quest.66371B2C74E58C53.quest_desc: ["Electric-type Pokémon resist lightning and falling-block damage. Their attacks are strong against aquatic mobs, but a nearby lightning rod can prevent them from hitting a target."]
+	quest.67A7E0D6A3C65480.title: "Grass Type"
+	quest.67A7E0D6A3C65480.quest_desc: ["Grass-type Pokémon have special interactions with fire, poison, weather and living mobs. When injured and standing on suitable grass blocks, they can periodically restore health."]
+	quest.505DB58B66BE008D.title: "Ice Type"
+	quest.505DB58B66BE008D.quest_desc: ["Ice-type Pokémon resist freezing effects. During snowfall their armor and toughness increase, while fire and falling blocks deal extra damage."]
+	quest.08EDCB923E52F926.title: "Fighting Type"
+	quest.08EDCB923E52F926.quest_desc: ["Fighting-type attacks are strong against snow golems and illagers, but weak against arthropods. Wild Fighting-type Pokémon may attack nearby illagers."]
+	quest.650D57C8C6DC395B.title: "Poison Type"
+	quest.650D57C8C6DC395B.quest_desc: ["Poison-type Pokémon interact specially with poison and wither effects. Their attacks cannot damage Iron Golems and are weaker against Allays and Vexes."]
+	quest.6922FFA40210906A.title: "Ground Type"
+	quest.6922FFA40210906A.quest_desc: ["Ground-type Pokémon are immune to lightning damage and resist poison, wither and arthropod attacks. Their attacks are strong against Blazes and Iron Golems."]
+	quest.3C592D29A795A809.title: "Flying Type"
+	quest.3C592D29A795A809.quest_desc: ["Flying-type Pokémon are immune to fall damage and resist arthropod attacks, but are vulnerable to lightning and freezing effects."]
+	quest.06DBB7495EC6DB81.title: "Psychic Type"
+	quest.06DBB7495EC6DB81.quest_desc: ["Psychic-type Pokémon are vulnerable to arthropods, Vexes and illagers. Their status moves provide Strength and Speed instead of Resistance."]
+	quest.0D85F4A5472FE999.title: "Bug Type"
+	quest.0D85F4A5472FE999.quest_desc: ["Bug-type Pokémon count as arthropods and interact with Bane of Arthropods. Fire damage is increased, while webs do not slow them."]
+	quest.360982CF17C24835.title: "Rock Type"
+	quest.360982CF17C24835.quest_desc: ["Rock-type Pokémon resist fire and lava and gain knockback resistance, but are vulnerable to aquatic mobs and falling blocks."]
+	quest.7D81B9C8D63BC669.title: "Ghost Type"
+	quest.7D81B9C8D63BC669.quest_desc: ["Ghost-type Pokémon are immune to falling-block and suffocation damage, but have special weaknesses to poison, wither, arthropods, Vexes and illagers."]
+	quest.42E2F0614D0D6C3D.title: "Dragon Type"
+	quest.42E2F0614D0D6C3D.quest_desc: ["Dragon-type Pokémon resist fire, lava, aquatic mobs and lightning. They are immune to dragon breath and can recover inside the Ender Dragon's breath cloud."]
+	quest.16B89124911FF9E0.title: "Dark Type"
+	quest.16B89124911FF9E0.quest_desc: ["Dark-type Pokémon take increased damage from arthropods, but resist Vex and illager attacks. Wild Dark-type Pokémon may attack nearby golems and villagers."]
+	quest.51E7646B249FC0E5.title: "Steel Type"
+	quest.51E7646B249FC0E5.quest_desc: ["Steel-type Pokémon resist freezing and arthropod attacks and are immune to poison and wither damage. Fire and lava deal extra damage, while their attacks are weaker against Blazes, aquatic mobs and Iron Golems."]
+	quest.07A0CC143D78D472.title: "Fairy Type"
+	quest.07A0CC143D78D472.quest_desc: ["Fairy-type Pokémon resist arthropod and illager attacks and are immune to Ender Dragon and dragon-breath damage. Their status moves grant Regeneration instead of Resistance."]
+	quest.3A4E2E46CAAE14DB.title: "IV Training Items"
+	quest.3A4E2E46CAAE14DB.quest_subtitle: "Why can talent be trained later?"
+	quest.3A4E2E46CAAE14DB.quest_desc: [
+		"A Pokémon's &6Individual Values&r are determined at birth. Wild Pokémon usually generate IVs within a range, while bred Pokémon inherit them from their parents according to set rules."
+		"Breeding repeatedly for perfect IVs is a long and tedious process, so the game also provides items that adjust IVs. Most of these items adjust only &6effective IVs&r: they match perfect IVs in battle but are poor substitutes for breeding parents."
+	]
+	quest.20CB3AB1CFDAA145.title: "Basic IV Training Items"
+	quest.20CB3AB1CFDAA145.quest_subtitle: "Eat candy, grow stronger"
+	quest.20CB3AB1CFDAA145.quest_desc: ["Candies in &b6 flavors&r can raise a Pokémon's &6effective IVs&r across all &b6 stats&r."]
+	quest.0002103697C5B64B.title: "Obtain Calcite"
+	quest.0002103697C5B64B.quest_desc: ["Use &6any brush&r on an owned &6Nacli family&r Pokémon to spend &e1 durability&r and obtain calcite: Nacli 2, Naclstack 5, or Garganacl 12. The interaction has &bno cooldown&r."]
+	quest.24569BA46F22290E.title: "Wooden Crown"
+	quest.24569BA46F22290E.quest_subtitle: "Would anyone use this...?"
+	quest.24569BA46F22290E.quest_desc: [
+		"A crown is a special Individual Value training material used for Hyper Training, greatly improving a Pokémon's stats."
+		"I am not actually a fan of the original Pokémon games, so I do not know why crowns work this way... or why this wooden crown randomly changes a Pokémon's effective Individual Values."
+	]
+
+	task.253D4300666F4ECA.title: "Own a Nacli family Pokémon"
+	task.6E9526358E00ABBE.title: "Own any brush"
+
+	quest.275369206B03C168.title: "Basic Individual Value Reduction Items"
+	quest.275369206B03C168.quest_subtitle: "For tactical needs..."
+	quest.275369206B03C168.quest_desc: ["Combined with &6Exanimate Essence&r, the effects of Individual Value candies are reversed, lowering the corresponding Individual Value when consumed."]
+
 }

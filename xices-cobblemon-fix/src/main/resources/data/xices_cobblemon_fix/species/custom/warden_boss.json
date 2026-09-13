@@ -1,0 +1,32 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 10001,
+  "name": "Warden Boss",
+  "primaryType": "normal",
+  "secondaryType": null,
+  "maleRatio": -1.0,
+  "height": 29,
+  "weight": 1050,
+  "pokedex": ["xices_cobblemon_fix.species.warden_boss.desc"],
+  "labels": ["xice_warden_boss", "xice_boss", "legendary"],
+  "aspects": [],
+  "abilities": ["xice_dark_shroud"],
+  "eggGroups": ["undiscovered"],
+  "baseStats": {
+    "hp": 300,
+    "attack": 220,
+    "defence": 95,
+    "special_attack": 180,
+    "special_defence": 25,
+    "speed": 95
+  },
+  "evYield": {"hp": 0, "attack": 0, "defence": 0, "special_attack": 0, "special_defence": 0, "speed": 0},
+  "baseExperienceYield": 0,
+  "experienceGroup": "medium_slow",
+  "catchRate": 0,
+  "eggCycles": 999,
+  "baseFriendship": 0,
+  "baseScale": 1.0,
+  "hitbox": {"height": 2.9, "fixed": false, "width": 1.4},
+  "behaviour": {"combat": {"willDefendOwner": false, "willDefendSelf": false, "willFlee": false}}
+}

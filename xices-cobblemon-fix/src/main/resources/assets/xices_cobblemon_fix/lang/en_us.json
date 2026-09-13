@@ -1,9 +1,30 @@
 {
-  "xices_cobblemon_fix.jei.sequenced_assembly.all_results": "All possible results:",
-  "xices_cobblemon_fix.jei.sequenced_assembly.byproducts": "Byproducts (when a byproduct occurs):",
-  "tooltip.xices_cobblemon_fix.disabled_item": "This item has been disabled",
-  "container.xices_cobblemon_fix.poke_miner": "Poke Miner Buffer",
-  "item.xices_cobblemon_fix.quest_botany_logs": "Any Potted Log",
-  "item.xices_cobblemon_fix.quest_botany_saplings": "Any Pottable Sapling",
-  "item.xices_cobblemon_fix.quest_brushes": "Any Brush"
+  "block.xices_cobblemon_fix.pokemon_beehive": "Pokemon Beehive",
+  "item.xices_cobblemon_fix.pokemon_beehive": "Pokemon Beehive",
+  "item.xices_cobblemon_fix.trade_list": "Trade List",
+  "item.xices_cobblemon_fix.trade_list.input": "Input: %s",
+  "item.xices_cobblemon_fix.trade_list.output": "Output: %s",
+  "block.xices_cobblemon_fix.proxy_trading_station": "Proxy Trading Station",
+  "item.xices_cobblemon_fix.proxy_trading_station": "Proxy Trading Station",
+  "jade.xices_cobblemon_fix.armor": "Armor: %s  Toughness: %s",
+  "effect.xices_cobblemon_fix.attention_transfer": "Attention Transfer",
+  "effect.xices_cobblemon_fix.battle_focus": "Battle Focus"
+  ,"cobblemon.species.warden_boss.name": "Warden"
+  ,"cobblemon.species.warden_boss.desc": "A guardian that senses everything through vibrations in the deepest darkness."
+  ,"cobblemon.move.xice_warden_punch": "Warden Punch"
+  ,"cobblemon.move.wardenpunch": "Warden Punch"
+  ,"cobblemon.move.wardenpunch.desc": "Swing a powerful fist at the target to deal damage."
+  ,"cobblemon.move.xice_sonic_wave": "Sonic Wave"
+  ,"cobblemon.move.sonicwave": "Sonic Wave"
+  ,"cobblemon.move.sonicwave.desc": "After a brief charge, it unleashes an unstoppable sonic attack."
+  ,"cobblemon.move.darksurge": "Dark Surge"
+  ,"cobblemon.move.darksurge.desc": "A surge of darkness obscures vision and lowers the accuracy of nearby Pokémon."
+  ,"cobblemon.move.xice_dark_surge": "Dark Surge"
+  ,"cobblemon.move.soniclock": "Sonic Lock"
+  ,"cobblemon.move.soniclock.desc": "Uses sound waves to pinpoint and lock onto the target."
+  ,"cobblemon.battle.start.xicesoundlock": "%2$s locked onto %1$s with sound waves!"
+  ,"cobblemon.battle.end.xicesoundlock": "%1$s is no longer sound-locked."
+  ,"cobblemon.battle.activate.soniclock": "%1$s locked onto %2$s with sound waves!"
+  ,"cobblemon.ability.xice_dark_shroud": "Dark Shroud"
+  ,"cobblemon.ability.xice_dark_shroud.desc": "Lowers foes' accuracy on entry and grants immunity to paralysis and sleep."
 }
