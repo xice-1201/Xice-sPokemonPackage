@@ -1,12 +1,12 @@
 {
   "name": "Xice的方块宝可梦",
-  "minecraftVersion": "1.21.1",
+  "minecraftVersion": "",
   "modLoader": "NeoForge",
-  "modLoaderVersion": "21.1.250",
-  "javaMajorVersion": 21,
+  "modLoaderVersion": null,
+  "javaMajorVersion": 0,
   "cobblemonVersion": "1.8.0",
-  "generatedAtUtc": "2026-09-09T16:22:13Z",
-  "modCount": 73,
+  "generatedAtUtc": "2026-09-14T05:37:08Z",
+  "modCount": 78,
   "mods": [
     {
       "file": "[传送石碑／指路石] waystones-neoforge-1.21.1-21.1.42.jar",
@@ -29,19 +29,34 @@
       "sha256": "0370a7bc6dc63c581df1002fc041ce445ecac3a82526741d9678d720c32fe570"
     },
     {
+      "file": "[更好的进度] BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar",
+      "sizeBytes": 98641,
+      "sha256": "60b548bef04a2f0e1da686ee9035c2e3d4ed0459a17d7a4836fc26af6de6b60e"
+    },
+    {
+      "file": "[更好的模组列表] better_modlist-21.1.1.jar",
+      "sizeBytes": 818245,
+      "sha256": "9d4fcb6b0e0393f08af4efd787a00a973e091cf4f6f62261b26f26a352b1317e"
+    },
+    {
       "file": "[更好的植物盆栽] botanypotstiers-neoforge-1.21.1-7.0.11.jar",
       "sizeBytes": 1550980,
       "sha256": "2b7e569b7f095d9c72653e9f37b06558afe136fd6ef4afe2c524a2927147af35"
     },
     {
+      "file": "[更好的F3] BetterF3-11.0.3-NeoForge-1.21.1.jar",
+      "sizeBytes": 481646,
+      "sha256": "1a97b6ca5c81b3b18d653f403929908e3b48bb1bdb6e8bd8559f89cf0294dc26"
+    },
+    {
       "file": "[机械动力：柴油动力] createdieselgenerators-1.21.1-1.3.15.jar",
-      "sizeBytes": 3154746,
-      "sha256": "56ef1d574278fc311f1ffa223dbd613077b899354a18d01ae8dca2578a4e2990"
+      "sizeBytes": 3158477,
+      "sha256": "858308e854762f4a98bacf2d17a093fa4c9aac0eb09e7faea5db99c890e07442"
     },
     {
       "file": "[机械动力：创意传动] create_connected-1.3.3-mc1.21.1.jar",
-      "sizeBytes": 6786783,
-      "sha256": "0c5eb9ffb5c8d71e6e2a39023feb85c51adfb10d38949bc47c4abbd53b351a4f"
+      "sizeBytes": 6772656,
+      "sha256": "7bb76be149f4328bf2243fcce78bbe927464ab794d9fc248db5a11124c81dc9e"
     },
     {
       "file": "[机械动力：动力加载器] create_power_loader-2.0.5-mc1.21.1.jar",
@@ -55,8 +70,8 @@
     },
     {
       "file": "[机械动力：龙+] CreateDragonsPlus-1.11.8b.jar",
-      "sizeBytes": 1048120,
-      "sha256": "f2b5c106241d5d9b0b33ab41ff1f6d145b92038e7ffde3d9b07b37639f065445"
+      "sizeBytes": 1044519,
+      "sha256": "51403bbe37c85de2e67f06c9e0678375e3415d0e2a408054a372f391e3fc0cc3"
     },
     {
       "file": "[机械动力：无人机物流] create_mobile_packages-1.21.1-0.7.7.jar",
@@ -200,8 +215,8 @@
     },
     {
       "file": "BetterEnd-21.0.34.jar",
-      "sizeBytes": 97673585,
-      "sha256": "45befc75466153f2f62d8c17a790b58ce794a4216ea152fc21190aa9dc40a440"
+      "sizeBytes": 97623593,
+      "sha256": "154b5a4eb16f61facac71fe5e99ac318ee8b7af10aa85b66f5f928dc737e5117"
     },
     {
       "file": "bookshelf-neoforge-1.21.1-21.1.81.jar",
@@ -239,6 +254,11 @@
       "sha256": "22277646b296db0b5305f925fb5db75e6d0ee3ed76a35b2338d94da06ce15521"
     },
     {
+      "file": "Cobblemon-Utility+-neoforge-1.7.4 norecipes.jar",
+      "sizeBytes": 169662,
+      "sha256": "7edb56637ba4d20c7e0f71fcadce0470dedcc048987a8e0ed172828f5860d952"
+    },
+    {
       "file": "cobblemonexpall-neoforge-0.0.2.jar",
       "sizeBytes": 55467,
       "sha256": "ee2de89a6912600a3b4ec0572456685e731623846378de47fbfa4b2c74cf8112"
@@ -274,9 +294,14 @@
       "sha256": "8c0c86a75aa082fd603eb61dfdc72d028b01b1a7bdad377ed2de64ace95b5622"
     },
     {
+      "file": "create_klinks_n_klangs-2.0.1.jar",
+      "sizeBytes": 684797,
+      "sha256": "6b2c63be86dd8c50fb39cc96c482cf9b42f8b17348af9e0bc4ca5179bf403226"
+    },
+    {
       "file": "createages-0.6.1.jar",
-      "sizeBytes": 366806,
-      "sha256": "6230640a7afce87d4b027ec7dd941f9308ac5597e7091eb99c928323a850016b"
+      "sizeBytes": 365833,
+      "sha256": "c7b5334eacf85115f56dcd58342633b79a6b0895a57e31be5c1f1d4f0a810d37"
     },
     {
       "file": "createcobblestone-1.5.0+neoforge-1.21.1-153.jar",
@@ -364,9 +389,9 @@
       "sha256": "b49c7a040f87ade1e3f73bd7335e8d68ff7a328919c192a6d2c022bae6786a2f"
     },
     {
-      "file": "xices_cobblemon_fix-1.0.42.jar",
-      "sizeBytes": 145248,
-      "sha256": "e46ec3714f5940981f96a20b4ca9fafcc9cd9dcd7197cfd3cba46ca0085c757b"
+      "file": "xices_cobblemon_fix-1.0.50.jar",
+      "sizeBytes": 1664843,
+      "sha256": "3a5973bdf4f0cb42c80f8d5fe905c58d2d8657ee1aa1c6ad5433b43026cfd2f7"
     },
     {
       "file": "YungsApi-1.21.1-NeoForge-5.1.8.jar",

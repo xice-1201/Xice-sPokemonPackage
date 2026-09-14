@@ -1,6 +1,6 @@
 # 模组清单
 
-共 73 个模组文件。版本与文件名来自当前实例；第三方 JAR 不直接提交到本仓库。
+Mod files: 78. Versions and filenames are from the current instance; third-party JARs are not committed.
 
 | 文件 | 大小（字节） | SHA-256 |
 |---|---:|---|
@@ -8,12 +8,15 @@
 | `[动态 FPS] dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar` | 220193 | `78cb67c9faeff5d1cb4da48d41e48ecc47baddaaec0f792e6edc8207aee0ab8e` |
 | `[方块宝可梦] Cobblemon-neoforge-1.8.0+1.21.1.jar` | 163957653 | `49994513e740408afc6fe1d03e879c1ed7f42f8245020406d8872a1ee7961fda` |
 | `[更多刷子] morebrushes-1.7-neoforge-mc1.21.1.jar` | 73191 | `0370a7bc6dc63c581df1002fc041ce445ecac3a82526741d9678d720c32fe570` |
+| `[更好的进度] BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar` | 98641 | `60b548bef04a2f0e1da686ee9035c2e3d4ed0459a17d7a4836fc26af6de6b60e` |
+| `[更好的模组列表] better_modlist-21.1.1.jar` | 818245 | `9d4fcb6b0e0393f08af4efd787a00a973e091cf4f6f62261b26f26a352b1317e` |
 | `[更好的植物盆栽] botanypotstiers-neoforge-1.21.1-7.0.11.jar` | 1550980 | `2b7e569b7f095d9c72653e9f37b06558afe136fd6ef4afe2c524a2927147af35` |
-| `[机械动力：柴油动力] createdieselgenerators-1.21.1-1.3.15.jar` | 3154746 | `56ef1d574278fc311f1ffa223dbd613077b899354a18d01ae8dca2578a4e2990` |
-| `[机械动力：创意传动] create_connected-1.3.3-mc1.21.1.jar` | 6786783 | `0c5eb9ffb5c8d71e6e2a39023feb85c51adfb10d38949bc47c4abbd53b351a4f` |
+| `[更好的F3] BetterF3-11.0.3-NeoForge-1.21.1.jar` | 481646 | `1a97b6ca5c81b3b18d653f403929908e3b48bb1bdb6e8bd8559f89cf0294dc26` |
+| `[机械动力：柴油动力] createdieselgenerators-1.21.1-1.3.15.jar` | 3158477 | `858308e854762f4a98bacf2d17a093fa4c9aac0eb09e7faea5db99c890e07442` |
+| `[机械动力：创意传动] create_connected-1.3.3-mc1.21.1.jar` | 6772656 | `7bb76be149f4328bf2243fcce78bbe927464ab794d9fc248db5a11124c81dc9e` |
 | `[机械动力：动力加载器] create_power_loader-2.0.5-mc1.21.1.jar` | 442369 | `69fb0433dcba1597e7fbc06b2731ebd441f8ed99e20d8ec798d852d6865d1bd7` |
 | `[机械动力：附魔工业] create-enchantment-industry-2.5.3b.jar` | 1606407 | `02b6bae86ca2f33dc11c8af34324c6c484f1febc6649ec6b04936451590785c1` |
-| `[机械动力：龙+] CreateDragonsPlus-1.11.8b.jar` | 1048120 | `f2b5c106241d5d9b0b33ab41ff1f6d145b92038e7ffde3d9b07b37639f065445` |
+| `[机械动力：龙+] CreateDragonsPlus-1.11.8b.jar` | 1044519 | `51403bbe37c85de2e67f06c9e0678375e3415d0e2a408054a372f391e3fc0cc3` |
 | `[机械动力：无人机物流] create_mobile_packages-1.21.1-0.7.7.jar` | 605614 | `353bd6cd1e75f9e85241fb4e7147153d83a983569cb67ca9a6cc4d3fe2da7a80` |
 | `[机械动力] create-1.21.1-6.0.10.jar` | 19123767 | `ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a` |
 | `[垃圾槽] trashslot-neoforge-1.21.1-21.1.11.jar` | 77535 | `3289b5c84a79e63d83d4ce05d8e3e15b622b2e286e0770b86f00807974a77695` |
@@ -42,7 +45,7 @@
 | `balm-neoforge-1.21.1-21.0.65.jar` | 783793 | `490fa5fcb7ca83a9b5a84e33c2832298db99d189131001b9277a1de7fdc0bf91` |
 | `bclib-21.0.26.jar` | 2159176 | `73ba7957d61588189eb35415f2ce9b063e7d4a102c6a4757582ba8fad310f2e0` |
 | `better-advanced-tooltips-2101.1.0-build.5.jar` | 37653 | `0f76d46f2f18eb67e67c7974170d7b27deb66473396461c8dc50d6949de1449b` |
-| `BetterEnd-21.0.34.jar` | 97673585 | `45befc75466153f2f62d8c17a790b58ce794a4216ea152fc21190aa9dc40a440` |
+| `BetterEnd-21.0.34.jar` | 97623593 | `154b5a4eb16f61facac71fe5e99ac318ee8b7af10aa85b66f5f928dc737e5117` |
 | `bookshelf-neoforge-1.21.1-21.1.81.jar` | 328813 | `19e88d40da2b6a114c2b808f7fb469d96e66a5379df0a8a43fcb7834498b3e76` |
 | `cloth-config-15.0.140-neoforge.jar` | 1163890 | `65e722e0d98431a07c45f8bdd8d529a217cc8c175fde1740248bd5c1b4f3c0d4` |
 | `cobbledex-rei-emi-jei-neoforge-2.23.0.jar` | 5276872 | `8834c7c23eb7af2aca6f2d99203e10cee18dde35dd529752d35eee4122180961` |
@@ -50,6 +53,7 @@
 | `cobblemon_smartphone-neoforge-1.1.3-patch1.8.0.jar` | 1521199 | `49218b486d5919418585b90a212832c0bcaccf42124b789de6d15bab946e2660` |
 | `cobblemon_workforce-neoforge-1.0.1.jar` | 586892 | `49ece248f8d95e9828f8f1c6d785459ab318d086793af36a0d968f6fabb49f5a` |
 | `cobblemon-battle-extras-neoforge-1.13.45.jar` | 1651388 | `22277646b296db0b5305f925fb5db75e6d0ee3ed76a35b2338d94da06ce15521` |
+| `Cobblemon-Utility+-neoforge-1.7.4 norecipes.jar` | 169662 | `7edb56637ba4d20c7e0f71fcadce0470dedcc048987a8e0ed172828f5860d952` |
 | `cobblemonexpall-neoforge-0.0.2.jar` | 55467 | `ee2de89a6912600a3b4ec0572456685e731623846378de47fbfa4b2c74cf8112` |
 | `cobblemonintegrations-neoforge-1.21.1-1.1.6.jar` | 366734 | `d331a93ac3a53f43c4881516db24bff3756beb38c8b8da6d24957ed65a4d645a` |
 | `cobblenav-neoforge-2.4.0.jar` | 1099655 | `2bbe515e7821a76ab010722e12cddb4073d1fd8bd129843a1c7ac415f8b772ec` |
@@ -57,7 +61,8 @@
 | `ContingameIME-Neo-1.3.0-1.21.1-neoforge.jar` | 273227 | `f7b90d172a4bc67dcf89ceef7ec8861fcf6b7d07419624766d4a66c4f6575cc9` |
 | `continuity-3.0.0+1.21.neoforge.jar` | 1014626 | `4cc0a4a09ae09c64bb567e42381652b700f9cade5067a75e83115662cc475f0a` |
 | `create_compressed-2.2.0-neoforge-1.21.1.jar` | 158961 | `8c0c86a75aa082fd603eb61dfdc72d028b01b1a7bdad377ed2de64ace95b5622` |
-| `createages-0.6.1.jar` | 366806 | `6230640a7afce87d4b027ec7dd941f9308ac5597e7091eb99c928323a850016b` |
+| `create_klinks_n_klangs-2.0.1.jar` | 684797 | `6b2c63be86dd8c50fb39cc96c482cf9b42f8b17348af9e0bc4ca5179bf403226` |
+| `createages-0.6.1.jar` | 365833 | `c7b5334eacf85115f56dcd58342633b79a6b0895a57e31be5c1f1d4f0a810d37` |
 | `createcobblestone-1.5.0+neoforge-1.21.1-153.jar` | 573391 | `a2c8bffb1ebd3fcc0f381a6be498bc16c6990bd31bff1f5c0852ffe5ed35eaf4` |
 | `curios-neoforge-9.5.1+1.21.1.jar` | 410690 | `a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde` |
 | `forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar` | 5613159 | `96f8b489f401c64e87343daf57a030ccd1b58be40fc0aad701278ba58a0fadaf` |
@@ -75,5 +80,5 @@
 | `smartphoneprogression-1.0.1.jar` | 50959 | `cd51af9f9c96f7dae559ab1fe3e47bf04133ec9992ce3f8342790ec127083f2e` |
 | `worldweaver-21.0.25.jar` | 2215098 | `6750a60983b22711cf14587d1e7a25c6327c9bec24952b4cbf5a26f40336ee1b` |
 | `wunderlib-21.0.10.jar` | 378820 | `b49c7a040f87ade1e3f73bd7335e8d68ff7a328919c192a6d2c022bae6786a2f` |
-| `xices_cobblemon_fix-1.0.42.jar` | 145248 | `e46ec3714f5940981f96a20b4ca9fafcc9cd9dcd7197cfd3cba46ca0085c757b` |
+| `xices_cobblemon_fix-1.0.50.jar` | 1664843 | `3a5973bdf4f0cb42c80f8d5fe905c58d2d8657ee1aa1c6ad5433b43026cfd2f7` |
 | `YungsApi-1.21.1-NeoForge-5.1.8.jar` | 389834 | `bacd2385965bcfa4adcc0841656110b8e21ee024407a5ee706d30929f7c240cc` |
